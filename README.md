@@ -8,5 +8,5 @@ This repository is for our IEEE Transactions on Visualization and Computer Graph
 The code will be released soon.
 
 ### Questions
-Please constact 'lixianzhi123@gmail.com'
+Please contact 'lixianzhi123@gmail.com'
 
