@@ -1,0 +1,8496 @@
+Namespace(batch_size=8, decay_rate=0.5, decay_step=337620, gpu=1, learning_rate=0.001, log_dir='log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10', max_epoch=201, model='pointnet2_cls_msg_new', momentum=0.9, num_point=2048, optimizer='adam')
+pid: 181574
+**** EPOCH 000 ****
+accuracy: 0.798068
+---- EPOCH 000 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.392006
+eval accuracy: 0.851233
+eval avg class acc: 0.572189
+eval mIoU of Airplane:	 0.655643
+eval mIoU of Bag:	 0.531996
+eval mIoU of Cap:	 0.365656
+eval mIoU of Car:	 0.422215
+eval mIoU of Chair:	 0.821840
+eval mIoU of Earphone:	 0.394342
+eval mIoU of Guitar:	 0.855129
+eval mIoU of Knife:	 0.738776
+eval mIoU of Lamp:	 0.641890
+eval mIoU of Laptop:	 0.394065
+eval mIoU of Motorbike:	 0.246492
+eval mIoU of Mug:	 0.649271
+eval mIoU of Pistol:	 0.393408
+eval mIoU of Rocket:	 0.230069
+eval mIoU of Skateboard:	 0.572144
+eval mIoU of Table:	 0.734664
+eval mean mIoU: 0.540475
+eval mean mIoU (all shapes): 0.694629
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.8512326124237805
+**** EPOCH 001 ****
+accuracy: 0.878298
+---- EPOCH 001 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.341821
+eval accuracy: 0.867756
+eval avg class acc: 0.642291
+eval mIoU of Airplane:	 0.722490
+eval mIoU of Bag:	 0.589468
+eval mIoU of Cap:	 0.666111
+eval mIoU of Car:	 0.556616
+eval mIoU of Chair:	 0.823439
+eval mIoU of Earphone:	 0.611081
+eval mIoU of Guitar:	 0.856432
+eval mIoU of Knife:	 0.786031
+eval mIoU of Lamp:	 0.670331
+eval mIoU of Laptop:	 0.463995
+eval mIoU of Motorbike:	 0.231372
+eval mIoU of Mug:	 0.781503
+eval mIoU of Pistol:	 0.561940
+eval mIoU of Rocket:	 0.383373
+eval mIoU of Skateboard:	 0.593648
+eval mIoU of Table:	 0.749804
+eval mean mIoU: 0.627977
+eval mean mIoU (all shapes): 0.728260
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.8677555735518293
+**** EPOCH 002 ****
+accuracy: 0.890402
+---- EPOCH 002 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.312664
+eval accuracy: 0.880589
+eval avg class acc: 0.699473
+eval mIoU of Airplane:	 0.763847
+eval mIoU of Bag:	 0.704618
+eval mIoU of Cap:	 0.735956
+eval mIoU of Car:	 0.558327
+eval mIoU of Chair:	 0.835423
+eval mIoU of Earphone:	 0.598265
+eval mIoU of Guitar:	 0.870967
+eval mIoU of Knife:	 0.759894
+eval mIoU of Lamp:	 0.680258
+eval mIoU of Laptop:	 0.590744
+eval mIoU of Motorbike:	 0.339883
+eval mIoU of Mug:	 0.522772
+eval mIoU of Pistol:	 0.609331
+eval mIoU of Rocket:	 0.411219
+eval mIoU of Skateboard:	 0.663011
+eval mIoU of Table:	 0.734971
+eval mean mIoU: 0.648718
+eval mean mIoU (all shapes): 0.737507
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.880589033917683
+**** EPOCH 003 ****
+accuracy: 0.897461
+---- EPOCH 003 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.306477
+eval accuracy: 0.888758
+eval avg class acc: 0.720425
+eval mIoU of Airplane:	 0.759201
+eval mIoU of Bag:	 0.710718
+eval mIoU of Cap:	 0.696237
+eval mIoU of Car:	 0.558473
+eval mIoU of Chair:	 0.835406
+eval mIoU of Earphone:	 0.644725
+eval mIoU of Guitar:	 0.874050
+eval mIoU of Knife:	 0.802735
+eval mIoU of Lamp:	 0.748802
+eval mIoU of Laptop:	 0.634323
+eval mIoU of Motorbike:	 0.364647
+eval mIoU of Mug:	 0.772067
+eval mIoU of Pistol:	 0.547731
+eval mIoU of Rocket:	 0.354647
+eval mIoU of Skateboard:	 0.674735
+eval mIoU of Table:	 0.757559
+eval mean mIoU: 0.671003
+eval mean mIoU (all shapes): 0.755780
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.888757962216899
+**** EPOCH 004 ****
+accuracy: 0.903649
+---- EPOCH 004 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.318836
+eval accuracy: 0.884008
+eval avg class acc: 0.727970
+eval mIoU of Airplane:	 0.763350
+eval mIoU of Bag:	 0.698307
+eval mIoU of Cap:	 0.590098
+eval mIoU of Car:	 0.570663
+eval mIoU of Chair:	 0.823957
+eval mIoU of Earphone:	 0.646861
+eval mIoU of Guitar:	 0.857053
+eval mIoU of Knife:	 0.710079
+eval mIoU of Lamp:	 0.767275
+eval mIoU of Laptop:	 0.683928
+eval mIoU of Motorbike:	 0.418487
+eval mIoU of Mug:	 0.846628
+eval mIoU of Pistol:	 0.688272
+eval mIoU of Rocket:	 0.419265
+eval mIoU of Skateboard:	 0.556644
+eval mIoU of Table:	 0.761962
+eval mean mIoU: 0.675177
+eval mean mIoU (all shapes): 0.757774
+**** EPOCH 005 ****
+accuracy: 0.907397
+---- EPOCH 005 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.344547
+eval accuracy: 0.877231
+eval avg class acc: 0.690209
+eval mIoU of Airplane:	 0.772625
+eval mIoU of Bag:	 0.723558
+eval mIoU of Cap:	 0.640587
+eval mIoU of Car:	 0.590635
+eval mIoU of Chair:	 0.847502
+eval mIoU of Earphone:	 0.579190
+eval mIoU of Guitar:	 0.770569
+eval mIoU of Knife:	 0.707961
+eval mIoU of Lamp:	 0.741834
+eval mIoU of Laptop:	 0.640924
+eval mIoU of Motorbike:	 0.212697
+eval mIoU of Mug:	 0.754943
+eval mIoU of Pistol:	 0.669655
+eval mIoU of Rocket:	 0.287176
+eval mIoU of Skateboard:	 0.686665
+eval mIoU of Table:	 0.728295
+eval mean mIoU: 0.647176
+eval mean mIoU (all shapes): 0.742982
+**** EPOCH 006 ****
+accuracy: 0.910143
+---- EPOCH 006 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.260923
+eval accuracy: 0.902004
+eval avg class acc: 0.752102
+eval mIoU of Airplane:	 0.786394
+eval mIoU of Bag:	 0.681375
+eval mIoU of Cap:	 0.760208
+eval mIoU of Car:	 0.677196
+eval mIoU of Chair:	 0.852227
+eval mIoU of Earphone:	 0.686828
+eval mIoU of Guitar:	 0.884571
+eval mIoU of Knife:	 0.723633
+eval mIoU of Lamp:	 0.790763
+eval mIoU of Laptop:	 0.729544
+eval mIoU of Motorbike:	 0.390899
+eval mIoU of Mug:	 0.859357
+eval mIoU of Pistol:	 0.689895
+eval mIoU of Rocket:	 0.483836
+eval mIoU of Skateboard:	 0.708914
+eval mIoU of Table:	 0.766051
+eval mean mIoU: 0.716981
+eval mean mIoU (all shapes): 0.782409
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9020041648519164
+**** EPOCH 007 ****
+accuracy: 0.912117
+---- EPOCH 007 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271703
+eval accuracy: 0.895764
+eval avg class acc: 0.737580
+eval mIoU of Airplane:	 0.771588
+eval mIoU of Bag:	 0.761251
+eval mIoU of Cap:	 0.735730
+eval mIoU of Car:	 0.642758
+eval mIoU of Chair:	 0.843863
+eval mIoU of Earphone:	 0.663536
+eval mIoU of Guitar:	 0.855295
+eval mIoU of Knife:	 0.695055
+eval mIoU of Lamp:	 0.791415
+eval mIoU of Laptop:	 0.613122
+eval mIoU of Motorbike:	 0.370755
+eval mIoU of Mug:	 0.876369
+eval mIoU of Pistol:	 0.707030
+eval mIoU of Rocket:	 0.448921
+eval mIoU of Skateboard:	 0.641174
+eval mIoU of Table:	 0.756842
+eval mean mIoU: 0.698419
+eval mean mIoU (all shapes): 0.767718
+**** EPOCH 008 ****
+accuracy: 0.915899
+---- EPOCH 008 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.293925
+eval accuracy: 0.892636
+eval avg class acc: 0.719213
+eval mIoU of Airplane:	 0.787396
+eval mIoU of Bag:	 0.694688
+eval mIoU of Cap:	 0.716755
+eval mIoU of Car:	 0.579162
+eval mIoU of Chair:	 0.863479
+eval mIoU of Earphone:	 0.659077
+eval mIoU of Guitar:	 0.885541
+eval mIoU of Knife:	 0.760687
+eval mIoU of Lamp:	 0.768933
+eval mIoU of Laptop:	 0.716848
+eval mIoU of Motorbike:	 0.274430
+eval mIoU of Mug:	 0.863788
+eval mIoU of Pistol:	 0.697541
+eval mIoU of Rocket:	 0.489631
+eval mIoU of Skateboard:	 0.656215
+eval mIoU of Table:	 0.735426
+eval mean mIoU: 0.696850
+eval mean mIoU (all shapes): 0.766726
+**** EPOCH 009 ****
+accuracy: 0.917024
+---- EPOCH 009 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.259437
+eval accuracy: 0.899697
+eval avg class acc: 0.741546
+eval mIoU of Airplane:	 0.775561
+eval mIoU of Bag:	 0.727997
+eval mIoU of Cap:	 0.727404
+eval mIoU of Car:	 0.654646
+eval mIoU of Chair:	 0.864767
+eval mIoU of Earphone:	 0.656240
+eval mIoU of Guitar:	 0.875051
+eval mIoU of Knife:	 0.551611
+eval mIoU of Lamp:	 0.797295
+eval mIoU of Laptop:	 0.736303
+eval mIoU of Motorbike:	 0.404450
+eval mIoU of Mug:	 0.882689
+eval mIoU of Pistol:	 0.669955
+eval mIoU of Rocket:	 0.553723
+eval mIoU of Skateboard:	 0.674168
+eval mIoU of Table:	 0.774506
+eval mean mIoU: 0.707898
+eval mean mIoU (all shapes): 0.781081
+**** EPOCH 010 ****
+accuracy: 0.918414
+---- EPOCH 010 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.260746
+eval accuracy: 0.904962
+eval avg class acc: 0.755102
+eval mIoU of Airplane:	 0.791451
+eval mIoU of Bag:	 0.774892
+eval mIoU of Cap:	 0.792126
+eval mIoU of Car:	 0.665116
+eval mIoU of Chair:	 0.861639
+eval mIoU of Earphone:	 0.665055
+eval mIoU of Guitar:	 0.881927
+eval mIoU of Knife:	 0.796060
+eval mIoU of Lamp:	 0.804978
+eval mIoU of Laptop:	 0.655665
+eval mIoU of Motorbike:	 0.354425
+eval mIoU of Mug:	 0.876899
+eval mIoU of Pistol:	 0.714788
+eval mIoU of Rocket:	 0.482738
+eval mIoU of Skateboard:	 0.715761
+eval mIoU of Table:	 0.774777
+eval mean mIoU: 0.725519
+eval mean mIoU (all shapes): 0.788901
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9049622645361498
+**** EPOCH 011 ****
+accuracy: 0.920966
+---- EPOCH 011 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.254494
+eval accuracy: 0.905715
+eval avg class acc: 0.772972
+eval mIoU of Airplane:	 0.798418
+eval mIoU of Bag:	 0.741678
+eval mIoU of Cap:	 0.765452
+eval mIoU of Car:	 0.704393
+eval mIoU of Chair:	 0.845026
+eval mIoU of Earphone:	 0.777523
+eval mIoU of Guitar:	 0.883567
+eval mIoU of Knife:	 0.821572
+eval mIoU of Lamp:	 0.790350
+eval mIoU of Laptop:	 0.756053
+eval mIoU of Motorbike:	 0.467929
+eval mIoU of Mug:	 0.814387
+eval mIoU of Pistol:	 0.701908
+eval mIoU of Rocket:	 0.469380
+eval mIoU of Skateboard:	 0.680692
+eval mIoU of Table:	 0.780088
+eval mean mIoU: 0.737401
+eval mean mIoU (all shapes): 0.792422
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9057152724847561
+**** EPOCH 012 ****
+accuracy: 0.921722
+---- EPOCH 012 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274341
+eval accuracy: 0.900445
+eval avg class acc: 0.783462
+eval mIoU of Airplane:	 0.779953
+eval mIoU of Bag:	 0.734743
+eval mIoU of Cap:	 0.739983
+eval mIoU of Car:	 0.686252
+eval mIoU of Chair:	 0.864564
+eval mIoU of Earphone:	 0.573997
+eval mIoU of Guitar:	 0.881382
+eval mIoU of Knife:	 0.795563
+eval mIoU of Lamp:	 0.777397
+eval mIoU of Laptop:	 0.719673
+eval mIoU of Motorbike:	 0.488556
+eval mIoU of Mug:	 0.877104
+eval mIoU of Pistol:	 0.744763
+eval mIoU of Rocket:	 0.576338
+eval mIoU of Skateboard:	 0.714445
+eval mIoU of Table:	 0.761118
+eval mean mIoU: 0.732240
+eval mean mIoU (all shapes): 0.786852
+**** EPOCH 013 ****
+accuracy: 0.923752
+---- EPOCH 013 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.246231
+eval accuracy: 0.908154
+eval avg class acc: 0.772561
+eval mIoU of Airplane:	 0.799256
+eval mIoU of Bag:	 0.744806
+eval mIoU of Cap:	 0.743192
+eval mIoU of Car:	 0.639090
+eval mIoU of Chair:	 0.872898
+eval mIoU of Earphone:	 0.707207
+eval mIoU of Guitar:	 0.884797
+eval mIoU of Knife:	 0.821142
+eval mIoU of Lamp:	 0.796780
+eval mIoU of Laptop:	 0.740305
+eval mIoU of Motorbike:	 0.459807
+eval mIoU of Mug:	 0.878293
+eval mIoU of Pistol:	 0.671763
+eval mIoU of Rocket:	 0.518037
+eval mIoU of Skateboard:	 0.686053
+eval mIoU of Table:	 0.773404
+eval mean mIoU: 0.733552
+eval mean mIoU (all shapes): 0.794128
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.908154296875
+**** EPOCH 014 ****
+accuracy: 0.924494
+---- EPOCH 014 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.246244
+eval accuracy: 0.907702
+eval avg class acc: 0.783087
+eval mIoU of Airplane:	 0.801328
+eval mIoU of Bag:	 0.698733
+eval mIoU of Cap:	 0.629843
+eval mIoU of Car:	 0.706259
+eval mIoU of Chair:	 0.868937
+eval mIoU of Earphone:	 0.643387
+eval mIoU of Guitar:	 0.889765
+eval mIoU of Knife:	 0.805202
+eval mIoU of Lamp:	 0.790721
+eval mIoU of Laptop:	 0.743572
+eval mIoU of Motorbike:	 0.539720
+eval mIoU of Mug:	 0.783798
+eval mIoU of Pistol:	 0.702024
+eval mIoU of Rocket:	 0.396814
+eval mIoU of Skateboard:	 0.705770
+eval mIoU of Table:	 0.782036
+eval mean mIoU: 0.717994
+eval mean mIoU (all shapes): 0.798461
+**** EPOCH 015 ****
+accuracy: 0.925934
+---- EPOCH 015 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.265320
+eval accuracy: 0.901107
+eval avg class acc: 0.797312
+eval mIoU of Airplane:	 0.794849
+eval mIoU of Bag:	 0.718331
+eval mIoU of Cap:	 0.777214
+eval mIoU of Car:	 0.640097
+eval mIoU of Chair:	 0.867941
+eval mIoU of Earphone:	 0.711380
+eval mIoU of Guitar:	 0.886082
+eval mIoU of Knife:	 0.843725
+eval mIoU of Lamp:	 0.756393
+eval mIoU of Laptop:	 0.684915
+eval mIoU of Motorbike:	 0.534552
+eval mIoU of Mug:	 0.858026
+eval mIoU of Pistol:	 0.721068
+eval mIoU of Rocket:	 0.532257
+eval mIoU of Skateboard:	 0.716970
+eval mIoU of Table:	 0.757246
+eval mean mIoU: 0.737566
+eval mean mIoU (all shapes): 0.784974
+**** EPOCH 016 ****
+accuracy: 0.926755
+---- EPOCH 016 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.260613
+eval accuracy: 0.909059
+eval avg class acc: 0.804020
+eval mIoU of Airplane:	 0.799753
+eval mIoU of Bag:	 0.759862
+eval mIoU of Cap:	 0.708162
+eval mIoU of Car:	 0.652555
+eval mIoU of Chair:	 0.868677
+eval mIoU of Earphone:	 0.701628
+eval mIoU of Guitar:	 0.891768
+eval mIoU of Knife:	 0.788638
+eval mIoU of Lamp:	 0.815160
+eval mIoU of Laptop:	 0.765392
+eval mIoU of Motorbike:	 0.553026
+eval mIoU of Mug:	 0.879855
+eval mIoU of Pistol:	 0.744333
+eval mIoU of Rocket:	 0.517165
+eval mIoU of Skateboard:	 0.698921
+eval mIoU of Table:	 0.783328
+eval mean mIoU: 0.745514
+eval mean mIoU (all shapes): 0.801703
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9090585529181184
+**** EPOCH 017 ****
+accuracy: 0.927741
+---- EPOCH 017 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.262160
+eval accuracy: 0.903992
+eval avg class acc: 0.773021
+eval mIoU of Airplane:	 0.793636
+eval mIoU of Bag:	 0.640166
+eval mIoU of Cap:	 0.788070
+eval mIoU of Car:	 0.671278
+eval mIoU of Chair:	 0.870279
+eval mIoU of Earphone:	 0.695634
+eval mIoU of Guitar:	 0.895301
+eval mIoU of Knife:	 0.751426
+eval mIoU of Lamp:	 0.738583
+eval mIoU of Laptop:	 0.721090
+eval mIoU of Motorbike:	 0.481447
+eval mIoU of Mug:	 0.784197
+eval mIoU of Pistol:	 0.714694
+eval mIoU of Rocket:	 0.460441
+eval mIoU of Skateboard:	 0.720709
+eval mIoU of Table:	 0.771573
+eval mean mIoU: 0.718658
+eval mean mIoU (all shapes): 0.785929
+**** EPOCH 018 ****
+accuracy: 0.928889
+---- EPOCH 018 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278916
+eval accuracy: 0.901013
+eval avg class acc: 0.778583
+eval mIoU of Airplane:	 0.789070
+eval mIoU of Bag:	 0.599611
+eval mIoU of Cap:	 0.783996
+eval mIoU of Car:	 0.681271
+eval mIoU of Chair:	 0.860974
+eval mIoU of Earphone:	 0.650500
+eval mIoU of Guitar:	 0.879881
+eval mIoU of Knife:	 0.834847
+eval mIoU of Lamp:	 0.764021
+eval mIoU of Laptop:	 0.762037
+eval mIoU of Motorbike:	 0.534454
+eval mIoU of Mug:	 0.896321
+eval mIoU of Pistol:	 0.729799
+eval mIoU of Rocket:	 0.487446
+eval mIoU of Skateboard:	 0.708729
+eval mIoU of Table:	 0.742235
+eval mean mIoU: 0.731575
+eval mean mIoU (all shapes): 0.782367
+**** EPOCH 019 ****
+accuracy: 0.929381
+---- EPOCH 019 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.292179
+eval accuracy: 0.899897
+eval avg class acc: 0.753821
+eval mIoU of Airplane:	 0.796467
+eval mIoU of Bag:	 0.734399
+eval mIoU of Cap:	 0.801135
+eval mIoU of Car:	 0.674888
+eval mIoU of Chair:	 0.866577
+eval mIoU of Earphone:	 0.688051
+eval mIoU of Guitar:	 0.878881
+eval mIoU of Knife:	 0.798847
+eval mIoU of Lamp:	 0.816138
+eval mIoU of Laptop:	 0.582090
+eval mIoU of Motorbike:	 0.388768
+eval mIoU of Mug:	 0.902169
+eval mIoU of Pistol:	 0.667169
+eval mIoU of Rocket:	 0.404592
+eval mIoU of Skateboard:	 0.718726
+eval mIoU of Table:	 0.761935
+eval mean mIoU: 0.717552
+eval mean mIoU (all shapes): 0.786217
+**** EPOCH 020 ****
+accuracy: 0.930714
+---- EPOCH 020 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.248344
+eval accuracy: 0.909482
+eval avg class acc: 0.777023
+eval mIoU of Airplane:	 0.797083
+eval mIoU of Bag:	 0.744065
+eval mIoU of Cap:	 0.808029
+eval mIoU of Car:	 0.660702
+eval mIoU of Chair:	 0.862326
+eval mIoU of Earphone:	 0.683850
+eval mIoU of Guitar:	 0.888588
+eval mIoU of Knife:	 0.784735
+eval mIoU of Lamp:	 0.790934
+eval mIoU of Laptop:	 0.795468
+eval mIoU of Motorbike:	 0.458567
+eval mIoU of Mug:	 0.868331
+eval mIoU of Pistol:	 0.720599
+eval mIoU of Rocket:	 0.522221
+eval mIoU of Skateboard:	 0.704725
+eval mIoU of Table:	 0.788785
+eval mean mIoU: 0.742438
+eval mean mIoU (all shapes): 0.798182
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9094820135561846
+**** EPOCH 021 ****
+accuracy: 0.930847
+---- EPOCH 021 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.243147
+eval accuracy: 0.910944
+eval avg class acc: 0.807798
+eval mIoU of Airplane:	 0.799455
+eval mIoU of Bag:	 0.746863
+eval mIoU of Cap:	 0.828551
+eval mIoU of Car:	 0.676250
+eval mIoU of Chair:	 0.873390
+eval mIoU of Earphone:	 0.749101
+eval mIoU of Guitar:	 0.889256
+eval mIoU of Knife:	 0.796422
+eval mIoU of Lamp:	 0.808441
+eval mIoU of Laptop:	 0.707290
+eval mIoU of Motorbike:	 0.536789
+eval mIoU of Mug:	 0.888172
+eval mIoU of Pistol:	 0.703033
+eval mIoU of Rocket:	 0.565065
+eval mIoU of Skateboard:	 0.719762
+eval mIoU of Table:	 0.789272
+eval mean mIoU: 0.754820
+eval mean mIoU (all shapes): 0.803803
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9109443053135888
+**** EPOCH 022 ****
+accuracy: 0.931872
+---- EPOCH 022 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.246693
+eval accuracy: 0.909779
+eval avg class acc: 0.789902
+eval mIoU of Airplane:	 0.798549
+eval mIoU of Bag:	 0.755843
+eval mIoU of Cap:	 0.729688
+eval mIoU of Car:	 0.721176
+eval mIoU of Chair:	 0.871864
+eval mIoU of Earphone:	 0.621100
+eval mIoU of Guitar:	 0.886103
+eval mIoU of Knife:	 0.829827
+eval mIoU of Lamp:	 0.787217
+eval mIoU of Laptop:	 0.758149
+eval mIoU of Motorbike:	 0.521333
+eval mIoU of Mug:	 0.905755
+eval mIoU of Pistol:	 0.752285
+eval mIoU of Rocket:	 0.445183
+eval mIoU of Skateboard:	 0.723222
+eval mIoU of Table:	 0.780410
+eval mean mIoU: 0.742981
+eval mean mIoU (all shapes): 0.802703
+**** EPOCH 023 ****
+accuracy: 0.932753
+---- EPOCH 023 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.264227
+eval accuracy: 0.907043
+eval avg class acc: 0.803817
+eval mIoU of Airplane:	 0.804244
+eval mIoU of Bag:	 0.752387
+eval mIoU of Cap:	 0.811061
+eval mIoU of Car:	 0.709532
+eval mIoU of Chair:	 0.874732
+eval mIoU of Earphone:	 0.684854
+eval mIoU of Guitar:	 0.880895
+eval mIoU of Knife:	 0.798158
+eval mIoU of Lamp:	 0.790699
+eval mIoU of Laptop:	 0.744459
+eval mIoU of Motorbike:	 0.592297
+eval mIoU of Mug:	 0.906950
+eval mIoU of Pistol:	 0.680064
+eval mIoU of Rocket:	 0.429112
+eval mIoU of Skateboard:	 0.707785
+eval mIoU of Table:	 0.774689
+eval mean mIoU: 0.746370
+eval mean mIoU (all shapes): 0.801034
+**** EPOCH 024 ****
+accuracy: 0.936470
+---- EPOCH 024 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.232788
+eval accuracy: 0.916825
+eval avg class acc: 0.818637
+eval mIoU of Airplane:	 0.809410
+eval mIoU of Bag:	 0.721006
+eval mIoU of Cap:	 0.853573
+eval mIoU of Car:	 0.727995
+eval mIoU of Chair:	 0.883922
+eval mIoU of Earphone:	 0.716186
+eval mIoU of Guitar:	 0.897112
+eval mIoU of Knife:	 0.830108
+eval mIoU of Lamp:	 0.823941
+eval mIoU of Laptop:	 0.764395
+eval mIoU of Motorbike:	 0.616986
+eval mIoU of Mug:	 0.903660
+eval mIoU of Pistol:	 0.749525
+eval mIoU of Rocket:	 0.482341
+eval mIoU of Skateboard:	 0.701939
+eval mIoU of Table:	 0.790879
+eval mean mIoU: 0.767061
+eval mean mIoU (all shapes): 0.817123
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.916824946918554
+**** EPOCH 025 ****
+accuracy: 0.938771
+---- EPOCH 025 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.238284
+eval accuracy: 0.914124
+eval avg class acc: 0.799634
+eval mIoU of Airplane:	 0.811124
+eval mIoU of Bag:	 0.712717
+eval mIoU of Cap:	 0.858447
+eval mIoU of Car:	 0.675550
+eval mIoU of Chair:	 0.879337
+eval mIoU of Earphone:	 0.644525
+eval mIoU of Guitar:	 0.891567
+eval mIoU of Knife:	 0.846556
+eval mIoU of Lamp:	 0.813650
+eval mIoU of Laptop:	 0.785966
+eval mIoU of Motorbike:	 0.612869
+eval mIoU of Mug:	 0.821327
+eval mIoU of Pistol:	 0.730606
+eval mIoU of Rocket:	 0.471175
+eval mIoU of Skateboard:	 0.718221
+eval mIoU of Table:	 0.790065
+eval mean mIoU: 0.753981
+eval mean mIoU (all shapes): 0.811211
+**** EPOCH 026 ****
+accuracy: 0.938879
+---- EPOCH 026 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.245910
+eval accuracy: 0.914240
+eval avg class acc: 0.808098
+eval mIoU of Airplane:	 0.809759
+eval mIoU of Bag:	 0.705953
+eval mIoU of Cap:	 0.857723
+eval mIoU of Car:	 0.726680
+eval mIoU of Chair:	 0.878553
+eval mIoU of Earphone:	 0.686346
+eval mIoU of Guitar:	 0.884230
+eval mIoU of Knife:	 0.835248
+eval mIoU of Lamp:	 0.816822
+eval mIoU of Laptop:	 0.807806
+eval mIoU of Motorbike:	 0.588320
+eval mIoU of Mug:	 0.916451
+eval mIoU of Pistol:	 0.734115
+eval mIoU of Rocket:	 0.517037
+eval mIoU of Skateboard:	 0.701740
+eval mIoU of Table:	 0.768290
+eval mean mIoU: 0.764692
+eval mean mIoU (all shapes): 0.808445
+**** EPOCH 027 ****
+accuracy: 0.939674
+---- EPOCH 027 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.233851
+eval accuracy: 0.916089
+eval avg class acc: 0.822518
+eval mIoU of Airplane:	 0.807988
+eval mIoU of Bag:	 0.786614
+eval mIoU of Cap:	 0.843609
+eval mIoU of Car:	 0.720127
+eval mIoU of Chair:	 0.874450
+eval mIoU of Earphone:	 0.701571
+eval mIoU of Guitar:	 0.893476
+eval mIoU of Knife:	 0.842409
+eval mIoU of Lamp:	 0.808857
+eval mIoU of Laptop:	 0.757202
+eval mIoU of Motorbike:	 0.618161
+eval mIoU of Mug:	 0.917737
+eval mIoU of Pistol:	 0.740667
+eval mIoU of Rocket:	 0.540502
+eval mIoU of Skateboard:	 0.730909
+eval mIoU of Table:	 0.797440
+eval mean mIoU: 0.773857
+eval mean mIoU (all shapes): 0.815390
+**** EPOCH 028 ****
+accuracy: 0.940437
+---- EPOCH 028 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.257970
+eval accuracy: 0.914260
+eval avg class acc: 0.828699
+eval mIoU of Airplane:	 0.810288
+eval mIoU of Bag:	 0.777541
+eval mIoU of Cap:	 0.852624
+eval mIoU of Car:	 0.731857
+eval mIoU of Chair:	 0.876648
+eval mIoU of Earphone:	 0.587590
+eval mIoU of Guitar:	 0.897422
+eval mIoU of Knife:	 0.789987
+eval mIoU of Lamp:	 0.815745
+eval mIoU of Laptop:	 0.794241
+eval mIoU of Motorbike:	 0.661059
+eval mIoU of Mug:	 0.869995
+eval mIoU of Pistol:	 0.718223
+eval mIoU of Rocket:	 0.530914
+eval mIoU of Skateboard:	 0.722517
+eval mIoU of Table:	 0.783415
+eval mean mIoU: 0.763754
+eval mean mIoU (all shapes): 0.812408
+**** EPOCH 029 ****
+accuracy: 0.940655
+---- EPOCH 029 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.250722
+eval accuracy: 0.914290
+eval avg class acc: 0.827849
+eval mIoU of Airplane:	 0.809029
+eval mIoU of Bag:	 0.758504
+eval mIoU of Cap:	 0.855302
+eval mIoU of Car:	 0.726177
+eval mIoU of Chair:	 0.882945
+eval mIoU of Earphone:	 0.690943
+eval mIoU of Guitar:	 0.902697
+eval mIoU of Knife:	 0.784657
+eval mIoU of Lamp:	 0.801951
+eval mIoU of Laptop:	 0.774156
+eval mIoU of Motorbike:	 0.644061
+eval mIoU of Mug:	 0.896013
+eval mIoU of Pistol:	 0.724331
+eval mIoU of Rocket:	 0.586748
+eval mIoU of Skateboard:	 0.720300
+eval mIoU of Table:	 0.785399
+eval mean mIoU: 0.771451
+eval mean mIoU (all shapes): 0.812932
+**** EPOCH 030 ****
+accuracy: 0.941172
+---- EPOCH 030 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.247228
+eval accuracy: 0.914659
+eval avg class acc: 0.821290
+eval mIoU of Airplane:	 0.813855
+eval mIoU of Bag:	 0.744764
+eval mIoU of Cap:	 0.858485
+eval mIoU of Car:	 0.723124
+eval mIoU of Chair:	 0.876073
+eval mIoU of Earphone:	 0.708217
+eval mIoU of Guitar:	 0.885532
+eval mIoU of Knife:	 0.817979
+eval mIoU of Lamp:	 0.806232
+eval mIoU of Laptop:	 0.769549
+eval mIoU of Motorbike:	 0.628611
+eval mIoU of Mug:	 0.913513
+eval mIoU of Pistol:	 0.736257
+eval mIoU of Rocket:	 0.529707
+eval mIoU of Skateboard:	 0.710016
+eval mIoU of Table:	 0.781927
+eval mean mIoU: 0.768990
+eval mean mIoU (all shapes): 0.810718
+**** EPOCH 031 ****
+accuracy: 0.941863
+---- EPOCH 031 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.239566
+eval accuracy: 0.916138
+eval avg class acc: 0.824038
+eval mIoU of Airplane:	 0.811996
+eval mIoU of Bag:	 0.685209
+eval mIoU of Cap:	 0.820624
+eval mIoU of Car:	 0.724630
+eval mIoU of Chair:	 0.878603
+eval mIoU of Earphone:	 0.649651
+eval mIoU of Guitar:	 0.898241
+eval mIoU of Knife:	 0.818334
+eval mIoU of Lamp:	 0.819300
+eval mIoU of Laptop:	 0.778820
+eval mIoU of Motorbike:	 0.633504
+eval mIoU of Mug:	 0.900527
+eval mIoU of Pistol:	 0.739091
+eval mIoU of Rocket:	 0.535523
+eval mIoU of Skateboard:	 0.718239
+eval mIoU of Table:	 0.787560
+eval mean mIoU: 0.762491
+eval mean mIoU (all shapes): 0.814543
+**** EPOCH 032 ****
+accuracy: 0.941470
+---- EPOCH 032 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.242702
+eval accuracy: 0.914513
+eval avg class acc: 0.823436
+eval mIoU of Airplane:	 0.808610
+eval mIoU of Bag:	 0.778971
+eval mIoU of Cap:	 0.826176
+eval mIoU of Car:	 0.723505
+eval mIoU of Chair:	 0.879458
+eval mIoU of Earphone:	 0.655380
+eval mIoU of Guitar:	 0.874749
+eval mIoU of Knife:	 0.836893
+eval mIoU of Lamp:	 0.811039
+eval mIoU of Laptop:	 0.743548
+eval mIoU of Motorbike:	 0.664288
+eval mIoU of Mug:	 0.891760
+eval mIoU of Pistol:	 0.739889
+eval mIoU of Rocket:	 0.474176
+eval mIoU of Skateboard:	 0.730880
+eval mIoU of Table:	 0.788067
+eval mean mIoU: 0.764212
+eval mean mIoU (all shapes): 0.812661
+**** EPOCH 033 ****
+accuracy: 0.942424
+---- EPOCH 033 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.248506
+eval accuracy: 0.914869
+eval avg class acc: 0.827425
+eval mIoU of Airplane:	 0.808191
+eval mIoU of Bag:	 0.706882
+eval mIoU of Cap:	 0.862873
+eval mIoU of Car:	 0.721281
+eval mIoU of Chair:	 0.878185
+eval mIoU of Earphone:	 0.697084
+eval mIoU of Guitar:	 0.893047
+eval mIoU of Knife:	 0.827045
+eval mIoU of Lamp:	 0.789279
+eval mIoU of Laptop:	 0.782768
+eval mIoU of Motorbike:	 0.650324
+eval mIoU of Mug:	 0.916789
+eval mIoU of Pistol:	 0.729774
+eval mIoU of Rocket:	 0.533099
+eval mIoU of Skateboard:	 0.713616
+eval mIoU of Table:	 0.786290
+eval mean mIoU: 0.768533
+eval mean mIoU (all shapes): 0.811279
+**** EPOCH 034 ****
+accuracy: 0.942163
+---- EPOCH 034 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.243811
+eval accuracy: 0.915202
+eval avg class acc: 0.827708
+eval mIoU of Airplane:	 0.809412
+eval mIoU of Bag:	 0.806769
+eval mIoU of Cap:	 0.840868
+eval mIoU of Car:	 0.728019
+eval mIoU of Chair:	 0.881428
+eval mIoU of Earphone:	 0.569413
+eval mIoU of Guitar:	 0.889500
+eval mIoU of Knife:	 0.833722
+eval mIoU of Lamp:	 0.816032
+eval mIoU of Laptop:	 0.783635
+eval mIoU of Motorbike:	 0.638205
+eval mIoU of Mug:	 0.921874
+eval mIoU of Pistol:	 0.716127
+eval mIoU of Rocket:	 0.559709
+eval mIoU of Skateboard:	 0.721522
+eval mIoU of Table:	 0.785511
+eval mean mIoU: 0.768859
+eval mean mIoU (all shapes): 0.814738
+**** EPOCH 035 ****
+accuracy: 0.943009
+---- EPOCH 035 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.254729
+eval accuracy: 0.914693
+eval avg class acc: 0.818805
+eval mIoU of Airplane:	 0.807246
+eval mIoU of Bag:	 0.737480
+eval mIoU of Cap:	 0.857477
+eval mIoU of Car:	 0.719368
+eval mIoU of Chair:	 0.882104
+eval mIoU of Earphone:	 0.643439
+eval mIoU of Guitar:	 0.879816
+eval mIoU of Knife:	 0.827361
+eval mIoU of Lamp:	 0.815904
+eval mIoU of Laptop:	 0.772440
+eval mIoU of Motorbike:	 0.636979
+eval mIoU of Mug:	 0.888124
+eval mIoU of Pistol:	 0.727646
+eval mIoU of Rocket:	 0.517355
+eval mIoU of Skateboard:	 0.711986
+eval mIoU of Table:	 0.787092
+eval mean mIoU: 0.763239
+eval mean mIoU (all shapes): 0.813077
+**** EPOCH 036 ****
+accuracy: 0.943049
+---- EPOCH 036 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.233751
+eval accuracy: 0.918698
+eval avg class acc: 0.833038
+eval mIoU of Airplane:	 0.810063
+eval mIoU of Bag:	 0.780614
+eval mIoU of Cap:	 0.845519
+eval mIoU of Car:	 0.725045
+eval mIoU of Chair:	 0.880232
+eval mIoU of Earphone:	 0.646956
+eval mIoU of Guitar:	 0.893682
+eval mIoU of Knife:	 0.845375
+eval mIoU of Lamp:	 0.812497
+eval mIoU of Laptop:	 0.800711
+eval mIoU of Motorbike:	 0.634880
+eval mIoU of Mug:	 0.897776
+eval mIoU of Pistol:	 0.748121
+eval mIoU of Rocket:	 0.582542
+eval mIoU of Skateboard:	 0.721959
+eval mIoU of Table:	 0.797968
+eval mean mIoU: 0.776496
+eval mean mIoU (all shapes): 0.819165
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9186982796167248
+**** EPOCH 037 ****
+accuracy: 0.943371
+---- EPOCH 037 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.251947
+eval accuracy: 0.916983
+eval avg class acc: 0.819167
+eval mIoU of Airplane:	 0.806970
+eval mIoU of Bag:	 0.749810
+eval mIoU of Cap:	 0.855497
+eval mIoU of Car:	 0.730297
+eval mIoU of Chair:	 0.879308
+eval mIoU of Earphone:	 0.674430
+eval mIoU of Guitar:	 0.898106
+eval mIoU of Knife:	 0.813030
+eval mIoU of Lamp:	 0.804503
+eval mIoU of Laptop:	 0.816011
+eval mIoU of Motorbike:	 0.646069
+eval mIoU of Mug:	 0.916882
+eval mIoU of Pistol:	 0.758814
+eval mIoU of Rocket:	 0.457455
+eval mIoU of Skateboard:	 0.713364
+eval mIoU of Table:	 0.787963
+eval mean mIoU: 0.769282
+eval mean mIoU (all shapes): 0.814933
+**** EPOCH 038 ****
+accuracy: 0.944057
+---- EPOCH 038 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.252115
+eval accuracy: 0.914755
+eval avg class acc: 0.831120
+eval mIoU of Airplane:	 0.811168
+eval mIoU of Bag:	 0.772634
+eval mIoU of Cap:	 0.835258
+eval mIoU of Car:	 0.735290
+eval mIoU of Chair:	 0.881771
+eval mIoU of Earphone:	 0.703287
+eval mIoU of Guitar:	 0.902752
+eval mIoU of Knife:	 0.826125
+eval mIoU of Lamp:	 0.806127
+eval mIoU of Laptop:	 0.715897
+eval mIoU of Motorbike:	 0.654328
+eval mIoU of Mug:	 0.925700
+eval mIoU of Pistol:	 0.737326
+eval mIoU of Rocket:	 0.542168
+eval mIoU of Skateboard:	 0.718034
+eval mIoU of Table:	 0.785300
+eval mean mIoU: 0.772073
+eval mean mIoU (all shapes): 0.813873
+**** EPOCH 039 ****
+accuracy: 0.943488
+---- EPOCH 039 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272205
+eval accuracy: 0.911899
+eval avg class acc: 0.817247
+eval mIoU of Airplane:	 0.811743
+eval mIoU of Bag:	 0.816820
+eval mIoU of Cap:	 0.844820
+eval mIoU of Car:	 0.731288
+eval mIoU of Chair:	 0.879243
+eval mIoU of Earphone:	 0.666544
+eval mIoU of Guitar:	 0.898299
+eval mIoU of Knife:	 0.829002
+eval mIoU of Lamp:	 0.794503
+eval mIoU of Laptop:	 0.791931
+eval mIoU of Motorbike:	 0.609048
+eval mIoU of Mug:	 0.921566
+eval mIoU of Pistol:	 0.731669
+eval mIoU of Rocket:	 0.506428
+eval mIoU of Skateboard:	 0.726199
+eval mIoU of Table:	 0.782437
+eval mean mIoU: 0.771346
+eval mean mIoU (all shapes): 0.812234
+**** EPOCH 040 ****
+accuracy: 0.943839
+---- EPOCH 040 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.251950
+eval accuracy: 0.914478
+eval avg class acc: 0.841291
+eval mIoU of Airplane:	 0.811866
+eval mIoU of Bag:	 0.811347
+eval mIoU of Cap:	 0.856406
+eval mIoU of Car:	 0.731451
+eval mIoU of Chair:	 0.876328
+eval mIoU of Earphone:	 0.673708
+eval mIoU of Guitar:	 0.897172
+eval mIoU of Knife:	 0.817621
+eval mIoU of Lamp:	 0.811417
+eval mIoU of Laptop:	 0.793759
+eval mIoU of Motorbike:	 0.625493
+eval mIoU of Mug:	 0.913081
+eval mIoU of Pistol:	 0.739785
+eval mIoU of Rocket:	 0.546841
+eval mIoU of Skateboard:	 0.710881
+eval mIoU of Table:	 0.780476
+eval mean mIoU: 0.774852
+eval mean mIoU (all shapes): 0.812666
+**** EPOCH 041 ****
+accuracy: 0.944610
+---- EPOCH 041 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.249045
+eval accuracy: 0.916336
+eval avg class acc: 0.826713
+eval mIoU of Airplane:	 0.804943
+eval mIoU of Bag:	 0.768288
+eval mIoU of Cap:	 0.845425
+eval mIoU of Car:	 0.713120
+eval mIoU of Chair:	 0.878951
+eval mIoU of Earphone:	 0.719362
+eval mIoU of Guitar:	 0.898532
+eval mIoU of Knife:	 0.820696
+eval mIoU of Lamp:	 0.805184
+eval mIoU of Laptop:	 0.709468
+eval mIoU of Motorbike:	 0.654215
+eval mIoU of Mug:	 0.921202
+eval mIoU of Pistol:	 0.733394
+eval mIoU of Rocket:	 0.559165
+eval mIoU of Skateboard:	 0.719834
+eval mIoU of Table:	 0.788347
+eval mean mIoU: 0.771258
+eval mean mIoU (all shapes): 0.811506
+**** EPOCH 042 ****
+accuracy: 0.944507
+---- EPOCH 042 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.258228
+eval accuracy: 0.915159
+eval avg class acc: 0.825294
+eval mIoU of Airplane:	 0.811564
+eval mIoU of Bag:	 0.748914
+eval mIoU of Cap:	 0.855153
+eval mIoU of Car:	 0.710052
+eval mIoU of Chair:	 0.879945
+eval mIoU of Earphone:	 0.681659
+eval mIoU of Guitar:	 0.902626
+eval mIoU of Knife:	 0.818278
+eval mIoU of Lamp:	 0.796418
+eval mIoU of Laptop:	 0.787986
+eval mIoU of Motorbike:	 0.661827
+eval mIoU of Mug:	 0.904103
+eval mIoU of Pistol:	 0.766413
+eval mIoU of Rocket:	 0.504457
+eval mIoU of Skateboard:	 0.730255
+eval mIoU of Table:	 0.790892
+eval mean mIoU: 0.771909
+eval mean mIoU (all shapes): 0.814785
+**** EPOCH 043 ****
+accuracy: 0.944970
+---- EPOCH 043 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.244848
+eval accuracy: 0.917434
+eval avg class acc: 0.827680
+eval mIoU of Airplane:	 0.807518
+eval mIoU of Bag:	 0.773979
+eval mIoU of Cap:	 0.838724
+eval mIoU of Car:	 0.733345
+eval mIoU of Chair:	 0.885599
+eval mIoU of Earphone:	 0.641244
+eval mIoU of Guitar:	 0.894553
+eval mIoU of Knife:	 0.824721
+eval mIoU of Lamp:	 0.789903
+eval mIoU of Laptop:	 0.790312
+eval mIoU of Motorbike:	 0.656248
+eval mIoU of Mug:	 0.899898
+eval mIoU of Pistol:	 0.755707
+eval mIoU of Rocket:	 0.514787
+eval mIoU of Skateboard:	 0.725752
+eval mIoU of Table:	 0.794485
+eval mean mIoU: 0.770423
+eval mean mIoU (all shapes): 0.816749
+**** EPOCH 044 ****
+accuracy: 0.944580
+---- EPOCH 044 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275155
+eval accuracy: 0.910267
+eval avg class acc: 0.820297
+eval mIoU of Airplane:	 0.808368
+eval mIoU of Bag:	 0.816074
+eval mIoU of Cap:	 0.831701
+eval mIoU of Car:	 0.728999
+eval mIoU of Chair:	 0.883525
+eval mIoU of Earphone:	 0.704331
+eval mIoU of Guitar:	 0.897316
+eval mIoU of Knife:	 0.824361
+eval mIoU of Lamp:	 0.778161
+eval mIoU of Laptop:	 0.773869
+eval mIoU of Motorbike:	 0.646204
+eval mIoU of Mug:	 0.900120
+eval mIoU of Pistol:	 0.735140
+eval mIoU of Rocket:	 0.527515
+eval mIoU of Skateboard:	 0.726668
+eval mIoU of Table:	 0.779713
+eval mean mIoU: 0.772629
+eval mean mIoU (all shapes): 0.810245
+**** EPOCH 045 ****
+accuracy: 0.945383
+---- EPOCH 045 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.253864
+eval accuracy: 0.915386
+eval avg class acc: 0.819350
+eval mIoU of Airplane:	 0.813272
+eval mIoU of Bag:	 0.732603
+eval mIoU of Cap:	 0.827338
+eval mIoU of Car:	 0.737863
+eval mIoU of Chair:	 0.881712
+eval mIoU of Earphone:	 0.679188
+eval mIoU of Guitar:	 0.891985
+eval mIoU of Knife:	 0.802997
+eval mIoU of Lamp:	 0.796815
+eval mIoU of Laptop:	 0.788318
+eval mIoU of Motorbike:	 0.640628
+eval mIoU of Mug:	 0.901711
+eval mIoU of Pistol:	 0.729191
+eval mIoU of Rocket:	 0.498751
+eval mIoU of Skateboard:	 0.728084
+eval mIoU of Table:	 0.791152
+eval mean mIoU: 0.765101
+eval mean mIoU (all shapes): 0.814843
+**** EPOCH 046 ****
+accuracy: 0.945596
+---- EPOCH 046 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.240395
+eval accuracy: 0.918561
+eval avg class acc: 0.832703
+eval mIoU of Airplane:	 0.802545
+eval mIoU of Bag:	 0.801155
+eval mIoU of Cap:	 0.847718
+eval mIoU of Car:	 0.732777
+eval mIoU of Chair:	 0.884298
+eval mIoU of Earphone:	 0.626009
+eval mIoU of Guitar:	 0.896453
+eval mIoU of Knife:	 0.813655
+eval mIoU of Lamp:	 0.797829
+eval mIoU of Laptop:	 0.795019
+eval mIoU of Motorbike:	 0.647153
+eval mIoU of Mug:	 0.908383
+eval mIoU of Pistol:	 0.750750
+eval mIoU of Rocket:	 0.535893
+eval mIoU of Skateboard:	 0.715970
+eval mIoU of Table:	 0.797172
+eval mean mIoU: 0.772049
+eval mean mIoU (all shapes): 0.817275
+**** EPOCH 047 ****
+accuracy: 0.945384
+---- EPOCH 047 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.248417
+eval accuracy: 0.916052
+eval avg class acc: 0.834591
+eval mIoU of Airplane:	 0.817024
+eval mIoU of Bag:	 0.805673
+eval mIoU of Cap:	 0.843053
+eval mIoU of Car:	 0.736653
+eval mIoU of Chair:	 0.881440
+eval mIoU of Earphone:	 0.701117
+eval mIoU of Guitar:	 0.897384
+eval mIoU of Knife:	 0.832370
+eval mIoU of Lamp:	 0.811377
+eval mIoU of Laptop:	 0.771251
+eval mIoU of Motorbike:	 0.654770
+eval mIoU of Mug:	 0.908199
+eval mIoU of Pistol:	 0.722610
+eval mIoU of Rocket:	 0.508793
+eval mIoU of Skateboard:	 0.718318
+eval mIoU of Table:	 0.786103
+eval mean mIoU: 0.774758
+eval mean mIoU (all shapes): 0.816414
+**** EPOCH 048 ****
+accuracy: 0.947108
+---- EPOCH 048 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.250163
+eval accuracy: 0.919088
+eval avg class acc: 0.836671
+eval mIoU of Airplane:	 0.818187
+eval mIoU of Bag:	 0.788144
+eval mIoU of Cap:	 0.861415
+eval mIoU of Car:	 0.741760
+eval mIoU of Chair:	 0.880200
+eval mIoU of Earphone:	 0.683551
+eval mIoU of Guitar:	 0.900376
+eval mIoU of Knife:	 0.838409
+eval mIoU of Lamp:	 0.794667
+eval mIoU of Laptop:	 0.808339
+eval mIoU of Motorbike:	 0.674016
+eval mIoU of Mug:	 0.910138
+eval mIoU of Pistol:	 0.756383
+eval mIoU of Rocket:	 0.537570
+eval mIoU of Skateboard:	 0.733172
+eval mIoU of Table:	 0.796822
+eval mean mIoU: 0.782697
+eval mean mIoU (all shapes): 0.820505
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.919087543554007
+**** EPOCH 049 ****
+accuracy: 0.948488
+---- EPOCH 049 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.253829
+eval accuracy: 0.918380
+eval avg class acc: 0.836449
+eval mIoU of Airplane:	 0.813916
+eval mIoU of Bag:	 0.798631
+eval mIoU of Cap:	 0.844449
+eval mIoU of Car:	 0.742592
+eval mIoU of Chair:	 0.883985
+eval mIoU of Earphone:	 0.727790
+eval mIoU of Guitar:	 0.898166
+eval mIoU of Knife:	 0.831887
+eval mIoU of Lamp:	 0.818676
+eval mIoU of Laptop:	 0.783808
+eval mIoU of Motorbike:	 0.667828
+eval mIoU of Mug:	 0.911192
+eval mIoU of Pistol:	 0.751916
+eval mIoU of Rocket:	 0.531798
+eval mIoU of Skateboard:	 0.728788
+eval mIoU of Table:	 0.794872
+eval mean mIoU: 0.783143
+eval mean mIoU (all shapes): 0.821711
+**** EPOCH 050 ****
+accuracy: 0.948625
+---- EPOCH 050 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.254140
+eval accuracy: 0.919991
+eval avg class acc: 0.834318
+eval mIoU of Airplane:	 0.811789
+eval mIoU of Bag:	 0.770601
+eval mIoU of Cap:	 0.839042
+eval mIoU of Car:	 0.731934
+eval mIoU of Chair:	 0.884322
+eval mIoU of Earphone:	 0.701681
+eval mIoU of Guitar:	 0.899249
+eval mIoU of Knife:	 0.838691
+eval mIoU of Lamp:	 0.811461
+eval mIoU of Laptop:	 0.807094
+eval mIoU of Motorbike:	 0.660825
+eval mIoU of Mug:	 0.913571
+eval mIoU of Pistol:	 0.735712
+eval mIoU of Rocket:	 0.552187
+eval mIoU of Skateboard:	 0.726236
+eval mIoU of Table:	 0.794664
+eval mean mIoU: 0.779941
+eval mean mIoU (all shapes): 0.820539
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9199912891986063
+**** EPOCH 051 ****
+accuracy: 0.949042
+---- EPOCH 051 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.249549
+eval accuracy: 0.920286
+eval avg class acc: 0.833085
+eval mIoU of Airplane:	 0.813775
+eval mIoU of Bag:	 0.752029
+eval mIoU of Cap:	 0.845297
+eval mIoU of Car:	 0.738808
+eval mIoU of Chair:	 0.884192
+eval mIoU of Earphone:	 0.663526
+eval mIoU of Guitar:	 0.901950
+eval mIoU of Knife:	 0.841718
+eval mIoU of Lamp:	 0.817683
+eval mIoU of Laptop:	 0.809321
+eval mIoU of Motorbike:	 0.674503
+eval mIoU of Mug:	 0.923389
+eval mIoU of Pistol:	 0.735271
+eval mIoU of Rocket:	 0.547903
+eval mIoU of Skateboard:	 0.726325
+eval mIoU of Table:	 0.797387
+eval mean mIoU: 0.779567
+eval mean mIoU (all shapes): 0.822966
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9202859592770035
+**** EPOCH 052 ****
+accuracy: 0.949349
+---- EPOCH 052 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.247587
+eval accuracy: 0.920323
+eval avg class acc: 0.822574
+eval mIoU of Airplane:	 0.812844
+eval mIoU of Bag:	 0.754739
+eval mIoU of Cap:	 0.827602
+eval mIoU of Car:	 0.734270
+eval mIoU of Chair:	 0.879674
+eval mIoU of Earphone:	 0.696783
+eval mIoU of Guitar:	 0.897234
+eval mIoU of Knife:	 0.845176
+eval mIoU of Lamp:	 0.806421
+eval mIoU of Laptop:	 0.813552
+eval mIoU of Motorbike:	 0.660501
+eval mIoU of Mug:	 0.904835
+eval mIoU of Pistol:	 0.719390
+eval mIoU of Rocket:	 0.520686
+eval mIoU of Skateboard:	 0.732948
+eval mIoU of Table:	 0.799040
+eval mean mIoU: 0.775356
+eval mean mIoU (all shapes): 0.820141
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.920322878103223
+**** EPOCH 053 ****
+accuracy: 0.949184
+---- EPOCH 053 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.249156
+eval accuracy: 0.919627
+eval avg class acc: 0.833252
+eval mIoU of Airplane:	 0.814306
+eval mIoU of Bag:	 0.754182
+eval mIoU of Cap:	 0.849517
+eval mIoU of Car:	 0.738305
+eval mIoU of Chair:	 0.883564
+eval mIoU of Earphone:	 0.739546
+eval mIoU of Guitar:	 0.900038
+eval mIoU of Knife:	 0.839238
+eval mIoU of Lamp:	 0.806547
+eval mIoU of Laptop:	 0.784442
+eval mIoU of Motorbike:	 0.668420
+eval mIoU of Mug:	 0.914283
+eval mIoU of Pistol:	 0.730756
+eval mIoU of Rocket:	 0.548125
+eval mIoU of Skateboard:	 0.717689
+eval mIoU of Table:	 0.795814
+eval mean mIoU: 0.780298
+eval mean mIoU (all shapes): 0.820335
+**** EPOCH 054 ****
+accuracy: 0.949376
+---- EPOCH 054 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.253301
+eval accuracy: 0.918708
+eval avg class acc: 0.822269
+eval mIoU of Airplane:	 0.812800
+eval mIoU of Bag:	 0.790855
+eval mIoU of Cap:	 0.841784
+eval mIoU of Car:	 0.743088
+eval mIoU of Chair:	 0.878618
+eval mIoU of Earphone:	 0.685943
+eval mIoU of Guitar:	 0.904138
+eval mIoU of Knife:	 0.838127
+eval mIoU of Lamp:	 0.794905
+eval mIoU of Laptop:	 0.795936
+eval mIoU of Motorbike:	 0.631474
+eval mIoU of Mug:	 0.918451
+eval mIoU of Pistol:	 0.757497
+eval mIoU of Rocket:	 0.557540
+eval mIoU of Skateboard:	 0.736625
+eval mIoU of Table:	 0.800049
+eval mean mIoU: 0.780489
+eval mean mIoU (all shapes): 0.819799
+**** EPOCH 055 ****
+accuracy: 0.949880
+---- EPOCH 055 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.261383
+eval accuracy: 0.916233
+eval avg class acc: 0.827929
+eval mIoU of Airplane:	 0.810605
+eval mIoU of Bag:	 0.789586
+eval mIoU of Cap:	 0.819668
+eval mIoU of Car:	 0.746586
+eval mIoU of Chair:	 0.884834
+eval mIoU of Earphone:	 0.667308
+eval mIoU of Guitar:	 0.896674
+eval mIoU of Knife:	 0.836697
+eval mIoU of Lamp:	 0.801809
+eval mIoU of Laptop:	 0.805008
+eval mIoU of Motorbike:	 0.660566
+eval mIoU of Mug:	 0.919306
+eval mIoU of Pistol:	 0.746941
+eval mIoU of Rocket:	 0.527703
+eval mIoU of Skateboard:	 0.724008
+eval mIoU of Table:	 0.780879
+eval mean mIoU: 0.776136
+eval mean mIoU (all shapes): 0.816035
+**** EPOCH 056 ****
+accuracy: 0.949778
+---- EPOCH 056 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.256333
+eval accuracy: 0.919364
+eval avg class acc: 0.836459
+eval mIoU of Airplane:	 0.812850
+eval mIoU of Bag:	 0.770488
+eval mIoU of Cap:	 0.846046
+eval mIoU of Car:	 0.739109
+eval mIoU of Chair:	 0.882867
+eval mIoU of Earphone:	 0.693045
+eval mIoU of Guitar:	 0.902810
+eval mIoU of Knife:	 0.822760
+eval mIoU of Lamp:	 0.802136
+eval mIoU of Laptop:	 0.823461
+eval mIoU of Motorbike:	 0.676419
+eval mIoU of Mug:	 0.911046
+eval mIoU of Pistol:	 0.746289
+eval mIoU of Rocket:	 0.529864
+eval mIoU of Skateboard:	 0.736585
+eval mIoU of Table:	 0.801303
+eval mean mIoU: 0.781067
+eval mean mIoU (all shapes): 0.822385
+**** EPOCH 057 ****
+accuracy: 0.950307
+---- EPOCH 057 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.252057
+eval accuracy: 0.920402
+eval avg class acc: 0.836536
+eval mIoU of Airplane:	 0.814723
+eval mIoU of Bag:	 0.811044
+eval mIoU of Cap:	 0.850580
+eval mIoU of Car:	 0.743230
+eval mIoU of Chair:	 0.884011
+eval mIoU of Earphone:	 0.696952
+eval mIoU of Guitar:	 0.901058
+eval mIoU of Knife:	 0.830183
+eval mIoU of Lamp:	 0.801999
+eval mIoU of Laptop:	 0.806152
+eval mIoU of Motorbike:	 0.674760
+eval mIoU of Mug:	 0.911566
+eval mIoU of Pistol:	 0.743700
+eval mIoU of Rocket:	 0.549644
+eval mIoU of Skateboard:	 0.729712
+eval mIoU of Table:	 0.798662
+eval mean mIoU: 0.784249
+eval mean mIoU (all shapes): 0.822101
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.920401649608014
+**** EPOCH 058 ****
+accuracy: 0.950004
+---- EPOCH 058 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.250954
+eval accuracy: 0.919858
+eval avg class acc: 0.839479
+eval mIoU of Airplane:	 0.814761
+eval mIoU of Bag:	 0.778626
+eval mIoU of Cap:	 0.849289
+eval mIoU of Car:	 0.747829
+eval mIoU of Chair:	 0.883582
+eval mIoU of Earphone:	 0.719030
+eval mIoU of Guitar:	 0.889301
+eval mIoU of Knife:	 0.833006
+eval mIoU of Lamp:	 0.812715
+eval mIoU of Laptop:	 0.792240
+eval mIoU of Motorbike:	 0.683243
+eval mIoU of Mug:	 0.919391
+eval mIoU of Pistol:	 0.736779
+eval mIoU of Rocket:	 0.533505
+eval mIoU of Skateboard:	 0.725763
+eval mIoU of Table:	 0.797053
+eval mean mIoU: 0.782257
+eval mean mIoU (all shapes): 0.821841
+**** EPOCH 059 ****
+accuracy: 0.950338
+---- EPOCH 059 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.258539
+eval accuracy: 0.919676
+eval avg class acc: 0.830041
+eval mIoU of Airplane:	 0.814144
+eval mIoU of Bag:	 0.786901
+eval mIoU of Cap:	 0.850036
+eval mIoU of Car:	 0.741707
+eval mIoU of Chair:	 0.883575
+eval mIoU of Earphone:	 0.670135
+eval mIoU of Guitar:	 0.901913
+eval mIoU of Knife:	 0.816763
+eval mIoU of Lamp:	 0.802673
+eval mIoU of Laptop:	 0.824506
+eval mIoU of Motorbike:	 0.662052
+eval mIoU of Mug:	 0.919774
+eval mIoU of Pistol:	 0.745596
+eval mIoU of Rocket:	 0.526721
+eval mIoU of Skateboard:	 0.738344
+eval mIoU of Table:	 0.795228
+eval mean mIoU: 0.780004
+eval mean mIoU (all shapes): 0.820781
+**** EPOCH 060 ****
+accuracy: 0.950499
+---- EPOCH 060 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.261314
+eval accuracy: 0.917786
+eval avg class acc: 0.827846
+eval mIoU of Airplane:	 0.814752
+eval mIoU of Bag:	 0.769736
+eval mIoU of Cap:	 0.854562
+eval mIoU of Car:	 0.746275
+eval mIoU of Chair:	 0.885755
+eval mIoU of Earphone:	 0.755264
+eval mIoU of Guitar:	 0.899112
+eval mIoU of Knife:	 0.809185
+eval mIoU of Lamp:	 0.803202
+eval mIoU of Laptop:	 0.756373
+eval mIoU of Motorbike:	 0.672959
+eval mIoU of Mug:	 0.917779
+eval mIoU of Pistol:	 0.750669
+eval mIoU of Rocket:	 0.542816
+eval mIoU of Skateboard:	 0.711249
+eval mIoU of Table:	 0.795116
+eval mean mIoU: 0.780300
+eval mean mIoU (all shapes): 0.819626
+**** EPOCH 061 ****
+accuracy: 0.950390
+---- EPOCH 061 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.251607
+eval accuracy: 0.919734
+eval avg class acc: 0.845964
+eval mIoU of Airplane:	 0.810785
+eval mIoU of Bag:	 0.826053
+eval mIoU of Cap:	 0.853626
+eval mIoU of Car:	 0.751753
+eval mIoU of Chair:	 0.883106
+eval mIoU of Earphone:	 0.689336
+eval mIoU of Guitar:	 0.901348
+eval mIoU of Knife:	 0.820607
+eval mIoU of Lamp:	 0.807653
+eval mIoU of Laptop:	 0.833021
+eval mIoU of Motorbike:	 0.687389
+eval mIoU of Mug:	 0.907377
+eval mIoU of Pistol:	 0.749608
+eval mIoU of Rocket:	 0.562689
+eval mIoU of Skateboard:	 0.740671
+eval mIoU of Table:	 0.789059
+eval mean mIoU: 0.788380
+eval mean mIoU (all shapes): 0.820615
+**** EPOCH 062 ****
+accuracy: 0.950663
+---- EPOCH 062 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.267459
+eval accuracy: 0.918693
+eval avg class acc: 0.840348
+eval mIoU of Airplane:	 0.810458
+eval mIoU of Bag:	 0.767381
+eval mIoU of Cap:	 0.830058
+eval mIoU of Car:	 0.744536
+eval mIoU of Chair:	 0.883086
+eval mIoU of Earphone:	 0.721876
+eval mIoU of Guitar:	 0.903542
+eval mIoU of Knife:	 0.823298
+eval mIoU of Lamp:	 0.803885
+eval mIoU of Laptop:	 0.811715
+eval mIoU of Motorbike:	 0.678517
+eval mIoU of Mug:	 0.930945
+eval mIoU of Pistol:	 0.770528
+eval mIoU of Rocket:	 0.527352
+eval mIoU of Skateboard:	 0.730980
+eval mIoU of Table:	 0.788846
+eval mean mIoU: 0.782938
+eval mean mIoU (all shapes): 0.819302
+**** EPOCH 063 ****
+accuracy: 0.950927
+---- EPOCH 063 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.253400
+eval accuracy: 0.920602
+eval avg class acc: 0.833102
+eval mIoU of Airplane:	 0.812874
+eval mIoU of Bag:	 0.803929
+eval mIoU of Cap:	 0.854895
+eval mIoU of Car:	 0.743645
+eval mIoU of Chair:	 0.884040
+eval mIoU of Earphone:	 0.708949
+eval mIoU of Guitar:	 0.896367
+eval mIoU of Knife:	 0.830477
+eval mIoU of Lamp:	 0.807840
+eval mIoU of Laptop:	 0.801153
+eval mIoU of Motorbike:	 0.668484
+eval mIoU of Mug:	 0.916978
+eval mIoU of Pistol:	 0.749898
+eval mIoU of Rocket:	 0.482621
+eval mIoU of Skateboard:	 0.727985
+eval mIoU of Table:	 0.796839
+eval mean mIoU: 0.780436
+eval mean mIoU (all shapes): 0.821368
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9206015556946864
+**** EPOCH 064 ****
+accuracy: 0.951264
+---- EPOCH 064 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.257818
+eval accuracy: 0.920204
+eval avg class acc: 0.830228
+eval mIoU of Airplane:	 0.813467
+eval mIoU of Bag:	 0.788400
+eval mIoU of Cap:	 0.849441
+eval mIoU of Car:	 0.735825
+eval mIoU of Chair:	 0.883973
+eval mIoU of Earphone:	 0.705430
+eval mIoU of Guitar:	 0.894749
+eval mIoU of Knife:	 0.833068
+eval mIoU of Lamp:	 0.802240
+eval mIoU of Laptop:	 0.800726
+eval mIoU of Motorbike:	 0.666387
+eval mIoU of Mug:	 0.914072
+eval mIoU of Pistol:	 0.748842
+eval mIoU of Rocket:	 0.494199
+eval mIoU of Skateboard:	 0.729655
+eval mIoU of Table:	 0.797316
+eval mean mIoU: 0.778612
+eval mean mIoU (all shapes): 0.820405
+**** EPOCH 065 ****
+accuracy: 0.951008
+---- EPOCH 065 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.257011
+eval accuracy: 0.920673
+eval avg class acc: 0.835896
+eval mIoU of Airplane:	 0.814040
+eval mIoU of Bag:	 0.800322
+eval mIoU of Cap:	 0.851497
+eval mIoU of Car:	 0.740585
+eval mIoU of Chair:	 0.884109
+eval mIoU of Earphone:	 0.713262
+eval mIoU of Guitar:	 0.900953
+eval mIoU of Knife:	 0.834469
+eval mIoU of Lamp:	 0.804186
+eval mIoU of Laptop:	 0.808057
+eval mIoU of Motorbike:	 0.661050
+eval mIoU of Mug:	 0.916828
+eval mIoU of Pistol:	 0.736819
+eval mIoU of Rocket:	 0.566518
+eval mIoU of Skateboard:	 0.738964
+eval mIoU of Table:	 0.797952
+eval mean mIoU: 0.785601
+eval mean mIoU (all shapes): 0.821978
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9206725010888501
+**** EPOCH 066 ****
+accuracy: 0.950960
+---- EPOCH 066 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.258504
+eval accuracy: 0.920087
+eval avg class acc: 0.833667
+eval mIoU of Airplane:	 0.811114
+eval mIoU of Bag:	 0.807747
+eval mIoU of Cap:	 0.807634
+eval mIoU of Car:	 0.734595
+eval mIoU of Chair:	 0.882364
+eval mIoU of Earphone:	 0.676874
+eval mIoU of Guitar:	 0.895955
+eval mIoU of Knife:	 0.838895
+eval mIoU of Lamp:	 0.799990
+eval mIoU of Laptop:	 0.826750
+eval mIoU of Motorbike:	 0.665791
+eval mIoU of Mug:	 0.922502
+eval mIoU of Pistol:	 0.746256
+eval mIoU of Rocket:	 0.528172
+eval mIoU of Skateboard:	 0.718626
+eval mIoU of Table:	 0.793523
+eval mean mIoU: 0.778549
+eval mean mIoU (all shapes): 0.819184
+**** EPOCH 067 ****
+accuracy: 0.951188
+---- EPOCH 067 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.258748
+eval accuracy: 0.920125
+eval avg class acc: 0.829824
+eval mIoU of Airplane:	 0.813130
+eval mIoU of Bag:	 0.833155
+eval mIoU of Cap:	 0.849835
+eval mIoU of Car:	 0.746662
+eval mIoU of Chair:	 0.883159
+eval mIoU of Earphone:	 0.731414
+eval mIoU of Guitar:	 0.894403
+eval mIoU of Knife:	 0.828393
+eval mIoU of Lamp:	 0.796887
+eval mIoU of Laptop:	 0.781388
+eval mIoU of Motorbike:	 0.659438
+eval mIoU of Mug:	 0.920724
+eval mIoU of Pistol:	 0.745073
+eval mIoU of Rocket:	 0.531762
+eval mIoU of Skateboard:	 0.737903
+eval mIoU of Table:	 0.796689
+eval mean mIoU: 0.784376
+eval mean mIoU (all shapes): 0.819800
+**** EPOCH 068 ****
+accuracy: 0.951233
+---- EPOCH 068 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.267580
+eval accuracy: 0.917946
+eval avg class acc: 0.837830
+eval mIoU of Airplane:	 0.815095
+eval mIoU of Bag:	 0.825270
+eval mIoU of Cap:	 0.855170
+eval mIoU of Car:	 0.744467
+eval mIoU of Chair:	 0.884062
+eval mIoU of Earphone:	 0.712621
+eval mIoU of Guitar:	 0.904652
+eval mIoU of Knife:	 0.826239
+eval mIoU of Lamp:	 0.807272
+eval mIoU of Laptop:	 0.746829
+eval mIoU of Motorbike:	 0.658834
+eval mIoU of Mug:	 0.924196
+eval mIoU of Pistol:	 0.757257
+eval mIoU of Rocket:	 0.518775
+eval mIoU of Skateboard:	 0.724492
+eval mIoU of Table:	 0.793127
+eval mean mIoU: 0.781147
+eval mean mIoU (all shapes): 0.819555
+**** EPOCH 069 ****
+accuracy: 0.951446
+---- EPOCH 069 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.258509
+eval accuracy: 0.921760
+eval avg class acc: 0.837634
+eval mIoU of Airplane:	 0.812298
+eval mIoU of Bag:	 0.780300
+eval mIoU of Cap:	 0.846818
+eval mIoU of Car:	 0.740934
+eval mIoU of Chair:	 0.885455
+eval mIoU of Earphone:	 0.732700
+eval mIoU of Guitar:	 0.907524
+eval mIoU of Knife:	 0.829643
+eval mIoU of Lamp:	 0.810311
+eval mIoU of Laptop:	 0.805784
+eval mIoU of Motorbike:	 0.679650
+eval mIoU of Mug:	 0.903118
+eval mIoU of Pistol:	 0.754665
+eval mIoU of Rocket:	 0.560856
+eval mIoU of Skateboard:	 0.735787
+eval mIoU of Table:	 0.793476
+eval mean mIoU: 0.786208
+eval mean mIoU (all shapes): 0.821909
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9217598200675087
+**** EPOCH 070 ****
+accuracy: 0.951565
+---- EPOCH 070 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.259306
+eval accuracy: 0.920595
+eval avg class acc: 0.845386
+eval mIoU of Airplane:	 0.810584
+eval mIoU of Bag:	 0.833628
+eval mIoU of Cap:	 0.849621
+eval mIoU of Car:	 0.748621
+eval mIoU of Chair:	 0.883435
+eval mIoU of Earphone:	 0.682791
+eval mIoU of Guitar:	 0.897481
+eval mIoU of Knife:	 0.830570
+eval mIoU of Lamp:	 0.806852
+eval mIoU of Laptop:	 0.803492
+eval mIoU of Motorbike:	 0.679542
+eval mIoU of Mug:	 0.924112
+eval mIoU of Pistol:	 0.752034
+eval mIoU of Rocket:	 0.590725
+eval mIoU of Skateboard:	 0.732356
+eval mIoU of Table:	 0.795016
+eval mean mIoU: 0.788804
+eval mean mIoU (all shapes): 0.821515
+**** EPOCH 071 ****
+accuracy: 0.951365
+---- EPOCH 071 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.257729
+eval accuracy: 0.920762
+eval avg class acc: 0.828599
+eval mIoU of Airplane:	 0.814979
+eval mIoU of Bag:	 0.809833
+eval mIoU of Cap:	 0.848960
+eval mIoU of Car:	 0.741988
+eval mIoU of Chair:	 0.879879
+eval mIoU of Earphone:	 0.712406
+eval mIoU of Guitar:	 0.904984
+eval mIoU of Knife:	 0.835034
+eval mIoU of Lamp:	 0.813505
+eval mIoU of Laptop:	 0.818781
+eval mIoU of Motorbike:	 0.632491
+eval mIoU of Mug:	 0.917961
+eval mIoU of Pistol:	 0.761035
+eval mIoU of Rocket:	 0.551166
+eval mIoU of Skateboard:	 0.739501
+eval mIoU of Table:	 0.797523
+eval mean mIoU: 0.786252
+eval mean mIoU (all shapes): 0.822339
+**** EPOCH 072 ****
+accuracy: 0.952266
+---- EPOCH 072 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.256558
+eval accuracy: 0.922196
+eval avg class acc: 0.838148
+eval mIoU of Airplane:	 0.814078
+eval mIoU of Bag:	 0.799322
+eval mIoU of Cap:	 0.871910
+eval mIoU of Car:	 0.751674
+eval mIoU of Chair:	 0.884520
+eval mIoU of Earphone:	 0.712777
+eval mIoU of Guitar:	 0.904629
+eval mIoU of Knife:	 0.825139
+eval mIoU of Lamp:	 0.810949
+eval mIoU of Laptop:	 0.816619
+eval mIoU of Motorbike:	 0.670276
+eval mIoU of Mug:	 0.923994
+eval mIoU of Pistol:	 0.756765
+eval mIoU of Rocket:	 0.533896
+eval mIoU of Skateboard:	 0.717370
+eval mIoU of Table:	 0.793368
+eval mean mIoU: 0.786705
+eval mean mIoU (all shapes): 0.822480
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9221958705357143
+**** EPOCH 073 ****
+accuracy: 0.952799
+---- EPOCH 073 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.255890
+eval accuracy: 0.921634
+eval avg class acc: 0.833992
+eval mIoU of Airplane:	 0.813797
+eval mIoU of Bag:	 0.819770
+eval mIoU of Cap:	 0.853371
+eval mIoU of Car:	 0.750139
+eval mIoU of Chair:	 0.885119
+eval mIoU of Earphone:	 0.668701
+eval mIoU of Guitar:	 0.900555
+eval mIoU of Knife:	 0.840058
+eval mIoU of Lamp:	 0.788814
+eval mIoU of Laptop:	 0.818422
+eval mIoU of Motorbike:	 0.669787
+eval mIoU of Mug:	 0.913201
+eval mIoU of Pistol:	 0.767723
+eval mIoU of Rocket:	 0.518059
+eval mIoU of Skateboard:	 0.735397
+eval mIoU of Table:	 0.798288
+eval mean mIoU: 0.783825
+eval mean mIoU (all shapes): 0.821998
+**** EPOCH 074 ****
+accuracy: 0.953084
+---- EPOCH 074 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.253993
+eval accuracy: 0.921838
+eval avg class acc: 0.839026
+eval mIoU of Airplane:	 0.814527
+eval mIoU of Bag:	 0.789837
+eval mIoU of Cap:	 0.840601
+eval mIoU of Car:	 0.747074
+eval mIoU of Chair:	 0.884601
+eval mIoU of Earphone:	 0.721452
+eval mIoU of Guitar:	 0.902183
+eval mIoU of Knife:	 0.829824
+eval mIoU of Lamp:	 0.805474
+eval mIoU of Laptop:	 0.814326
+eval mIoU of Motorbike:	 0.678471
+eval mIoU of Mug:	 0.924669
+eval mIoU of Pistol:	 0.765843
+eval mIoU of Rocket:	 0.546270
+eval mIoU of Skateboard:	 0.726678
+eval mIoU of Table:	 0.793813
+eval mean mIoU: 0.786603
+eval mean mIoU (all shapes): 0.822126
+**** EPOCH 075 ****
+accuracy: 0.953303
+---- EPOCH 075 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.260205
+eval accuracy: 0.920995
+eval avg class acc: 0.838236
+eval mIoU of Airplane:	 0.816571
+eval mIoU of Bag:	 0.795713
+eval mIoU of Cap:	 0.850713
+eval mIoU of Car:	 0.746741
+eval mIoU of Chair:	 0.885810
+eval mIoU of Earphone:	 0.720653
+eval mIoU of Guitar:	 0.901569
+eval mIoU of Knife:	 0.837093
+eval mIoU of Lamp:	 0.804209
+eval mIoU of Laptop:	 0.803571
+eval mIoU of Motorbike:	 0.689959
+eval mIoU of Mug:	 0.921793
+eval mIoU of Pistol:	 0.744134
+eval mIoU of Rocket:	 0.539154
+eval mIoU of Skateboard:	 0.719922
+eval mIoU of Table:	 0.789794
+eval mean mIoU: 0.785462
+eval mean mIoU (all shapes): 0.820989
+**** EPOCH 076 ****
+accuracy: 0.953562
+---- EPOCH 076 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.260732
+eval accuracy: 0.921008
+eval avg class acc: 0.835704
+eval mIoU of Airplane:	 0.815196
+eval mIoU of Bag:	 0.805826
+eval mIoU of Cap:	 0.848229
+eval mIoU of Car:	 0.738118
+eval mIoU of Chair:	 0.885688
+eval mIoU of Earphone:	 0.721845
+eval mIoU of Guitar:	 0.902949
+eval mIoU of Knife:	 0.833205
+eval mIoU of Lamp:	 0.807244
+eval mIoU of Laptop:	 0.811654
+eval mIoU of Motorbike:	 0.674863
+eval mIoU of Mug:	 0.911024
+eval mIoU of Pistol:	 0.748724
+eval mIoU of Rocket:	 0.527794
+eval mIoU of Skateboard:	 0.739004
+eval mIoU of Table:	 0.790103
+eval mean mIoU: 0.785091
+eval mean mIoU (all shapes): 0.820787
+**** EPOCH 077 ****
+accuracy: 0.953574
+---- EPOCH 077 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.261601
+eval accuracy: 0.920660
+eval avg class acc: 0.837975
+eval mIoU of Airplane:	 0.816062
+eval mIoU of Bag:	 0.831350
+eval mIoU of Cap:	 0.835928
+eval mIoU of Car:	 0.745403
+eval mIoU of Chair:	 0.885284
+eval mIoU of Earphone:	 0.676388
+eval mIoU of Guitar:	 0.906471
+eval mIoU of Knife:	 0.823757
+eval mIoU of Lamp:	 0.802830
+eval mIoU of Laptop:	 0.807011
+eval mIoU of Motorbike:	 0.666677
+eval mIoU of Mug:	 0.910677
+eval mIoU of Pistol:	 0.756313
+eval mIoU of Rocket:	 0.536471
+eval mIoU of Skateboard:	 0.740774
+eval mIoU of Table:	 0.794568
+eval mean mIoU: 0.783498
+eval mean mIoU (all shapes): 0.821775
+**** EPOCH 078 ****
+accuracy: 0.953261
+---- EPOCH 078 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.270142
+eval accuracy: 0.919946
+eval avg class acc: 0.836003
+eval mIoU of Airplane:	 0.813540
+eval mIoU of Bag:	 0.813931
+eval mIoU of Cap:	 0.845174
+eval mIoU of Car:	 0.747442
+eval mIoU of Chair:	 0.885415
+eval mIoU of Earphone:	 0.726550
+eval mIoU of Guitar:	 0.906287
+eval mIoU of Knife:	 0.824206
+eval mIoU of Lamp:	 0.809308
+eval mIoU of Laptop:	 0.784689
+eval mIoU of Motorbike:	 0.686004
+eval mIoU of Mug:	 0.922707
+eval mIoU of Pistol:	 0.753548
+eval mIoU of Rocket:	 0.509547
+eval mIoU of Skateboard:	 0.734986
+eval mIoU of Table:	 0.788714
+eval mean mIoU: 0.784503
+eval mean mIoU (all shapes): 0.820343
+**** EPOCH 079 ****
+accuracy: 0.953607
+---- EPOCH 079 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.263813
+eval accuracy: 0.921580
+eval avg class acc: 0.839560
+eval mIoU of Airplane:	 0.818266
+eval mIoU of Bag:	 0.821674
+eval mIoU of Cap:	 0.855014
+eval mIoU of Car:	 0.743675
+eval mIoU of Chair:	 0.887297
+eval mIoU of Earphone:	 0.730681
+eval mIoU of Guitar:	 0.901758
+eval mIoU of Knife:	 0.826393
+eval mIoU of Lamp:	 0.807757
+eval mIoU of Laptop:	 0.792000
+eval mIoU of Motorbike:	 0.679130
+eval mIoU of Mug:	 0.924814
+eval mIoU of Pistol:	 0.763035
+eval mIoU of Rocket:	 0.531029
+eval mIoU of Skateboard:	 0.738157
+eval mIoU of Table:	 0.798047
+eval mean mIoU: 0.788671
+eval mean mIoU (all shapes): 0.824043
+**** EPOCH 080 ****
+accuracy: 0.953575
+---- EPOCH 080 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.259948
+eval accuracy: 0.921310
+eval avg class acc: 0.833549
+eval mIoU of Airplane:	 0.815208
+eval mIoU of Bag:	 0.810317
+eval mIoU of Cap:	 0.857469
+eval mIoU of Car:	 0.754605
+eval mIoU of Chair:	 0.884767
+eval mIoU of Earphone:	 0.724699
+eval mIoU of Guitar:	 0.906650
+eval mIoU of Knife:	 0.829764
+eval mIoU of Lamp:	 0.792006
+eval mIoU of Laptop:	 0.808600
+eval mIoU of Motorbike:	 0.662252
+eval mIoU of Mug:	 0.921434
+eval mIoU of Pistol:	 0.744878
+eval mIoU of Rocket:	 0.550462
+eval mIoU of Skateboard:	 0.729613
+eval mIoU of Table:	 0.795836
+eval mean mIoU: 0.786785
+eval mean mIoU (all shapes): 0.821572
+**** EPOCH 081 ****
+accuracy: 0.953459
+---- EPOCH 081 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.262393
+eval accuracy: 0.921111
+eval avg class acc: 0.837974
+eval mIoU of Airplane:	 0.816689
+eval mIoU of Bag:	 0.819396
+eval mIoU of Cap:	 0.866405
+eval mIoU of Car:	 0.752450
+eval mIoU of Chair:	 0.883081
+eval mIoU of Earphone:	 0.715145
+eval mIoU of Guitar:	 0.902563
+eval mIoU of Knife:	 0.820704
+eval mIoU of Lamp:	 0.804042
+eval mIoU of Laptop:	 0.823044
+eval mIoU of Motorbike:	 0.684800
+eval mIoU of Mug:	 0.909462
+eval mIoU of Pistol:	 0.740889
+eval mIoU of Rocket:	 0.540886
+eval mIoU of Skateboard:	 0.727753
+eval mIoU of Table:	 0.797141
+eval mean mIoU: 0.787778
+eval mean mIoU (all shapes): 0.822907
+**** EPOCH 082 ****
+accuracy: 0.953828
+---- EPOCH 082 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.265941
+eval accuracy: 0.920894
+eval avg class acc: 0.833549
+eval mIoU of Airplane:	 0.817406
+eval mIoU of Bag:	 0.816293
+eval mIoU of Cap:	 0.868373
+eval mIoU of Car:	 0.751476
+eval mIoU of Chair:	 0.882920
+eval mIoU of Earphone:	 0.691229
+eval mIoU of Guitar:	 0.908237
+eval mIoU of Knife:	 0.822834
+eval mIoU of Lamp:	 0.801261
+eval mIoU of Laptop:	 0.803462
+eval mIoU of Motorbike:	 0.666378
+eval mIoU of Mug:	 0.916328
+eval mIoU of Pistol:	 0.737362
+eval mIoU of Rocket:	 0.552032
+eval mIoU of Skateboard:	 0.733505
+eval mIoU of Table:	 0.794409
+eval mean mIoU: 0.785219
+eval mean mIoU (all shapes): 0.821326
+**** EPOCH 083 ****
+accuracy: 0.953646
+---- EPOCH 083 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274279
+eval accuracy: 0.920713
+eval avg class acc: 0.837457
+eval mIoU of Airplane:	 0.816152
+eval mIoU of Bag:	 0.833659
+eval mIoU of Cap:	 0.847774
+eval mIoU of Car:	 0.747344
+eval mIoU of Chair:	 0.885499
+eval mIoU of Earphone:	 0.719161
+eval mIoU of Guitar:	 0.902967
+eval mIoU of Knife:	 0.825506
+eval mIoU of Lamp:	 0.809456
+eval mIoU of Laptop:	 0.805963
+eval mIoU of Motorbike:	 0.680600
+eval mIoU of Mug:	 0.914329
+eval mIoU of Pistol:	 0.757443
+eval mIoU of Rocket:	 0.543556
+eval mIoU of Skateboard:	 0.723195
+eval mIoU of Table:	 0.789365
+eval mean mIoU: 0.787623
+eval mean mIoU (all shapes): 0.821277
+**** EPOCH 084 ****
+accuracy: 0.953953
+---- EPOCH 084 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.263176
+eval accuracy: 0.921248
+eval avg class acc: 0.837536
+eval mIoU of Airplane:	 0.815530
+eval mIoU of Bag:	 0.798344
+eval mIoU of Cap:	 0.850051
+eval mIoU of Car:	 0.749011
+eval mIoU of Chair:	 0.882430
+eval mIoU of Earphone:	 0.720070
+eval mIoU of Guitar:	 0.906652
+eval mIoU of Knife:	 0.831457
+eval mIoU of Lamp:	 0.804250
+eval mIoU of Laptop:	 0.823593
+eval mIoU of Motorbike:	 0.687466
+eval mIoU of Mug:	 0.920118
+eval mIoU of Pistol:	 0.740976
+eval mIoU of Rocket:	 0.545293
+eval mIoU of Skateboard:	 0.741394
+eval mIoU of Table:	 0.795388
+eval mean mIoU: 0.788251
+eval mean mIoU (all shapes): 0.822671
+**** EPOCH 085 ****
+accuracy: 0.953544
+---- EPOCH 085 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.270525
+eval accuracy: 0.920859
+eval avg class acc: 0.839924
+eval mIoU of Airplane:	 0.816657
+eval mIoU of Bag:	 0.834865
+eval mIoU of Cap:	 0.849116
+eval mIoU of Car:	 0.740288
+eval mIoU of Chair:	 0.886202
+eval mIoU of Earphone:	 0.727712
+eval mIoU of Guitar:	 0.903747
+eval mIoU of Knife:	 0.828145
+eval mIoU of Lamp:	 0.803714
+eval mIoU of Laptop:	 0.824117
+eval mIoU of Motorbike:	 0.685029
+eval mIoU of Mug:	 0.913295
+eval mIoU of Pistol:	 0.760729
+eval mIoU of Rocket:	 0.551032
+eval mIoU of Skateboard:	 0.720813
+eval mIoU of Table:	 0.798396
+eval mean mIoU: 0.790241
+eval mean mIoU (all shapes): 0.824025
+**** EPOCH 086 ****
+accuracy: 0.953906
+---- EPOCH 086 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.265953
+eval accuracy: 0.921653
+eval avg class acc: 0.835344
+eval mIoU of Airplane:	 0.816816
+eval mIoU of Bag:	 0.822041
+eval mIoU of Cap:	 0.861382
+eval mIoU of Car:	 0.750172
+eval mIoU of Chair:	 0.883464
+eval mIoU of Earphone:	 0.702899
+eval mIoU of Guitar:	 0.902899
+eval mIoU of Knife:	 0.832539
+eval mIoU of Lamp:	 0.801565
+eval mIoU of Laptop:	 0.823188
+eval mIoU of Motorbike:	 0.659755
+eval mIoU of Mug:	 0.917808
+eval mIoU of Pistol:	 0.759141
+eval mIoU of Rocket:	 0.552593
+eval mIoU of Skateboard:	 0.725791
+eval mIoU of Table:	 0.793418
+eval mean mIoU: 0.787842
+eval mean mIoU (all shapes): 0.821805
+**** EPOCH 087 ****
+accuracy: 0.954145
+---- EPOCH 087 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271776
+eval accuracy: 0.921186
+eval avg class acc: 0.837388
+eval mIoU of Airplane:	 0.816589
+eval mIoU of Bag:	 0.804853
+eval mIoU of Cap:	 0.869283
+eval mIoU of Car:	 0.738045
+eval mIoU of Chair:	 0.883611
+eval mIoU of Earphone:	 0.691220
+eval mIoU of Guitar:	 0.903820
+eval mIoU of Knife:	 0.826967
+eval mIoU of Lamp:	 0.802607
+eval mIoU of Laptop:	 0.807547
+eval mIoU of Motorbike:	 0.674640
+eval mIoU of Mug:	 0.915900
+eval mIoU of Pistol:	 0.743625
+eval mIoU of Rocket:	 0.554424
+eval mIoU of Skateboard:	 0.732583
+eval mIoU of Table:	 0.789454
+eval mean mIoU: 0.784698
+eval mean mIoU (all shapes): 0.819502
+**** EPOCH 088 ****
+accuracy: 0.954066
+---- EPOCH 088 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.267253
+eval accuracy: 0.921589
+eval avg class acc: 0.830083
+eval mIoU of Airplane:	 0.814845
+eval mIoU of Bag:	 0.794778
+eval mIoU of Cap:	 0.856847
+eval mIoU of Car:	 0.746145
+eval mIoU of Chair:	 0.885016
+eval mIoU of Earphone:	 0.690385
+eval mIoU of Guitar:	 0.902012
+eval mIoU of Knife:	 0.832562
+eval mIoU of Lamp:	 0.800857
+eval mIoU of Laptop:	 0.811246
+eval mIoU of Motorbike:	 0.665494
+eval mIoU of Mug:	 0.924890
+eval mIoU of Pistol:	 0.765784
+eval mIoU of Rocket:	 0.512640
+eval mIoU of Skateboard:	 0.728110
+eval mIoU of Table:	 0.798529
+eval mean mIoU: 0.783134
+eval mean mIoU (all shapes): 0.822740
+**** EPOCH 089 ****
+accuracy: 0.954294
+---- EPOCH 089 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.264917
+eval accuracy: 0.921805
+eval avg class acc: 0.833860
+eval mIoU of Airplane:	 0.814093
+eval mIoU of Bag:	 0.827023
+eval mIoU of Cap:	 0.865869
+eval mIoU of Car:	 0.754448
+eval mIoU of Chair:	 0.885805
+eval mIoU of Earphone:	 0.709303
+eval mIoU of Guitar:	 0.905458
+eval mIoU of Knife:	 0.831603
+eval mIoU of Lamp:	 0.805408
+eval mIoU of Laptop:	 0.802650
+eval mIoU of Motorbike:	 0.675025
+eval mIoU of Mug:	 0.909982
+eval mIoU of Pistol:	 0.744632
+eval mIoU of Rocket:	 0.500748
+eval mIoU of Skateboard:	 0.728233
+eval mIoU of Table:	 0.790517
+eval mean mIoU: 0.784425
+eval mean mIoU (all shapes): 0.821182
+**** EPOCH 090 ****
+accuracy: 0.954304
+---- EPOCH 090 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.259561
+eval accuracy: 0.922669
+eval avg class acc: 0.834286
+eval mIoU of Airplane:	 0.818209
+eval mIoU of Bag:	 0.825180
+eval mIoU of Cap:	 0.841637
+eval mIoU of Car:	 0.748609
+eval mIoU of Chair:	 0.883254
+eval mIoU of Earphone:	 0.724288
+eval mIoU of Guitar:	 0.904087
+eval mIoU of Knife:	 0.828866
+eval mIoU of Lamp:	 0.800948
+eval mIoU of Laptop:	 0.830834
+eval mIoU of Motorbike:	 0.675419
+eval mIoU of Mug:	 0.909758
+eval mIoU of Pistol:	 0.758652
+eval mIoU of Rocket:	 0.514038
+eval mIoU of Skateboard:	 0.731686
+eval mIoU of Table:	 0.797274
+eval mean mIoU: 0.787046
+eval mean mIoU (all shapes): 0.823207
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9226691800958188
+**** EPOCH 091 ****
+accuracy: 0.954516
+---- EPOCH 091 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271555
+eval accuracy: 0.920679
+eval avg class acc: 0.838677
+eval mIoU of Airplane:	 0.817098
+eval mIoU of Bag:	 0.812177
+eval mIoU of Cap:	 0.853798
+eval mIoU of Car:	 0.749650
+eval mIoU of Chair:	 0.882831
+eval mIoU of Earphone:	 0.734569
+eval mIoU of Guitar:	 0.903883
+eval mIoU of Knife:	 0.829736
+eval mIoU of Lamp:	 0.801709
+eval mIoU of Laptop:	 0.824862
+eval mIoU of Motorbike:	 0.674637
+eval mIoU of Mug:	 0.921279
+eval mIoU of Pistol:	 0.761542
+eval mIoU of Rocket:	 0.536176
+eval mIoU of Skateboard:	 0.732161
+eval mIoU of Table:	 0.788829
+eval mean mIoU: 0.789059
+eval mean mIoU (all shapes): 0.820745
+**** EPOCH 092 ****
+accuracy: 0.954283
+---- EPOCH 092 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.268209
+eval accuracy: 0.921254
+eval avg class acc: 0.841893
+eval mIoU of Airplane:	 0.818600
+eval mIoU of Bag:	 0.798916
+eval mIoU of Cap:	 0.857473
+eval mIoU of Car:	 0.750692
+eval mIoU of Chair:	 0.883245
+eval mIoU of Earphone:	 0.745014
+eval mIoU of Guitar:	 0.906470
+eval mIoU of Knife:	 0.835405
+eval mIoU of Lamp:	 0.801860
+eval mIoU of Laptop:	 0.804646
+eval mIoU of Motorbike:	 0.687820
+eval mIoU of Mug:	 0.928510
+eval mIoU of Pistol:	 0.745279
+eval mIoU of Rocket:	 0.507083
+eval mIoU of Skateboard:	 0.739772
+eval mIoU of Table:	 0.791443
+eval mean mIoU: 0.787639
+eval mean mIoU (all shapes): 0.821628
+**** EPOCH 093 ****
+accuracy: 0.954185
+---- EPOCH 093 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277024
+eval accuracy: 0.919255
+eval avg class acc: 0.835820
+eval mIoU of Airplane:	 0.816676
+eval mIoU of Bag:	 0.827395
+eval mIoU of Cap:	 0.854643
+eval mIoU of Car:	 0.751950
+eval mIoU of Chair:	 0.882995
+eval mIoU of Earphone:	 0.722896
+eval mIoU of Guitar:	 0.903845
+eval mIoU of Knife:	 0.833331
+eval mIoU of Lamp:	 0.789997
+eval mIoU of Laptop:	 0.794627
+eval mIoU of Motorbike:	 0.667823
+eval mIoU of Mug:	 0.924099
+eval mIoU of Pistol:	 0.744358
+eval mIoU of Rocket:	 0.540604
+eval mIoU of Skateboard:	 0.730143
+eval mIoU of Table:	 0.787895
+eval mean mIoU: 0.785830
+eval mean mIoU (all shapes): 0.818318
+**** EPOCH 094 ****
+accuracy: 0.954093
+---- EPOCH 094 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.267470
+eval accuracy: 0.920420
+eval avg class acc: 0.840243
+eval mIoU of Airplane:	 0.816477
+eval mIoU of Bag:	 0.812379
+eval mIoU of Cap:	 0.844501
+eval mIoU of Car:	 0.751170
+eval mIoU of Chair:	 0.885698
+eval mIoU of Earphone:	 0.688453
+eval mIoU of Guitar:	 0.901589
+eval mIoU of Knife:	 0.820216
+eval mIoU of Lamp:	 0.807340
+eval mIoU of Laptop:	 0.809552
+eval mIoU of Motorbike:	 0.681765
+eval mIoU of Mug:	 0.924430
+eval mIoU of Pistol:	 0.735065
+eval mIoU of Rocket:	 0.514815
+eval mIoU of Skateboard:	 0.733715
+eval mIoU of Table:	 0.793667
+eval mean mIoU: 0.782552
+eval mean mIoU (all shapes): 0.822082
+**** EPOCH 095 ****
+accuracy: 0.954492
+---- EPOCH 095 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.264461
+eval accuracy: 0.922524
+eval avg class acc: 0.837915
+eval mIoU of Airplane:	 0.814283
+eval mIoU of Bag:	 0.829906
+eval mIoU of Cap:	 0.855991
+eval mIoU of Car:	 0.743780
+eval mIoU of Chair:	 0.884628
+eval mIoU of Earphone:	 0.713605
+eval mIoU of Guitar:	 0.906137
+eval mIoU of Knife:	 0.834943
+eval mIoU of Lamp:	 0.806594
+eval mIoU of Laptop:	 0.818674
+eval mIoU of Motorbike:	 0.685441
+eval mIoU of Mug:	 0.918770
+eval mIoU of Pistol:	 0.754711
+eval mIoU of Rocket:	 0.531748
+eval mIoU of Skateboard:	 0.734120
+eval mIoU of Table:	 0.798465
+eval mean mIoU: 0.789487
+eval mean mIoU (all shapes): 0.824019
+**** EPOCH 096 ****
+accuracy: 0.954616
+---- EPOCH 096 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.264465
+eval accuracy: 0.921916
+eval avg class acc: 0.842520
+eval mIoU of Airplane:	 0.817090
+eval mIoU of Bag:	 0.829165
+eval mIoU of Cap:	 0.849672
+eval mIoU of Car:	 0.748745
+eval mIoU of Chair:	 0.884526
+eval mIoU of Earphone:	 0.722838
+eval mIoU of Guitar:	 0.907832
+eval mIoU of Knife:	 0.837036
+eval mIoU of Lamp:	 0.809085
+eval mIoU of Laptop:	 0.820688
+eval mIoU of Motorbike:	 0.680764
+eval mIoU of Mug:	 0.924070
+eval mIoU of Pistol:	 0.762720
+eval mIoU of Rocket:	 0.549759
+eval mIoU of Skateboard:	 0.740999
+eval mIoU of Table:	 0.793748
+eval mean mIoU: 0.792421
+eval mean mIoU (all shapes): 0.823928
+**** EPOCH 097 ****
+accuracy: 0.955075
+---- EPOCH 097 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277131
+eval accuracy: 0.920551
+eval avg class acc: 0.838351
+eval mIoU of Airplane:	 0.815277
+eval mIoU of Bag:	 0.817800
+eval mIoU of Cap:	 0.854639
+eval mIoU of Car:	 0.749878
+eval mIoU of Chair:	 0.884048
+eval mIoU of Earphone:	 0.709589
+eval mIoU of Guitar:	 0.905923
+eval mIoU of Knife:	 0.826454
+eval mIoU of Lamp:	 0.806536
+eval mIoU of Laptop:	 0.806336
+eval mIoU of Motorbike:	 0.682408
+eval mIoU of Mug:	 0.923833
+eval mIoU of Pistol:	 0.765795
+eval mIoU of Rocket:	 0.537841
+eval mIoU of Skateboard:	 0.741922
+eval mIoU of Table:	 0.793063
+eval mean mIoU: 0.788834
+eval mean mIoU (all shapes): 0.822331
+**** EPOCH 098 ****
+accuracy: 0.954805
+---- EPOCH 098 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.269917
+eval accuracy: 0.921207
+eval avg class acc: 0.842552
+eval mIoU of Airplane:	 0.816867
+eval mIoU of Bag:	 0.836013
+eval mIoU of Cap:	 0.848110
+eval mIoU of Car:	 0.753145
+eval mIoU of Chair:	 0.884969
+eval mIoU of Earphone:	 0.698512
+eval mIoU of Guitar:	 0.902938
+eval mIoU of Knife:	 0.825272
+eval mIoU of Lamp:	 0.802785
+eval mIoU of Laptop:	 0.829291
+eval mIoU of Motorbike:	 0.701750
+eval mIoU of Mug:	 0.922464
+eval mIoU of Pistol:	 0.760153
+eval mIoU of Rocket:	 0.537288
+eval mIoU of Skateboard:	 0.734873
+eval mIoU of Table:	 0.793761
+eval mean mIoU: 0.790512
+eval mean mIoU (all shapes): 0.823403
+**** EPOCH 099 ****
+accuracy: 0.955327
+---- EPOCH 099 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.268553
+eval accuracy: 0.922472
+eval avg class acc: 0.838755
+eval mIoU of Airplane:	 0.816578
+eval mIoU of Bag:	 0.820665
+eval mIoU of Cap:	 0.844312
+eval mIoU of Car:	 0.746714
+eval mIoU of Chair:	 0.883617
+eval mIoU of Earphone:	 0.711820
+eval mIoU of Guitar:	 0.904937
+eval mIoU of Knife:	 0.835203
+eval mIoU of Lamp:	 0.805647
+eval mIoU of Laptop:	 0.816835
+eval mIoU of Motorbike:	 0.685962
+eval mIoU of Mug:	 0.923389
+eval mIoU of Pistol:	 0.753646
+eval mIoU of Rocket:	 0.530966
+eval mIoU of Skateboard:	 0.736515
+eval mIoU of Table:	 0.797965
+eval mean mIoU: 0.788423
+eval mean mIoU (all shapes): 0.823829
+**** EPOCH 100 ****
+accuracy: 0.955225
+---- EPOCH 100 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.266905
+eval accuracy: 0.922305
+eval avg class acc: 0.840149
+eval mIoU of Airplane:	 0.818457
+eval mIoU of Bag:	 0.825420
+eval mIoU of Cap:	 0.857842
+eval mIoU of Car:	 0.751380
+eval mIoU of Chair:	 0.883877
+eval mIoU of Earphone:	 0.734493
+eval mIoU of Guitar:	 0.905563
+eval mIoU of Knife:	 0.831172
+eval mIoU of Lamp:	 0.806149
+eval mIoU of Laptop:	 0.828101
+eval mIoU of Motorbike:	 0.670092
+eval mIoU of Mug:	 0.919456
+eval mIoU of Pistol:	 0.753034
+eval mIoU of Rocket:	 0.534367
+eval mIoU of Skateboard:	 0.727579
+eval mIoU of Table:	 0.796855
+eval mean mIoU: 0.790240
+eval mean mIoU (all shapes): 0.824087
+**** EPOCH 101 ****
+accuracy: 0.955223
+---- EPOCH 101 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.269587
+eval accuracy: 0.921878
+eval avg class acc: 0.845493
+eval mIoU of Airplane:	 0.817986
+eval mIoU of Bag:	 0.840754
+eval mIoU of Cap:	 0.845283
+eval mIoU of Car:	 0.753351
+eval mIoU of Chair:	 0.884355
+eval mIoU of Earphone:	 0.708483
+eval mIoU of Guitar:	 0.904966
+eval mIoU of Knife:	 0.835234
+eval mIoU of Lamp:	 0.805028
+eval mIoU of Laptop:	 0.824277
+eval mIoU of Motorbike:	 0.689120
+eval mIoU of Mug:	 0.926124
+eval mIoU of Pistol:	 0.756431
+eval mIoU of Rocket:	 0.549699
+eval mIoU of Skateboard:	 0.725943
+eval mIoU of Table:	 0.796230
+eval mean mIoU: 0.791454
+eval mean mIoU (all shapes): 0.824365
+**** EPOCH 102 ****
+accuracy: 0.954993
+---- EPOCH 102 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.270090
+eval accuracy: 0.922483
+eval avg class acc: 0.839744
+eval mIoU of Airplane:	 0.813244
+eval mIoU of Bag:	 0.819863
+eval mIoU of Cap:	 0.859114
+eval mIoU of Car:	 0.753111
+eval mIoU of Chair:	 0.886508
+eval mIoU of Earphone:	 0.735199
+eval mIoU of Guitar:	 0.906525
+eval mIoU of Knife:	 0.836796
+eval mIoU of Lamp:	 0.806908
+eval mIoU of Laptop:	 0.822643
+eval mIoU of Motorbike:	 0.674648
+eval mIoU of Mug:	 0.918387
+eval mIoU of Pistol:	 0.763329
+eval mIoU of Rocket:	 0.518463
+eval mIoU of Skateboard:	 0.751473
+eval mIoU of Table:	 0.796313
+eval mean mIoU: 0.791408
+eval mean mIoU (all shapes): 0.824579
+**** EPOCH 103 ****
+accuracy: 0.955347
+---- EPOCH 103 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272162
+eval accuracy: 0.921883
+eval avg class acc: 0.839041
+eval mIoU of Airplane:	 0.815147
+eval mIoU of Bag:	 0.830607
+eval mIoU of Cap:	 0.851488
+eval mIoU of Car:	 0.748865
+eval mIoU of Chair:	 0.885199
+eval mIoU of Earphone:	 0.728675
+eval mIoU of Guitar:	 0.901502
+eval mIoU of Knife:	 0.837219
+eval mIoU of Lamp:	 0.806186
+eval mIoU of Laptop:	 0.825069
+eval mIoU of Motorbike:	 0.675323
+eval mIoU of Mug:	 0.920986
+eval mIoU of Pistol:	 0.773996
+eval mIoU of Rocket:	 0.519723
+eval mIoU of Skateboard:	 0.740913
+eval mIoU of Table:	 0.795315
+eval mean mIoU: 0.791013
+eval mean mIoU (all shapes): 0.823783
+**** EPOCH 104 ****
+accuracy: 0.955483
+---- EPOCH 104 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274369
+eval accuracy: 0.920979
+eval avg class acc: 0.838749
+eval mIoU of Airplane:	 0.814322
+eval mIoU of Bag:	 0.836997
+eval mIoU of Cap:	 0.853786
+eval mIoU of Car:	 0.749916
+eval mIoU of Chair:	 0.881612
+eval mIoU of Earphone:	 0.724785
+eval mIoU of Guitar:	 0.903844
+eval mIoU of Knife:	 0.829120
+eval mIoU of Lamp:	 0.802348
+eval mIoU of Laptop:	 0.822958
+eval mIoU of Motorbike:	 0.681769
+eval mIoU of Mug:	 0.921179
+eval mIoU of Pistol:	 0.748137
+eval mIoU of Rocket:	 0.528878
+eval mIoU of Skateboard:	 0.745427
+eval mIoU of Table:	 0.796263
+eval mean mIoU: 0.790084
+eval mean mIoU (all shapes): 0.822432
+**** EPOCH 105 ****
+accuracy: 0.955139
+---- EPOCH 105 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.267097
+eval accuracy: 0.922340
+eval avg class acc: 0.842921
+eval mIoU of Airplane:	 0.816197
+eval mIoU of Bag:	 0.824081
+eval mIoU of Cap:	 0.852328
+eval mIoU of Car:	 0.750694
+eval mIoU of Chair:	 0.884209
+eval mIoU of Earphone:	 0.708358
+eval mIoU of Guitar:	 0.906474
+eval mIoU of Knife:	 0.831065
+eval mIoU of Lamp:	 0.804202
+eval mIoU of Laptop:	 0.816119
+eval mIoU of Motorbike:	 0.693908
+eval mIoU of Mug:	 0.920873
+eval mIoU of Pistol:	 0.760811
+eval mIoU of Rocket:	 0.545326
+eval mIoU of Skateboard:	 0.737602
+eval mIoU of Table:	 0.793422
+eval mean mIoU: 0.790354
+eval mean mIoU (all shapes): 0.822929
+**** EPOCH 106 ****
+accuracy: 0.955611
+---- EPOCH 106 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.268662
+eval accuracy: 0.922636
+eval avg class acc: 0.839575
+eval mIoU of Airplane:	 0.817784
+eval mIoU of Bag:	 0.824975
+eval mIoU of Cap:	 0.855140
+eval mIoU of Car:	 0.747741
+eval mIoU of Chair:	 0.886121
+eval mIoU of Earphone:	 0.742679
+eval mIoU of Guitar:	 0.906994
+eval mIoU of Knife:	 0.835016
+eval mIoU of Lamp:	 0.800413
+eval mIoU of Laptop:	 0.837584
+eval mIoU of Motorbike:	 0.673983
+eval mIoU of Mug:	 0.912749
+eval mIoU of Pistol:	 0.749095
+eval mIoU of Rocket:	 0.531417
+eval mIoU of Skateboard:	 0.725462
+eval mIoU of Table:	 0.795250
+eval mean mIoU: 0.790150
+eval mean mIoU (all shapes): 0.823682
+**** EPOCH 107 ****
+accuracy: 0.955524
+---- EPOCH 107 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272069
+eval accuracy: 0.920946
+eval avg class acc: 0.834726
+eval mIoU of Airplane:	 0.817278
+eval mIoU of Bag:	 0.820822
+eval mIoU of Cap:	 0.855595
+eval mIoU of Car:	 0.743279
+eval mIoU of Chair:	 0.885447
+eval mIoU of Earphone:	 0.723102
+eval mIoU of Guitar:	 0.905922
+eval mIoU of Knife:	 0.832267
+eval mIoU of Lamp:	 0.795485
+eval mIoU of Laptop:	 0.814417
+eval mIoU of Motorbike:	 0.666231
+eval mIoU of Mug:	 0.923570
+eval mIoU of Pistol:	 0.758077
+eval mIoU of Rocket:	 0.517963
+eval mIoU of Skateboard:	 0.747856
+eval mIoU of Table:	 0.795028
+eval mean mIoU: 0.787646
+eval mean mIoU (all shapes): 0.822078
+**** EPOCH 108 ****
+accuracy: 0.955589
+---- EPOCH 108 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276471
+eval accuracy: 0.920457
+eval avg class acc: 0.843419
+eval mIoU of Airplane:	 0.812955
+eval mIoU of Bag:	 0.832850
+eval mIoU of Cap:	 0.868552
+eval mIoU of Car:	 0.749132
+eval mIoU of Chair:	 0.885744
+eval mIoU of Earphone:	 0.721757
+eval mIoU of Guitar:	 0.906448
+eval mIoU of Knife:	 0.834639
+eval mIoU of Lamp:	 0.801179
+eval mIoU of Laptop:	 0.802376
+eval mIoU of Motorbike:	 0.697711
+eval mIoU of Mug:	 0.920805
+eval mIoU of Pistol:	 0.761775
+eval mIoU of Rocket:	 0.531441
+eval mIoU of Skateboard:	 0.724125
+eval mIoU of Table:	 0.791987
+eval mean mIoU: 0.790217
+eval mean mIoU (all shapes): 0.821854
+**** EPOCH 109 ****
+accuracy: 0.955531
+---- EPOCH 109 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272653
+eval accuracy: 0.921698
+eval avg class acc: 0.843466
+eval mIoU of Airplane:	 0.815603
+eval mIoU of Bag:	 0.828822
+eval mIoU of Cap:	 0.866710
+eval mIoU of Car:	 0.751887
+eval mIoU of Chair:	 0.885950
+eval mIoU of Earphone:	 0.724572
+eval mIoU of Guitar:	 0.905075
+eval mIoU of Knife:	 0.835665
+eval mIoU of Lamp:	 0.805506
+eval mIoU of Laptop:	 0.822824
+eval mIoU of Motorbike:	 0.675396
+eval mIoU of Mug:	 0.922687
+eval mIoU of Pistol:	 0.775174
+eval mIoU of Rocket:	 0.541034
+eval mIoU of Skateboard:	 0.730832
+eval mIoU of Table:	 0.793502
+eval mean mIoU: 0.792577
+eval mean mIoU (all shapes): 0.823721
+**** EPOCH 110 ****
+accuracy: 0.955701
+---- EPOCH 110 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275808
+eval accuracy: 0.921657
+eval avg class acc: 0.843421
+eval mIoU of Airplane:	 0.818835
+eval mIoU of Bag:	 0.822609
+eval mIoU of Cap:	 0.860356
+eval mIoU of Car:	 0.752608
+eval mIoU of Chair:	 0.883642
+eval mIoU of Earphone:	 0.719384
+eval mIoU of Guitar:	 0.904271
+eval mIoU of Knife:	 0.833672
+eval mIoU of Lamp:	 0.800310
+eval mIoU of Laptop:	 0.835970
+eval mIoU of Motorbike:	 0.687430
+eval mIoU of Mug:	 0.919865
+eval mIoU of Pistol:	 0.743364
+eval mIoU of Rocket:	 0.553762
+eval mIoU of Skateboard:	 0.744986
+eval mIoU of Table:	 0.792365
+eval mean mIoU: 0.792089
+eval mean mIoU (all shapes): 0.822820
+**** EPOCH 111 ****
+accuracy: 0.955631
+---- EPOCH 111 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273688
+eval accuracy: 0.921352
+eval avg class acc: 0.837566
+eval mIoU of Airplane:	 0.818456
+eval mIoU of Bag:	 0.800092
+eval mIoU of Cap:	 0.848475
+eval mIoU of Car:	 0.753528
+eval mIoU of Chair:	 0.885191
+eval mIoU of Earphone:	 0.725352
+eval mIoU of Guitar:	 0.903480
+eval mIoU of Knife:	 0.829833
+eval mIoU of Lamp:	 0.804146
+eval mIoU of Laptop:	 0.812810
+eval mIoU of Motorbike:	 0.689056
+eval mIoU of Mug:	 0.915208
+eval mIoU of Pistol:	 0.744526
+eval mIoU of Rocket:	 0.531906
+eval mIoU of Skateboard:	 0.728785
+eval mIoU of Table:	 0.791809
+eval mean mIoU: 0.786416
+eval mean mIoU (all shapes): 0.822200
+**** EPOCH 112 ****
+accuracy: 0.955503
+---- EPOCH 112 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.266880
+eval accuracy: 0.922364
+eval avg class acc: 0.838913
+eval mIoU of Airplane:	 0.819617
+eval mIoU of Bag:	 0.828905
+eval mIoU of Cap:	 0.844185
+eval mIoU of Car:	 0.751464
+eval mIoU of Chair:	 0.885368
+eval mIoU of Earphone:	 0.702322
+eval mIoU of Guitar:	 0.905495
+eval mIoU of Knife:	 0.833715
+eval mIoU of Lamp:	 0.806605
+eval mIoU of Laptop:	 0.812767
+eval mIoU of Motorbike:	 0.678337
+eval mIoU of Mug:	 0.929999
+eval mIoU of Pistol:	 0.769565
+eval mIoU of Rocket:	 0.551295
+eval mIoU of Skateboard:	 0.743438
+eval mIoU of Table:	 0.793971
+eval mean mIoU: 0.791066
+eval mean mIoU (all shapes): 0.824015
+**** EPOCH 113 ****
+accuracy: 0.955654
+---- EPOCH 113 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278641
+eval accuracy: 0.921169
+eval avg class acc: 0.841367
+eval mIoU of Airplane:	 0.818025
+eval mIoU of Bag:	 0.840895
+eval mIoU of Cap:	 0.859836
+eval mIoU of Car:	 0.745596
+eval mIoU of Chair:	 0.886765
+eval mIoU of Earphone:	 0.744682
+eval mIoU of Guitar:	 0.905491
+eval mIoU of Knife:	 0.830673
+eval mIoU of Lamp:	 0.801279
+eval mIoU of Laptop:	 0.824088
+eval mIoU of Motorbike:	 0.676985
+eval mIoU of Mug:	 0.921848
+eval mIoU of Pistol:	 0.764781
+eval mIoU of Rocket:	 0.539745
+eval mIoU of Skateboard:	 0.722712
+eval mIoU of Table:	 0.793381
+eval mean mIoU: 0.792299
+eval mean mIoU (all shapes): 0.823207
+**** EPOCH 114 ****
+accuracy: 0.955617
+---- EPOCH 114 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272571
+eval accuracy: 0.921827
+eval avg class acc: 0.841436
+eval mIoU of Airplane:	 0.812113
+eval mIoU of Bag:	 0.821663
+eval mIoU of Cap:	 0.842515
+eval mIoU of Car:	 0.752772
+eval mIoU of Chair:	 0.885974
+eval mIoU of Earphone:	 0.728776
+eval mIoU of Guitar:	 0.907506
+eval mIoU of Knife:	 0.837860
+eval mIoU of Lamp:	 0.802840
+eval mIoU of Laptop:	 0.821698
+eval mIoU of Motorbike:	 0.686963
+eval mIoU of Mug:	 0.922568
+eval mIoU of Pistol:	 0.749218
+eval mIoU of Rocket:	 0.543699
+eval mIoU of Skateboard:	 0.730479
+eval mIoU of Table:	 0.798682
+eval mean mIoU: 0.790333
+eval mean mIoU (all shapes): 0.824491
+**** EPOCH 115 ****
+accuracy: 0.955626
+---- EPOCH 115 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276401
+eval accuracy: 0.921385
+eval avg class acc: 0.833649
+eval mIoU of Airplane:	 0.817410
+eval mIoU of Bag:	 0.835549
+eval mIoU of Cap:	 0.853662
+eval mIoU of Car:	 0.747256
+eval mIoU of Chair:	 0.885044
+eval mIoU of Earphone:	 0.711878
+eval mIoU of Guitar:	 0.902924
+eval mIoU of Knife:	 0.822110
+eval mIoU of Lamp:	 0.804957
+eval mIoU of Laptop:	 0.806813
+eval mIoU of Motorbike:	 0.681516
+eval mIoU of Mug:	 0.928707
+eval mIoU of Pistol:	 0.755125
+eval mIoU of Rocket:	 0.510733
+eval mIoU of Skateboard:	 0.735365
+eval mIoU of Table:	 0.793685
+eval mean mIoU: 0.787046
+eval mean mIoU (all shapes): 0.822239
+**** EPOCH 116 ****
+accuracy: 0.955752
+---- EPOCH 116 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.270751
+eval accuracy: 0.922442
+eval avg class acc: 0.838247
+eval mIoU of Airplane:	 0.818474
+eval mIoU of Bag:	 0.819689
+eval mIoU of Cap:	 0.856618
+eval mIoU of Car:	 0.746976
+eval mIoU of Chair:	 0.885163
+eval mIoU of Earphone:	 0.679753
+eval mIoU of Guitar:	 0.908585
+eval mIoU of Knife:	 0.831264
+eval mIoU of Lamp:	 0.805628
+eval mIoU of Laptop:	 0.810297
+eval mIoU of Motorbike:	 0.670603
+eval mIoU of Mug:	 0.933422
+eval mIoU of Pistol:	 0.754038
+eval mIoU of Rocket:	 0.550111
+eval mIoU of Skateboard:	 0.741426
+eval mIoU of Table:	 0.798156
+eval mean mIoU: 0.788138
+eval mean mIoU (all shapes): 0.824303
+**** EPOCH 117 ****
+accuracy: 0.955608
+---- EPOCH 117 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271771
+eval accuracy: 0.921194
+eval avg class acc: 0.839098
+eval mIoU of Airplane:	 0.815736
+eval mIoU of Bag:	 0.832099
+eval mIoU of Cap:	 0.842687
+eval mIoU of Car:	 0.749267
+eval mIoU of Chair:	 0.884227
+eval mIoU of Earphone:	 0.712171
+eval mIoU of Guitar:	 0.904666
+eval mIoU of Knife:	 0.829623
+eval mIoU of Lamp:	 0.804511
+eval mIoU of Laptop:	 0.802115
+eval mIoU of Motorbike:	 0.681842
+eval mIoU of Mug:	 0.919436
+eval mIoU of Pistol:	 0.760615
+eval mIoU of Rocket:	 0.544809
+eval mIoU of Skateboard:	 0.734617
+eval mIoU of Table:	 0.791612
+eval mean mIoU: 0.788127
+eval mean mIoU (all shapes): 0.821499
+**** EPOCH 118 ****
+accuracy: 0.955791
+---- EPOCH 118 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.279719
+eval accuracy: 0.920944
+eval avg class acc: 0.840973
+eval mIoU of Airplane:	 0.815464
+eval mIoU of Bag:	 0.811692
+eval mIoU of Cap:	 0.854499
+eval mIoU of Car:	 0.747203
+eval mIoU of Chair:	 0.885021
+eval mIoU of Earphone:	 0.711770
+eval mIoU of Guitar:	 0.907673
+eval mIoU of Knife:	 0.832114
+eval mIoU of Lamp:	 0.808962
+eval mIoU of Laptop:	 0.806462
+eval mIoU of Motorbike:	 0.683017
+eval mIoU of Mug:	 0.924344
+eval mIoU of Pistol:	 0.768046
+eval mIoU of Rocket:	 0.544225
+eval mIoU of Skateboard:	 0.735646
+eval mIoU of Table:	 0.794568
+eval mean mIoU: 0.789419
+eval mean mIoU (all shapes): 0.823377
+**** EPOCH 119 ****
+accuracy: 0.955626
+---- EPOCH 119 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271481
+eval accuracy: 0.921840
+eval avg class acc: 0.838898
+eval mIoU of Airplane:	 0.817459
+eval mIoU of Bag:	 0.822003
+eval mIoU of Cap:	 0.869573
+eval mIoU of Car:	 0.748333
+eval mIoU of Chair:	 0.884389
+eval mIoU of Earphone:	 0.685524
+eval mIoU of Guitar:	 0.905545
+eval mIoU of Knife:	 0.821470
+eval mIoU of Lamp:	 0.799871
+eval mIoU of Laptop:	 0.819354
+eval mIoU of Motorbike:	 0.683889
+eval mIoU of Mug:	 0.922335
+eval mIoU of Pistol:	 0.758723
+eval mIoU of Rocket:	 0.556539
+eval mIoU of Skateboard:	 0.728891
+eval mIoU of Table:	 0.799060
+eval mean mIoU: 0.788935
+eval mean mIoU (all shapes): 0.823720
+**** EPOCH 120 ****
+accuracy: 0.955829
+---- EPOCH 120 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271521
+eval accuracy: 0.921704
+eval avg class acc: 0.841668
+eval mIoU of Airplane:	 0.814000
+eval mIoU of Bag:	 0.808412
+eval mIoU of Cap:	 0.864276
+eval mIoU of Car:	 0.750073
+eval mIoU of Chair:	 0.881740
+eval mIoU of Earphone:	 0.705608
+eval mIoU of Guitar:	 0.906246
+eval mIoU of Knife:	 0.828098
+eval mIoU of Lamp:	 0.802716
+eval mIoU of Laptop:	 0.801846
+eval mIoU of Motorbike:	 0.692042
+eval mIoU of Mug:	 0.922412
+eval mIoU of Pistol:	 0.761332
+eval mIoU of Rocket:	 0.530641
+eval mIoU of Skateboard:	 0.725470
+eval mIoU of Table:	 0.793708
+eval mean mIoU: 0.786789
+eval mean mIoU (all shapes): 0.821222
+**** EPOCH 121 ****
+accuracy: 0.956074
+---- EPOCH 121 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276480
+eval accuracy: 0.921042
+eval avg class acc: 0.836861
+eval mIoU of Airplane:	 0.815843
+eval mIoU of Bag:	 0.826420
+eval mIoU of Cap:	 0.855728
+eval mIoU of Car:	 0.752259
+eval mIoU of Chair:	 0.884476
+eval mIoU of Earphone:	 0.707619
+eval mIoU of Guitar:	 0.905662
+eval mIoU of Knife:	 0.826223
+eval mIoU of Lamp:	 0.801322
+eval mIoU of Laptop:	 0.807148
+eval mIoU of Motorbike:	 0.672898
+eval mIoU of Mug:	 0.923487
+eval mIoU of Pistol:	 0.755344
+eval mIoU of Rocket:	 0.544381
+eval mIoU of Skateboard:	 0.737371
+eval mIoU of Table:	 0.794006
+eval mean mIoU: 0.788137
+eval mean mIoU (all shapes): 0.822077
+**** EPOCH 122 ****
+accuracy: 0.956069
+---- EPOCH 122 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274447
+eval accuracy: 0.921083
+eval avg class acc: 0.837966
+eval mIoU of Airplane:	 0.814558
+eval mIoU of Bag:	 0.826443
+eval mIoU of Cap:	 0.853717
+eval mIoU of Car:	 0.751159
+eval mIoU of Chair:	 0.883974
+eval mIoU of Earphone:	 0.700178
+eval mIoU of Guitar:	 0.905994
+eval mIoU of Knife:	 0.830053
+eval mIoU of Lamp:	 0.799147
+eval mIoU of Laptop:	 0.813898
+eval mIoU of Motorbike:	 0.672245
+eval mIoU of Mug:	 0.928648
+eval mIoU of Pistol:	 0.768608
+eval mIoU of Rocket:	 0.518641
+eval mIoU of Skateboard:	 0.729217
+eval mIoU of Table:	 0.794565
+eval mean mIoU: 0.786940
+eval mean mIoU (all shapes): 0.822042
+**** EPOCH 123 ****
+accuracy: 0.956062
+---- EPOCH 123 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271657
+eval accuracy: 0.922182
+eval avg class acc: 0.840520
+eval mIoU of Airplane:	 0.817404
+eval mIoU of Bag:	 0.834121
+eval mIoU of Cap:	 0.862706
+eval mIoU of Car:	 0.750438
+eval mIoU of Chair:	 0.882421
+eval mIoU of Earphone:	 0.732897
+eval mIoU of Guitar:	 0.904336
+eval mIoU of Knife:	 0.832280
+eval mIoU of Lamp:	 0.806790
+eval mIoU of Laptop:	 0.830709
+eval mIoU of Motorbike:	 0.677450
+eval mIoU of Mug:	 0.913899
+eval mIoU of Pistol:	 0.770054
+eval mIoU of Rocket:	 0.530218
+eval mIoU of Skateboard:	 0.725636
+eval mIoU of Table:	 0.792850
+eval mean mIoU: 0.791513
+eval mean mIoU (all shapes): 0.822809
+**** EPOCH 124 ****
+accuracy: 0.956358
+---- EPOCH 124 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272880
+eval accuracy: 0.922531
+eval avg class acc: 0.842719
+eval mIoU of Airplane:	 0.817719
+eval mIoU of Bag:	 0.825640
+eval mIoU of Cap:	 0.861280
+eval mIoU of Car:	 0.750724
+eval mIoU of Chair:	 0.883789
+eval mIoU of Earphone:	 0.712485
+eval mIoU of Guitar:	 0.905891
+eval mIoU of Knife:	 0.832144
+eval mIoU of Lamp:	 0.803965
+eval mIoU of Laptop:	 0.822070
+eval mIoU of Motorbike:	 0.688869
+eval mIoU of Mug:	 0.920388
+eval mIoU of Pistol:	 0.760572
+eval mIoU of Rocket:	 0.561772
+eval mIoU of Skateboard:	 0.733409
+eval mIoU of Table:	 0.795767
+eval mean mIoU: 0.792280
+eval mean mIoU (all shapes): 0.823825
+**** EPOCH 125 ****
+accuracy: 0.956151
+---- EPOCH 125 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.279675
+eval accuracy: 0.920047
+eval avg class acc: 0.843517
+eval mIoU of Airplane:	 0.817760
+eval mIoU of Bag:	 0.824229
+eval mIoU of Cap:	 0.860220
+eval mIoU of Car:	 0.753721
+eval mIoU of Chair:	 0.883007
+eval mIoU of Earphone:	 0.720381
+eval mIoU of Guitar:	 0.904664
+eval mIoU of Knife:	 0.828942
+eval mIoU of Lamp:	 0.803673
+eval mIoU of Laptop:	 0.782549
+eval mIoU of Motorbike:	 0.687077
+eval mIoU of Mug:	 0.923193
+eval mIoU of Pistol:	 0.769418
+eval mIoU of Rocket:	 0.558910
+eval mIoU of Skateboard:	 0.745959
+eval mIoU of Table:	 0.791541
+eval mean mIoU: 0.790953
+eval mean mIoU (all shapes): 0.821512
+**** EPOCH 126 ****
+accuracy: 0.956278
+---- EPOCH 126 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274945
+eval accuracy: 0.921901
+eval avg class acc: 0.839776
+eval mIoU of Airplane:	 0.818300
+eval mIoU of Bag:	 0.837709
+eval mIoU of Cap:	 0.859066
+eval mIoU of Car:	 0.746082
+eval mIoU of Chair:	 0.884169
+eval mIoU of Earphone:	 0.705081
+eval mIoU of Guitar:	 0.907055
+eval mIoU of Knife:	 0.832596
+eval mIoU of Lamp:	 0.802777
+eval mIoU of Laptop:	 0.822164
+eval mIoU of Motorbike:	 0.688665
+eval mIoU of Mug:	 0.924942
+eval mIoU of Pistol:	 0.766332
+eval mIoU of Rocket:	 0.535426
+eval mIoU of Skateboard:	 0.729920
+eval mIoU of Table:	 0.792135
+eval mean mIoU: 0.790776
+eval mean mIoU (all shapes): 0.822644
+**** EPOCH 127 ****
+accuracy: 0.956497
+---- EPOCH 127 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274691
+eval accuracy: 0.921808
+eval avg class acc: 0.837979
+eval mIoU of Airplane:	 0.816702
+eval mIoU of Bag:	 0.829684
+eval mIoU of Cap:	 0.858053
+eval mIoU of Car:	 0.747784
+eval mIoU of Chair:	 0.884867
+eval mIoU of Earphone:	 0.717186
+eval mIoU of Guitar:	 0.908425
+eval mIoU of Knife:	 0.832153
+eval mIoU of Lamp:	 0.810907
+eval mIoU of Laptop:	 0.822785
+eval mIoU of Motorbike:	 0.674905
+eval mIoU of Mug:	 0.923422
+eval mIoU of Pistol:	 0.758836
+eval mIoU of Rocket:	 0.513740
+eval mIoU of Skateboard:	 0.731544
+eval mIoU of Table:	 0.791838
+eval mean mIoU: 0.788927
+eval mean mIoU (all shapes): 0.823086
+**** EPOCH 128 ****
+accuracy: 0.956210
+---- EPOCH 128 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.269720
+eval accuracy: 0.922515
+eval avg class acc: 0.839782
+eval mIoU of Airplane:	 0.817473
+eval mIoU of Bag:	 0.816320
+eval mIoU of Cap:	 0.864941
+eval mIoU of Car:	 0.746804
+eval mIoU of Chair:	 0.885083
+eval mIoU of Earphone:	 0.717411
+eval mIoU of Guitar:	 0.907497
+eval mIoU of Knife:	 0.823344
+eval mIoU of Lamp:	 0.800942
+eval mIoU of Laptop:	 0.822409
+eval mIoU of Motorbike:	 0.673765
+eval mIoU of Mug:	 0.923965
+eval mIoU of Pistol:	 0.754899
+eval mIoU of Rocket:	 0.541390
+eval mIoU of Skateboard:	 0.732178
+eval mIoU of Table:	 0.793496
+eval mean mIoU: 0.788870
+eval mean mIoU (all shapes): 0.822367
+**** EPOCH 129 ****
+accuracy: 0.956412
+---- EPOCH 129 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275485
+eval accuracy: 0.921883
+eval avg class acc: 0.843003
+eval mIoU of Airplane:	 0.816059
+eval mIoU of Bag:	 0.831716
+eval mIoU of Cap:	 0.862084
+eval mIoU of Car:	 0.750561
+eval mIoU of Chair:	 0.885217
+eval mIoU of Earphone:	 0.749264
+eval mIoU of Guitar:	 0.906431
+eval mIoU of Knife:	 0.834183
+eval mIoU of Lamp:	 0.803033
+eval mIoU of Laptop:	 0.815806
+eval mIoU of Motorbike:	 0.684631
+eval mIoU of Mug:	 0.923578
+eval mIoU of Pistol:	 0.763515
+eval mIoU of Rocket:	 0.543130
+eval mIoU of Skateboard:	 0.735373
+eval mIoU of Table:	 0.791839
+eval mean mIoU: 0.793526
+eval mean mIoU (all shapes): 0.822768
+**** EPOCH 130 ****
+accuracy: 0.956222
+---- EPOCH 130 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276146
+eval accuracy: 0.922644
+eval avg class acc: 0.840775
+eval mIoU of Airplane:	 0.819943
+eval mIoU of Bag:	 0.822280
+eval mIoU of Cap:	 0.857831
+eval mIoU of Car:	 0.752693
+eval mIoU of Chair:	 0.885232
+eval mIoU of Earphone:	 0.731084
+eval mIoU of Guitar:	 0.904281
+eval mIoU of Knife:	 0.831719
+eval mIoU of Lamp:	 0.801686
+eval mIoU of Laptop:	 0.837056
+eval mIoU of Motorbike:	 0.683997
+eval mIoU of Mug:	 0.914497
+eval mIoU of Pistol:	 0.760726
+eval mIoU of Rocket:	 0.520166
+eval mIoU of Skateboard:	 0.734528
+eval mIoU of Table:	 0.795002
+eval mean mIoU: 0.790795
+eval mean mIoU (all shapes): 0.824171
+**** EPOCH 131 ****
+accuracy: 0.956328
+---- EPOCH 131 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.269921
+eval accuracy: 0.922978
+eval avg class acc: 0.845052
+eval mIoU of Airplane:	 0.816981
+eval mIoU of Bag:	 0.789044
+eval mIoU of Cap:	 0.860751
+eval mIoU of Car:	 0.749527
+eval mIoU of Chair:	 0.885636
+eval mIoU of Earphone:	 0.734592
+eval mIoU of Guitar:	 0.906125
+eval mIoU of Knife:	 0.834240
+eval mIoU of Lamp:	 0.803114
+eval mIoU of Laptop:	 0.835136
+eval mIoU of Motorbike:	 0.703355
+eval mIoU of Mug:	 0.920123
+eval mIoU of Pistol:	 0.768430
+eval mIoU of Rocket:	 0.551314
+eval mIoU of Skateboard:	 0.727957
+eval mIoU of Table:	 0.794909
+eval mean mIoU: 0.792577
+eval mean mIoU (all shapes): 0.824423
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9229784815984321
+**** EPOCH 132 ****
+accuracy: 0.956327
+---- EPOCH 132 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276512
+eval accuracy: 0.922159
+eval avg class acc: 0.841659
+eval mIoU of Airplane:	 0.818414
+eval mIoU of Bag:	 0.820743
+eval mIoU of Cap:	 0.860378
+eval mIoU of Car:	 0.756343
+eval mIoU of Chair:	 0.884298
+eval mIoU of Earphone:	 0.705919
+eval mIoU of Guitar:	 0.904237
+eval mIoU of Knife:	 0.837799
+eval mIoU of Lamp:	 0.798279
+eval mIoU of Laptop:	 0.828027
+eval mIoU of Motorbike:	 0.687187
+eval mIoU of Mug:	 0.921177
+eval mIoU of Pistol:	 0.762870
+eval mIoU of Rocket:	 0.534908
+eval mIoU of Skateboard:	 0.736068
+eval mIoU of Table:	 0.792691
+eval mean mIoU: 0.790584
+eval mean mIoU (all shapes): 0.822991
+**** EPOCH 133 ****
+accuracy: 0.956449
+---- EPOCH 133 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273251
+eval accuracy: 0.921667
+eval avg class acc: 0.836976
+eval mIoU of Airplane:	 0.816885
+eval mIoU of Bag:	 0.811786
+eval mIoU of Cap:	 0.856497
+eval mIoU of Car:	 0.756643
+eval mIoU of Chair:	 0.885427
+eval mIoU of Earphone:	 0.691540
+eval mIoU of Guitar:	 0.905034
+eval mIoU of Knife:	 0.832334
+eval mIoU of Lamp:	 0.795819
+eval mIoU of Laptop:	 0.822973
+eval mIoU of Motorbike:	 0.692021
+eval mIoU of Mug:	 0.921758
+eval mIoU of Pistol:	 0.742646
+eval mIoU of Rocket:	 0.510329
+eval mIoU of Skateboard:	 0.730297
+eval mIoU of Table:	 0.793906
+eval mean mIoU: 0.785368
+eval mean mIoU (all shapes): 0.822471
+**** EPOCH 134 ****
+accuracy: 0.956278
+---- EPOCH 134 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272001
+eval accuracy: 0.922466
+eval avg class acc: 0.841377
+eval mIoU of Airplane:	 0.818953
+eval mIoU of Bag:	 0.813024
+eval mIoU of Cap:	 0.855223
+eval mIoU of Car:	 0.755127
+eval mIoU of Chair:	 0.883743
+eval mIoU of Earphone:	 0.715946
+eval mIoU of Guitar:	 0.909074
+eval mIoU of Knife:	 0.824778
+eval mIoU of Lamp:	 0.800738
+eval mIoU of Laptop:	 0.830456
+eval mIoU of Motorbike:	 0.693902
+eval mIoU of Mug:	 0.927839
+eval mIoU of Pistol:	 0.760194
+eval mIoU of Rocket:	 0.548589
+eval mIoU of Skateboard:	 0.731351
+eval mIoU of Table:	 0.794139
+eval mean mIoU: 0.791442
+eval mean mIoU (all shapes): 0.823651
+**** EPOCH 135 ****
+accuracy: 0.956193
+---- EPOCH 135 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275931
+eval accuracy: 0.922291
+eval avg class acc: 0.838815
+eval mIoU of Airplane:	 0.813547
+eval mIoU of Bag:	 0.846001
+eval mIoU of Cap:	 0.851588
+eval mIoU of Car:	 0.755014
+eval mIoU of Chair:	 0.884697
+eval mIoU of Earphone:	 0.727121
+eval mIoU of Guitar:	 0.906254
+eval mIoU of Knife:	 0.830686
+eval mIoU of Lamp:	 0.807045
+eval mIoU of Laptop:	 0.832982
+eval mIoU of Motorbike:	 0.685408
+eval mIoU of Mug:	 0.925416
+eval mIoU of Pistol:	 0.762623
+eval mIoU of Rocket:	 0.520745
+eval mIoU of Skateboard:	 0.740070
+eval mIoU of Table:	 0.792443
+eval mean mIoU: 0.792602
+eval mean mIoU (all shapes): 0.823481
+**** EPOCH 136 ****
+accuracy: 0.956575
+---- EPOCH 136 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271917
+eval accuracy: 0.921972
+eval avg class acc: 0.835064
+eval mIoU of Airplane:	 0.816306
+eval mIoU of Bag:	 0.820190
+eval mIoU of Cap:	 0.853503
+eval mIoU of Car:	 0.751478
+eval mIoU of Chair:	 0.885620
+eval mIoU of Earphone:	 0.708187
+eval mIoU of Guitar:	 0.904609
+eval mIoU of Knife:	 0.828919
+eval mIoU of Lamp:	 0.804440
+eval mIoU of Laptop:	 0.823377
+eval mIoU of Motorbike:	 0.688083
+eval mIoU of Mug:	 0.920263
+eval mIoU of Pistol:	 0.751049
+eval mIoU of Rocket:	 0.530396
+eval mIoU of Skateboard:	 0.724583
+eval mIoU of Table:	 0.794627
+eval mean mIoU: 0.787852
+eval mean mIoU (all shapes): 0.823284
+**** EPOCH 137 ****
+accuracy: 0.956580
+---- EPOCH 137 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.270526
+eval accuracy: 0.922487
+eval avg class acc: 0.840668
+eval mIoU of Airplane:	 0.817201
+eval mIoU of Bag:	 0.815079
+eval mIoU of Cap:	 0.845508
+eval mIoU of Car:	 0.752617
+eval mIoU of Chair:	 0.883403
+eval mIoU of Earphone:	 0.725092
+eval mIoU of Guitar:	 0.904697
+eval mIoU of Knife:	 0.829633
+eval mIoU of Lamp:	 0.807212
+eval mIoU of Laptop:	 0.825441
+eval mIoU of Motorbike:	 0.693940
+eval mIoU of Mug:	 0.914581
+eval mIoU of Pistol:	 0.759210
+eval mIoU of Rocket:	 0.533416
+eval mIoU of Skateboard:	 0.729723
+eval mIoU of Table:	 0.792885
+eval mean mIoU: 0.789352
+eval mean mIoU (all shapes): 0.822993
+**** EPOCH 138 ****
+accuracy: 0.956350
+---- EPOCH 138 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272758
+eval accuracy: 0.921632
+eval avg class acc: 0.840419
+eval mIoU of Airplane:	 0.817305
+eval mIoU of Bag:	 0.811994
+eval mIoU of Cap:	 0.857534
+eval mIoU of Car:	 0.747694
+eval mIoU of Chair:	 0.884245
+eval mIoU of Earphone:	 0.717470
+eval mIoU of Guitar:	 0.905516
+eval mIoU of Knife:	 0.831959
+eval mIoU of Lamp:	 0.796377
+eval mIoU of Laptop:	 0.804905
+eval mIoU of Motorbike:	 0.694950
+eval mIoU of Mug:	 0.925199
+eval mIoU of Pistol:	 0.760840
+eval mIoU of Rocket:	 0.531580
+eval mIoU of Skateboard:	 0.736695
+eval mIoU of Table:	 0.797157
+eval mean mIoU: 0.788839
+eval mean mIoU (all shapes): 0.822887
+**** EPOCH 139 ****
+accuracy: 0.956408
+---- EPOCH 139 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276554
+eval accuracy: 0.922174
+eval avg class acc: 0.841589
+eval mIoU of Airplane:	 0.816838
+eval mIoU of Bag:	 0.830841
+eval mIoU of Cap:	 0.850806
+eval mIoU of Car:	 0.751377
+eval mIoU of Chair:	 0.884449
+eval mIoU of Earphone:	 0.719247
+eval mIoU of Guitar:	 0.906567
+eval mIoU of Knife:	 0.840494
+eval mIoU of Lamp:	 0.810605
+eval mIoU of Laptop:	 0.817418
+eval mIoU of Motorbike:	 0.686218
+eval mIoU of Mug:	 0.921044
+eval mIoU of Pistol:	 0.757780
+eval mIoU of Rocket:	 0.530495
+eval mIoU of Skateboard:	 0.752073
+eval mIoU of Table:	 0.793496
+eval mean mIoU: 0.791859
+eval mean mIoU (all shapes): 0.824058
+**** EPOCH 140 ****
+accuracy: 0.956348
+---- EPOCH 140 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274409
+eval accuracy: 0.921997
+eval avg class acc: 0.846354
+eval mIoU of Airplane:	 0.816743
+eval mIoU of Bag:	 0.834202
+eval mIoU of Cap:	 0.861551
+eval mIoU of Car:	 0.756623
+eval mIoU of Chair:	 0.884912
+eval mIoU of Earphone:	 0.731516
+eval mIoU of Guitar:	 0.902475
+eval mIoU of Knife:	 0.823168
+eval mIoU of Lamp:	 0.800572
+eval mIoU of Laptop:	 0.833154
+eval mIoU of Motorbike:	 0.687323
+eval mIoU of Mug:	 0.928781
+eval mIoU of Pistol:	 0.764116
+eval mIoU of Rocket:	 0.562346
+eval mIoU of Skateboard:	 0.735974
+eval mIoU of Table:	 0.791362
+eval mean mIoU: 0.794676
+eval mean mIoU (all shapes): 0.822838
+**** EPOCH 141 ****
+accuracy: 0.956342
+---- EPOCH 141 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273225
+eval accuracy: 0.922293
+eval avg class acc: 0.844261
+eval mIoU of Airplane:	 0.816528
+eval mIoU of Bag:	 0.826743
+eval mIoU of Cap:	 0.855463
+eval mIoU of Car:	 0.753722
+eval mIoU of Chair:	 0.883889
+eval mIoU of Earphone:	 0.728044
+eval mIoU of Guitar:	 0.906613
+eval mIoU of Knife:	 0.835004
+eval mIoU of Lamp:	 0.806807
+eval mIoU of Laptop:	 0.820405
+eval mIoU of Motorbike:	 0.692427
+eval mIoU of Mug:	 0.921272
+eval mIoU of Pistol:	 0.755690
+eval mIoU of Rocket:	 0.556193
+eval mIoU of Skateboard:	 0.742132
+eval mIoU of Table:	 0.798385
+eval mean mIoU: 0.793707
+eval mean mIoU (all shapes): 0.825122
+**** EPOCH 142 ****
+accuracy: 0.956594
+---- EPOCH 142 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274951
+eval accuracy: 0.921543
+eval avg class acc: 0.837369
+eval mIoU of Airplane:	 0.816822
+eval mIoU of Bag:	 0.825761
+eval mIoU of Cap:	 0.856110
+eval mIoU of Car:	 0.753593
+eval mIoU of Chair:	 0.885073
+eval mIoU of Earphone:	 0.717233
+eval mIoU of Guitar:	 0.906732
+eval mIoU of Knife:	 0.825900
+eval mIoU of Lamp:	 0.803522
+eval mIoU of Laptop:	 0.810935
+eval mIoU of Motorbike:	 0.675898
+eval mIoU of Mug:	 0.925596
+eval mIoU of Pistol:	 0.754694
+eval mIoU of Rocket:	 0.519542
+eval mIoU of Skateboard:	 0.745219
+eval mIoU of Table:	 0.795304
+eval mean mIoU: 0.788621
+eval mean mIoU (all shapes): 0.823274
+**** EPOCH 143 ****
+accuracy: 0.956558
+---- EPOCH 143 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.279630
+eval accuracy: 0.921807
+eval avg class acc: 0.837361
+eval mIoU of Airplane:	 0.816823
+eval mIoU of Bag:	 0.814684
+eval mIoU of Cap:	 0.860073
+eval mIoU of Car:	 0.748170
+eval mIoU of Chair:	 0.883948
+eval mIoU of Earphone:	 0.712550
+eval mIoU of Guitar:	 0.908263
+eval mIoU of Knife:	 0.829543
+eval mIoU of Lamp:	 0.802309
+eval mIoU of Laptop:	 0.814963
+eval mIoU of Motorbike:	 0.686846
+eval mIoU of Mug:	 0.924326
+eval mIoU of Pistol:	 0.755840
+eval mIoU of Rocket:	 0.505625
+eval mIoU of Skateboard:	 0.751391
+eval mIoU of Table:	 0.799469
+eval mean mIoU: 0.788427
+eval mean mIoU (all shapes): 0.824263
+**** EPOCH 144 ****
+accuracy: 0.956511
+---- EPOCH 144 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271958
+eval accuracy: 0.922388
+eval avg class acc: 0.843733
+eval mIoU of Airplane:	 0.817474
+eval mIoU of Bag:	 0.827555
+eval mIoU of Cap:	 0.855625
+eval mIoU of Car:	 0.749681
+eval mIoU of Chair:	 0.882883
+eval mIoU of Earphone:	 0.727561
+eval mIoU of Guitar:	 0.904044
+eval mIoU of Knife:	 0.829133
+eval mIoU of Lamp:	 0.809565
+eval mIoU of Laptop:	 0.832816
+eval mIoU of Motorbike:	 0.687326
+eval mIoU of Mug:	 0.923686
+eval mIoU of Pistol:	 0.757636
+eval mIoU of Rocket:	 0.542731
+eval mIoU of Skateboard:	 0.741863
+eval mIoU of Table:	 0.792797
+eval mean mIoU: 0.792648
+eval mean mIoU (all shapes): 0.823360
+**** EPOCH 145 ****
+accuracy: 0.956710
+---- EPOCH 145 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274280
+eval accuracy: 0.922543
+eval avg class acc: 0.841762
+eval mIoU of Airplane:	 0.819877
+eval mIoU of Bag:	 0.826308
+eval mIoU of Cap:	 0.860199
+eval mIoU of Car:	 0.757611
+eval mIoU of Chair:	 0.885064
+eval mIoU of Earphone:	 0.731097
+eval mIoU of Guitar:	 0.906462
+eval mIoU of Knife:	 0.831927
+eval mIoU of Lamp:	 0.807457
+eval mIoU of Laptop:	 0.819365
+eval mIoU of Motorbike:	 0.673065
+eval mIoU of Mug:	 0.917780
+eval mIoU of Pistol:	 0.767474
+eval mIoU of Rocket:	 0.543840
+eval mIoU of Skateboard:	 0.744660
+eval mIoU of Table:	 0.791821
+eval mean mIoU: 0.792750
+eval mean mIoU (all shapes): 0.823824
+**** EPOCH 146 ****
+accuracy: 0.956508
+---- EPOCH 146 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273561
+eval accuracy: 0.922410
+eval avg class acc: 0.842615
+eval mIoU of Airplane:	 0.817284
+eval mIoU of Bag:	 0.823381
+eval mIoU of Cap:	 0.857649
+eval mIoU of Car:	 0.751471
+eval mIoU of Chair:	 0.884361
+eval mIoU of Earphone:	 0.733832
+eval mIoU of Guitar:	 0.906914
+eval mIoU of Knife:	 0.838457
+eval mIoU of Lamp:	 0.806975
+eval mIoU of Laptop:	 0.811403
+eval mIoU of Motorbike:	 0.681441
+eval mIoU of Mug:	 0.926106
+eval mIoU of Pistol:	 0.752490
+eval mIoU of Rocket:	 0.548796
+eval mIoU of Skateboard:	 0.751229
+eval mIoU of Table:	 0.793531
+eval mean mIoU: 0.792833
+eval mean mIoU (all shapes): 0.823543
+**** EPOCH 147 ****
+accuracy: 0.956739
+---- EPOCH 147 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275635
+eval accuracy: 0.922096
+eval avg class acc: 0.842382
+eval mIoU of Airplane:	 0.814065
+eval mIoU of Bag:	 0.824969
+eval mIoU of Cap:	 0.852464
+eval mIoU of Car:	 0.749071
+eval mIoU of Chair:	 0.883582
+eval mIoU of Earphone:	 0.698408
+eval mIoU of Guitar:	 0.907037
+eval mIoU of Knife:	 0.833413
+eval mIoU of Lamp:	 0.804402
+eval mIoU of Laptop:	 0.821635
+eval mIoU of Motorbike:	 0.691196
+eval mIoU of Mug:	 0.926265
+eval mIoU of Pistol:	 0.745285
+eval mIoU of Rocket:	 0.533305
+eval mIoU of Skateboard:	 0.746217
+eval mIoU of Table:	 0.795858
+eval mean mIoU: 0.789198
+eval mean mIoU (all shapes): 0.823222
+**** EPOCH 148 ****
+accuracy: 0.956370
+---- EPOCH 148 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272897
+eval accuracy: 0.922285
+eval avg class acc: 0.842067
+eval mIoU of Airplane:	 0.815857
+eval mIoU of Bag:	 0.805198
+eval mIoU of Cap:	 0.845741
+eval mIoU of Car:	 0.754494
+eval mIoU of Chair:	 0.883545
+eval mIoU of Earphone:	 0.711067
+eval mIoU of Guitar:	 0.905912
+eval mIoU of Knife:	 0.828175
+eval mIoU of Lamp:	 0.801634
+eval mIoU of Laptop:	 0.823187
+eval mIoU of Motorbike:	 0.685223
+eval mIoU of Mug:	 0.923771
+eval mIoU of Pistol:	 0.764200
+eval mIoU of Rocket:	 0.548141
+eval mIoU of Skateboard:	 0.738408
+eval mIoU of Table:	 0.793262
+eval mean mIoU: 0.789238
+eval mean mIoU (all shapes): 0.822573
+**** EPOCH 149 ****
+accuracy: 0.956904
+---- EPOCH 149 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273404
+eval accuracy: 0.922621
+eval avg class acc: 0.840299
+eval mIoU of Airplane:	 0.815928
+eval mIoU of Bag:	 0.803288
+eval mIoU of Cap:	 0.851267
+eval mIoU of Car:	 0.751886
+eval mIoU of Chair:	 0.883834
+eval mIoU of Earphone:	 0.729086
+eval mIoU of Guitar:	 0.907475
+eval mIoU of Knife:	 0.833797
+eval mIoU of Lamp:	 0.803967
+eval mIoU of Laptop:	 0.824720
+eval mIoU of Motorbike:	 0.679783
+eval mIoU of Mug:	 0.924605
+eval mIoU of Pistol:	 0.758181
+eval mIoU of Rocket:	 0.513160
+eval mIoU of Skateboard:	 0.731667
+eval mIoU of Table:	 0.796695
+eval mean mIoU: 0.788084
+eval mean mIoU (all shapes): 0.823746
+**** EPOCH 150 ****
+accuracy: 0.956554
+---- EPOCH 150 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274345
+eval accuracy: 0.922703
+eval avg class acc: 0.841395
+eval mIoU of Airplane:	 0.816177
+eval mIoU of Bag:	 0.854357
+eval mIoU of Cap:	 0.866388
+eval mIoU of Car:	 0.753535
+eval mIoU of Chair:	 0.885512
+eval mIoU of Earphone:	 0.712917
+eval mIoU of Guitar:	 0.908055
+eval mIoU of Knife:	 0.829438
+eval mIoU of Lamp:	 0.805565
+eval mIoU of Laptop:	 0.834381
+eval mIoU of Motorbike:	 0.688299
+eval mIoU of Mug:	 0.928980
+eval mIoU of Pistol:	 0.763858
+eval mIoU of Rocket:	 0.538010
+eval mIoU of Skateboard:	 0.739808
+eval mIoU of Table:	 0.797463
+eval mean mIoU: 0.795172
+eval mean mIoU (all shapes): 0.825571
+**** EPOCH 151 ****
+accuracy: 0.956809
+---- EPOCH 151 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273519
+eval accuracy: 0.922715
+eval avg class acc: 0.839497
+eval mIoU of Airplane:	 0.819479
+eval mIoU of Bag:	 0.805779
+eval mIoU of Cap:	 0.852699
+eval mIoU of Car:	 0.754468
+eval mIoU of Chair:	 0.886685
+eval mIoU of Earphone:	 0.702489
+eval mIoU of Guitar:	 0.908540
+eval mIoU of Knife:	 0.836216
+eval mIoU of Lamp:	 0.806239
+eval mIoU of Laptop:	 0.818308
+eval mIoU of Motorbike:	 0.689744
+eval mIoU of Mug:	 0.927033
+eval mIoU of Pistol:	 0.755623
+eval mIoU of Rocket:	 0.547691
+eval mIoU of Skateboard:	 0.754617
+eval mIoU of Table:	 0.795016
+eval mean mIoU: 0.791289
+eval mean mIoU (all shapes): 0.825136
+**** EPOCH 152 ****
+accuracy: 0.956649
+---- EPOCH 152 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276205
+eval accuracy: 0.922148
+eval avg class acc: 0.840805
+eval mIoU of Airplane:	 0.817671
+eval mIoU of Bag:	 0.818872
+eval mIoU of Cap:	 0.841437
+eval mIoU of Car:	 0.755357
+eval mIoU of Chair:	 0.885928
+eval mIoU of Earphone:	 0.686565
+eval mIoU of Guitar:	 0.906715
+eval mIoU of Knife:	 0.831551
+eval mIoU of Lamp:	 0.809542
+eval mIoU of Laptop:	 0.820285
+eval mIoU of Motorbike:	 0.697549
+eval mIoU of Mug:	 0.923361
+eval mIoU of Pistol:	 0.750279
+eval mIoU of Rocket:	 0.534780
+eval mIoU of Skateboard:	 0.744143
+eval mIoU of Table:	 0.791408
+eval mean mIoU: 0.788465
+eval mean mIoU (all shapes): 0.823674
+**** EPOCH 153 ****
+accuracy: 0.956758
+---- EPOCH 153 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278373
+eval accuracy: 0.921552
+eval avg class acc: 0.838323
+eval mIoU of Airplane:	 0.816600
+eval mIoU of Bag:	 0.818626
+eval mIoU of Cap:	 0.856250
+eval mIoU of Car:	 0.750316
+eval mIoU of Chair:	 0.884103
+eval mIoU of Earphone:	 0.707139
+eval mIoU of Guitar:	 0.904514
+eval mIoU of Knife:	 0.836400
+eval mIoU of Lamp:	 0.798486
+eval mIoU of Laptop:	 0.823385
+eval mIoU of Motorbike:	 0.675766
+eval mIoU of Mug:	 0.920035
+eval mIoU of Pistol:	 0.755021
+eval mIoU of Rocket:	 0.534978
+eval mIoU of Skateboard:	 0.730975
+eval mIoU of Table:	 0.794539
+eval mean mIoU: 0.787946
+eval mean mIoU (all shapes): 0.822391
+**** EPOCH 154 ****
+accuracy: 0.956773
+---- EPOCH 154 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275674
+eval accuracy: 0.922353
+eval avg class acc: 0.838665
+eval mIoU of Airplane:	 0.817805
+eval mIoU of Bag:	 0.813664
+eval mIoU of Cap:	 0.852668
+eval mIoU of Car:	 0.749943
+eval mIoU of Chair:	 0.884006
+eval mIoU of Earphone:	 0.719773
+eval mIoU of Guitar:	 0.906384
+eval mIoU of Knife:	 0.834421
+eval mIoU of Lamp:	 0.805600
+eval mIoU of Laptop:	 0.819330
+eval mIoU of Motorbike:	 0.680172
+eval mIoU of Mug:	 0.921843
+eval mIoU of Pistol:	 0.761898
+eval mIoU of Rocket:	 0.509613
+eval mIoU of Skateboard:	 0.747201
+eval mIoU of Table:	 0.794571
+eval mean mIoU: 0.788681
+eval mean mIoU (all shapes): 0.823439
+**** EPOCH 155 ****
+accuracy: 0.956852
+---- EPOCH 155 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274752
+eval accuracy: 0.922446
+eval avg class acc: 0.841487
+eval mIoU of Airplane:	 0.817883
+eval mIoU of Bag:	 0.831345
+eval mIoU of Cap:	 0.866616
+eval mIoU of Car:	 0.758219
+eval mIoU of Chair:	 0.883240
+eval mIoU of Earphone:	 0.753201
+eval mIoU of Guitar:	 0.906349
+eval mIoU of Knife:	 0.831459
+eval mIoU of Lamp:	 0.799938
+eval mIoU of Laptop:	 0.829909
+eval mIoU of Motorbike:	 0.688026
+eval mIoU of Mug:	 0.921078
+eval mIoU of Pistol:	 0.758184
+eval mIoU of Rocket:	 0.502383
+eval mIoU of Skateboard:	 0.739067
+eval mIoU of Table:	 0.793513
+eval mean mIoU: 0.792526
+eval mean mIoU (all shapes): 0.823298
+**** EPOCH 156 ****
+accuracy: 0.956739
+---- EPOCH 156 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273268
+eval accuracy: 0.922320
+eval avg class acc: 0.841550
+eval mIoU of Airplane:	 0.814522
+eval mIoU of Bag:	 0.805768
+eval mIoU of Cap:	 0.861347
+eval mIoU of Car:	 0.753610
+eval mIoU of Chair:	 0.885911
+eval mIoU of Earphone:	 0.744960
+eval mIoU of Guitar:	 0.906524
+eval mIoU of Knife:	 0.843003
+eval mIoU of Lamp:	 0.807328
+eval mIoU of Laptop:	 0.825610
+eval mIoU of Motorbike:	 0.681736
+eval mIoU of Mug:	 0.921014
+eval mIoU of Pistol:	 0.745711
+eval mIoU of Rocket:	 0.534268
+eval mIoU of Skateboard:	 0.728584
+eval mIoU of Table:	 0.790309
+eval mean mIoU: 0.790638
+eval mean mIoU (all shapes): 0.822822
+**** EPOCH 157 ****
+accuracy: 0.956640
+---- EPOCH 157 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274967
+eval accuracy: 0.922115
+eval avg class acc: 0.838433
+eval mIoU of Airplane:	 0.815318
+eval mIoU of Bag:	 0.829516
+eval mIoU of Cap:	 0.847855
+eval mIoU of Car:	 0.756065
+eval mIoU of Chair:	 0.883722
+eval mIoU of Earphone:	 0.728051
+eval mIoU of Guitar:	 0.906671
+eval mIoU of Knife:	 0.826626
+eval mIoU of Lamp:	 0.807478
+eval mIoU of Laptop:	 0.808345
+eval mIoU of Motorbike:	 0.677772
+eval mIoU of Mug:	 0.927811
+eval mIoU of Pistol:	 0.764986
+eval mIoU of Rocket:	 0.511790
+eval mIoU of Skateboard:	 0.748039
+eval mIoU of Table:	 0.794748
+eval mean mIoU: 0.789674
+eval mean mIoU (all shapes): 0.823324
+**** EPOCH 158 ****
+accuracy: 0.956678
+---- EPOCH 158 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275099
+eval accuracy: 0.923005
+eval avg class acc: 0.841718
+eval mIoU of Airplane:	 0.817989
+eval mIoU of Bag:	 0.820447
+eval mIoU of Cap:	 0.857270
+eval mIoU of Car:	 0.755349
+eval mIoU of Chair:	 0.884814
+eval mIoU of Earphone:	 0.723803
+eval mIoU of Guitar:	 0.905607
+eval mIoU of Knife:	 0.832341
+eval mIoU of Lamp:	 0.804392
+eval mIoU of Laptop:	 0.823948
+eval mIoU of Motorbike:	 0.690713
+eval mIoU of Mug:	 0.919694
+eval mIoU of Pistol:	 0.764457
+eval mIoU of Rocket:	 0.544911
+eval mIoU of Skateboard:	 0.729807
+eval mIoU of Table:	 0.791764
+eval mean mIoU: 0.791707
+eval mean mIoU (all shapes): 0.823254
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9230046820557491
+**** EPOCH 159 ****
+accuracy: 0.956844
+---- EPOCH 159 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277537
+eval accuracy: 0.922336
+eval avg class acc: 0.839107
+eval mIoU of Airplane:	 0.819047
+eval mIoU of Bag:	 0.816511
+eval mIoU of Cap:	 0.860529
+eval mIoU of Car:	 0.751384
+eval mIoU of Chair:	 0.885958
+eval mIoU of Earphone:	 0.710122
+eval mIoU of Guitar:	 0.904520
+eval mIoU of Knife:	 0.828607
+eval mIoU of Lamp:	 0.804965
+eval mIoU of Laptop:	 0.819175
+eval mIoU of Motorbike:	 0.682425
+eval mIoU of Mug:	 0.924701
+eval mIoU of Pistol:	 0.756302
+eval mIoU of Rocket:	 0.540776
+eval mIoU of Skateboard:	 0.741664
+eval mIoU of Table:	 0.797010
+eval mean mIoU: 0.790231
+eval mean mIoU (all shapes): 0.824587
+**** EPOCH 160 ****
+accuracy: 0.956696
+---- EPOCH 160 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277197
+eval accuracy: 0.921812
+eval avg class acc: 0.840774
+eval mIoU of Airplane:	 0.815709
+eval mIoU of Bag:	 0.825565
+eval mIoU of Cap:	 0.863682
+eval mIoU of Car:	 0.751117
+eval mIoU of Chair:	 0.884806
+eval mIoU of Earphone:	 0.734135
+eval mIoU of Guitar:	 0.905871
+eval mIoU of Knife:	 0.823854
+eval mIoU of Lamp:	 0.801134
+eval mIoU of Laptop:	 0.824727
+eval mIoU of Motorbike:	 0.694515
+eval mIoU of Mug:	 0.914832
+eval mIoU of Pistol:	 0.764911
+eval mIoU of Rocket:	 0.527497
+eval mIoU of Skateboard:	 0.744186
+eval mIoU of Table:	 0.793427
+eval mean mIoU: 0.791873
+eval mean mIoU (all shapes): 0.822908
+**** EPOCH 161 ****
+accuracy: 0.956786
+---- EPOCH 161 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274964
+eval accuracy: 0.922636
+eval avg class acc: 0.844586
+eval mIoU of Airplane:	 0.816554
+eval mIoU of Bag:	 0.840111
+eval mIoU of Cap:	 0.867380
+eval mIoU of Car:	 0.749169
+eval mIoU of Chair:	 0.882571
+eval mIoU of Earphone:	 0.702208
+eval mIoU of Guitar:	 0.906686
+eval mIoU of Knife:	 0.833905
+eval mIoU of Lamp:	 0.801150
+eval mIoU of Laptop:	 0.825696
+eval mIoU of Motorbike:	 0.689637
+eval mIoU of Mug:	 0.926590
+eval mIoU of Pistol:	 0.765478
+eval mIoU of Rocket:	 0.562475
+eval mIoU of Skateboard:	 0.736602
+eval mIoU of Table:	 0.793460
+eval mean mIoU: 0.793730
+eval mean mIoU (all shapes): 0.822795
+**** EPOCH 162 ****
+accuracy: 0.956580
+---- EPOCH 162 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273642
+eval accuracy: 0.922956
+eval avg class acc: 0.840473
+eval mIoU of Airplane:	 0.815991
+eval mIoU of Bag:	 0.826266
+eval mIoU of Cap:	 0.853888
+eval mIoU of Car:	 0.749897
+eval mIoU of Chair:	 0.884557
+eval mIoU of Earphone:	 0.730830
+eval mIoU of Guitar:	 0.904588
+eval mIoU of Knife:	 0.827257
+eval mIoU of Lamp:	 0.800638
+eval mIoU of Laptop:	 0.830287
+eval mIoU of Motorbike:	 0.686756
+eval mIoU of Mug:	 0.926846
+eval mIoU of Pistol:	 0.744885
+eval mIoU of Rocket:	 0.557896
+eval mIoU of Skateboard:	 0.752866
+eval mIoU of Table:	 0.794800
+eval mean mIoU: 0.793015
+eval mean mIoU (all shapes): 0.823226
+**** EPOCH 163 ****
+accuracy: 0.956783
+---- EPOCH 163 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276104
+eval accuracy: 0.921826
+eval avg class acc: 0.841607
+eval mIoU of Airplane:	 0.818531
+eval mIoU of Bag:	 0.815784
+eval mIoU of Cap:	 0.851813
+eval mIoU of Car:	 0.752178
+eval mIoU of Chair:	 0.884888
+eval mIoU of Earphone:	 0.734894
+eval mIoU of Guitar:	 0.905587
+eval mIoU of Knife:	 0.829181
+eval mIoU of Lamp:	 0.803867
+eval mIoU of Laptop:	 0.806156
+eval mIoU of Motorbike:	 0.695320
+eval mIoU of Mug:	 0.927022
+eval mIoU of Pistol:	 0.749203
+eval mIoU of Rocket:	 0.548860
+eval mIoU of Skateboard:	 0.739088
+eval mIoU of Table:	 0.793137
+eval mean mIoU: 0.790969
+eval mean mIoU (all shapes): 0.822972
+**** EPOCH 164 ****
+accuracy: 0.956457
+---- EPOCH 164 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274495
+eval accuracy: 0.922234
+eval avg class acc: 0.842399
+eval mIoU of Airplane:	 0.817435
+eval mIoU of Bag:	 0.841038
+eval mIoU of Cap:	 0.849992
+eval mIoU of Car:	 0.755008
+eval mIoU of Chair:	 0.886365
+eval mIoU of Earphone:	 0.708904
+eval mIoU of Guitar:	 0.907993
+eval mIoU of Knife:	 0.832555
+eval mIoU of Lamp:	 0.812205
+eval mIoU of Laptop:	 0.817074
+eval mIoU of Motorbike:	 0.700061
+eval mIoU of Mug:	 0.924477
+eval mIoU of Pistol:	 0.750113
+eval mIoU of Rocket:	 0.538017
+eval mIoU of Skateboard:	 0.730725
+eval mIoU of Table:	 0.796608
+eval mean mIoU: 0.791786
+eval mean mIoU (all shapes): 0.825700
+**** EPOCH 165 ****
+accuracy: 0.956735
+---- EPOCH 165 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275772
+eval accuracy: 0.922447
+eval avg class acc: 0.840983
+eval mIoU of Airplane:	 0.816697
+eval mIoU of Bag:	 0.849236
+eval mIoU of Cap:	 0.853792
+eval mIoU of Car:	 0.752411
+eval mIoU of Chair:	 0.885249
+eval mIoU of Earphone:	 0.726289
+eval mIoU of Guitar:	 0.908370
+eval mIoU of Knife:	 0.835139
+eval mIoU of Lamp:	 0.805229
+eval mIoU of Laptop:	 0.811377
+eval mIoU of Motorbike:	 0.682114
+eval mIoU of Mug:	 0.921709
+eval mIoU of Pistol:	 0.753849
+eval mIoU of Rocket:	 0.538866
+eval mIoU of Skateboard:	 0.755591
+eval mIoU of Table:	 0.794297
+eval mean mIoU: 0.793139
+eval mean mIoU (all shapes): 0.823848
+**** EPOCH 166 ****
+accuracy: 0.956747
+---- EPOCH 166 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276319
+eval accuracy: 0.922034
+eval avg class acc: 0.843181
+eval mIoU of Airplane:	 0.818877
+eval mIoU of Bag:	 0.836857
+eval mIoU of Cap:	 0.850186
+eval mIoU of Car:	 0.753551
+eval mIoU of Chair:	 0.883365
+eval mIoU of Earphone:	 0.731545
+eval mIoU of Guitar:	 0.906956
+eval mIoU of Knife:	 0.833978
+eval mIoU of Lamp:	 0.806595
+eval mIoU of Laptop:	 0.802736
+eval mIoU of Motorbike:	 0.691107
+eval mIoU of Mug:	 0.917813
+eval mIoU of Pistol:	 0.754546
+eval mIoU of Rocket:	 0.543987
+eval mIoU of Skateboard:	 0.746577
+eval mIoU of Table:	 0.793388
+eval mean mIoU: 0.792004
+eval mean mIoU (all shapes): 0.823205
+**** EPOCH 167 ****
+accuracy: 0.956950
+---- EPOCH 167 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.279941
+eval accuracy: 0.921283
+eval avg class acc: 0.841511
+eval mIoU of Airplane:	 0.816830
+eval mIoU of Bag:	 0.830801
+eval mIoU of Cap:	 0.860298
+eval mIoU of Car:	 0.753767
+eval mIoU of Chair:	 0.884737
+eval mIoU of Earphone:	 0.728314
+eval mIoU of Guitar:	 0.908553
+eval mIoU of Knife:	 0.824995
+eval mIoU of Lamp:	 0.802735
+eval mIoU of Laptop:	 0.800856
+eval mIoU of Motorbike:	 0.687887
+eval mIoU of Mug:	 0.931584
+eval mIoU of Pistol:	 0.759905
+eval mIoU of Rocket:	 0.533687
+eval mIoU of Skateboard:	 0.740597
+eval mIoU of Table:	 0.794476
+eval mean mIoU: 0.791251
+eval mean mIoU (all shapes): 0.823124
+**** EPOCH 168 ****
+accuracy: 0.956859
+---- EPOCH 168 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275283
+eval accuracy: 0.922756
+eval avg class acc: 0.842452
+eval mIoU of Airplane:	 0.817337
+eval mIoU of Bag:	 0.828750
+eval mIoU of Cap:	 0.860534
+eval mIoU of Car:	 0.751122
+eval mIoU of Chair:	 0.885580
+eval mIoU of Earphone:	 0.728730
+eval mIoU of Guitar:	 0.907166
+eval mIoU of Knife:	 0.835898
+eval mIoU of Lamp:	 0.805567
+eval mIoU of Laptop:	 0.820079
+eval mIoU of Motorbike:	 0.679872
+eval mIoU of Mug:	 0.920789
+eval mIoU of Pistol:	 0.746769
+eval mIoU of Rocket:	 0.562427
+eval mIoU of Skateboard:	 0.742468
+eval mIoU of Table:	 0.795228
+eval mean mIoU: 0.793020
+eval mean mIoU (all shapes): 0.824173
+**** EPOCH 169 ****
+accuracy: 0.956748
+---- EPOCH 169 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271197
+eval accuracy: 0.922863
+eval avg class acc: 0.842057
+eval mIoU of Airplane:	 0.818627
+eval mIoU of Bag:	 0.838954
+eval mIoU of Cap:	 0.852921
+eval mIoU of Car:	 0.751003
+eval mIoU of Chair:	 0.883549
+eval mIoU of Earphone:	 0.727000
+eval mIoU of Guitar:	 0.906117
+eval mIoU of Knife:	 0.830649
+eval mIoU of Lamp:	 0.809211
+eval mIoU of Laptop:	 0.817126
+eval mIoU of Motorbike:	 0.693748
+eval mIoU of Mug:	 0.919262
+eval mIoU of Pistol:	 0.757884
+eval mIoU of Rocket:	 0.532128
+eval mIoU of Skateboard:	 0.754108
+eval mIoU of Table:	 0.795158
+eval mean mIoU: 0.792965
+eval mean mIoU (all shapes): 0.824295
+**** EPOCH 170 ****
+accuracy: 0.956604
+---- EPOCH 170 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274840
+eval accuracy: 0.922629
+eval avg class acc: 0.841316
+eval mIoU of Airplane:	 0.816861
+eval mIoU of Bag:	 0.812705
+eval mIoU of Cap:	 0.858044
+eval mIoU of Car:	 0.756566
+eval mIoU of Chair:	 0.885646
+eval mIoU of Earphone:	 0.715237
+eval mIoU of Guitar:	 0.908055
+eval mIoU of Knife:	 0.837679
+eval mIoU of Lamp:	 0.800826
+eval mIoU of Laptop:	 0.807113
+eval mIoU of Motorbike:	 0.696212
+eval mIoU of Mug:	 0.933417
+eval mIoU of Pistol:	 0.755127
+eval mIoU of Rocket:	 0.534652
+eval mIoU of Skateboard:	 0.728143
+eval mIoU of Table:	 0.794283
+eval mean mIoU: 0.790035
+eval mean mIoU (all shapes): 0.823581
+**** EPOCH 171 ****
+accuracy: 0.956966
+---- EPOCH 171 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276743
+eval accuracy: 0.922316
+eval avg class acc: 0.839888
+eval mIoU of Airplane:	 0.817132
+eval mIoU of Bag:	 0.822852
+eval mIoU of Cap:	 0.862802
+eval mIoU of Car:	 0.755608
+eval mIoU of Chair:	 0.885289
+eval mIoU of Earphone:	 0.711765
+eval mIoU of Guitar:	 0.906020
+eval mIoU of Knife:	 0.843229
+eval mIoU of Lamp:	 0.801466
+eval mIoU of Laptop:	 0.813067
+eval mIoU of Motorbike:	 0.681623
+eval mIoU of Mug:	 0.915051
+eval mIoU of Pistol:	 0.763345
+eval mIoU of Rocket:	 0.524040
+eval mIoU of Skateboard:	 0.745113
+eval mIoU of Table:	 0.793618
+eval mean mIoU: 0.790126
+eval mean mIoU (all shapes): 0.823380
+**** EPOCH 172 ****
+accuracy: 0.956925
+---- EPOCH 172 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278974
+eval accuracy: 0.922278
+eval avg class acc: 0.844465
+eval mIoU of Airplane:	 0.817445
+eval mIoU of Bag:	 0.830621
+eval mIoU of Cap:	 0.865681
+eval mIoU of Car:	 0.757038
+eval mIoU of Chair:	 0.884412
+eval mIoU of Earphone:	 0.725793
+eval mIoU of Guitar:	 0.902762
+eval mIoU of Knife:	 0.834465
+eval mIoU of Lamp:	 0.810213
+eval mIoU of Laptop:	 0.821156
+eval mIoU of Motorbike:	 0.689929
+eval mIoU of Mug:	 0.921137
+eval mIoU of Pistol:	 0.756554
+eval mIoU of Rocket:	 0.545627
+eval mIoU of Skateboard:	 0.752974
+eval mIoU of Table:	 0.795931
+eval mean mIoU: 0.794484
+eval mean mIoU (all shapes): 0.825042
+**** EPOCH 173 ****
+accuracy: 0.957000
+---- EPOCH 173 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276964
+eval accuracy: 0.921597
+eval avg class acc: 0.837658
+eval mIoU of Airplane:	 0.815950
+eval mIoU of Bag:	 0.819845
+eval mIoU of Cap:	 0.866612
+eval mIoU of Car:	 0.748795
+eval mIoU of Chair:	 0.884949
+eval mIoU of Earphone:	 0.729872
+eval mIoU of Guitar:	 0.907123
+eval mIoU of Knife:	 0.829841
+eval mIoU of Lamp:	 0.802506
+eval mIoU of Laptop:	 0.811613
+eval mIoU of Motorbike:	 0.686922
+eval mIoU of Mug:	 0.921823
+eval mIoU of Pistol:	 0.751754
+eval mIoU of Rocket:	 0.506224
+eval mIoU of Skateboard:	 0.741500
+eval mIoU of Table:	 0.796567
+eval mean mIoU: 0.788868
+eval mean mIoU (all shapes): 0.823374
+**** EPOCH 174 ****
+accuracy: 0.956866
+---- EPOCH 174 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276866
+eval accuracy: 0.922934
+eval avg class acc: 0.843524
+eval mIoU of Airplane:	 0.818671
+eval mIoU of Bag:	 0.816267
+eval mIoU of Cap:	 0.852618
+eval mIoU of Car:	 0.745136
+eval mIoU of Chair:	 0.884395
+eval mIoU of Earphone:	 0.725451
+eval mIoU of Guitar:	 0.906636
+eval mIoU of Knife:	 0.839338
+eval mIoU of Lamp:	 0.802972
+eval mIoU of Laptop:	 0.835004
+eval mIoU of Motorbike:	 0.694115
+eval mIoU of Mug:	 0.929765
+eval mIoU of Pistol:	 0.762347
+eval mIoU of Rocket:	 0.555617
+eval mIoU of Skateboard:	 0.743932
+eval mIoU of Table:	 0.793821
+eval mean mIoU: 0.794130
+eval mean mIoU (all shapes): 0.824028
+**** EPOCH 175 ****
+accuracy: 0.956982
+---- EPOCH 175 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276042
+eval accuracy: 0.922403
+eval avg class acc: 0.838621
+eval mIoU of Airplane:	 0.818608
+eval mIoU of Bag:	 0.820863
+eval mIoU of Cap:	 0.856034
+eval mIoU of Car:	 0.751878
+eval mIoU of Chair:	 0.884062
+eval mIoU of Earphone:	 0.725067
+eval mIoU of Guitar:	 0.907366
+eval mIoU of Knife:	 0.831337
+eval mIoU of Lamp:	 0.804611
+eval mIoU of Laptop:	 0.827409
+eval mIoU of Motorbike:	 0.681706
+eval mIoU of Mug:	 0.922663
+eval mIoU of Pistol:	 0.752597
+eval mIoU of Rocket:	 0.520508
+eval mIoU of Skateboard:	 0.735127
+eval mIoU of Table:	 0.795355
+eval mean mIoU: 0.789699
+eval mean mIoU (all shapes): 0.823867
+**** EPOCH 176 ****
+accuracy: 0.956713
+---- EPOCH 176 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277246
+eval accuracy: 0.921292
+eval avg class acc: 0.840710
+eval mIoU of Airplane:	 0.817979
+eval mIoU of Bag:	 0.824106
+eval mIoU of Cap:	 0.848778
+eval mIoU of Car:	 0.752740
+eval mIoU of Chair:	 0.884239
+eval mIoU of Earphone:	 0.719830
+eval mIoU of Guitar:	 0.903998
+eval mIoU of Knife:	 0.834015
+eval mIoU of Lamp:	 0.804972
+eval mIoU of Laptop:	 0.809516
+eval mIoU of Motorbike:	 0.695091
+eval mIoU of Mug:	 0.923819
+eval mIoU of Pistol:	 0.770993
+eval mIoU of Rocket:	 0.525916
+eval mIoU of Skateboard:	 0.735197
+eval mIoU of Table:	 0.790165
+eval mean mIoU: 0.790085
+eval mean mIoU (all shapes): 0.822278
+**** EPOCH 177 ****
+accuracy: 0.956665
+---- EPOCH 177 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277341
+eval accuracy: 0.921432
+eval avg class acc: 0.842706
+eval mIoU of Airplane:	 0.819135
+eval mIoU of Bag:	 0.824721
+eval mIoU of Cap:	 0.858248
+eval mIoU of Car:	 0.752196
+eval mIoU of Chair:	 0.884336
+eval mIoU of Earphone:	 0.719740
+eval mIoU of Guitar:	 0.906547
+eval mIoU of Knife:	 0.829017
+eval mIoU of Lamp:	 0.807484
+eval mIoU of Laptop:	 0.803037
+eval mIoU of Motorbike:	 0.684837
+eval mIoU of Mug:	 0.921207
+eval mIoU of Pistol:	 0.754120
+eval mIoU of Rocket:	 0.554930
+eval mIoU of Skateboard:	 0.731949
+eval mIoU of Table:	 0.791263
+eval mean mIoU: 0.790173
+eval mean mIoU (all shapes): 0.822439
+**** EPOCH 178 ****
+accuracy: 0.956814
+---- EPOCH 178 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.272468
+eval accuracy: 0.922691
+eval avg class acc: 0.839056
+eval mIoU of Airplane:	 0.816026
+eval mIoU of Bag:	 0.838729
+eval mIoU of Cap:	 0.861662
+eval mIoU of Car:	 0.751242
+eval mIoU of Chair:	 0.886539
+eval mIoU of Earphone:	 0.694620
+eval mIoU of Guitar:	 0.906285
+eval mIoU of Knife:	 0.835729
+eval mIoU of Lamp:	 0.806445
+eval mIoU of Laptop:	 0.826633
+eval mIoU of Motorbike:	 0.680445
+eval mIoU of Mug:	 0.917781
+eval mIoU of Pistol:	 0.758252
+eval mIoU of Rocket:	 0.525438
+eval mIoU of Skateboard:	 0.751511
+eval mIoU of Table:	 0.793174
+eval mean mIoU: 0.790657
+eval mean mIoU (all shapes): 0.823890
+**** EPOCH 179 ****
+accuracy: 0.957026
+---- EPOCH 179 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275359
+eval accuracy: 0.922531
+eval avg class acc: 0.840020
+eval mIoU of Airplane:	 0.820087
+eval mIoU of Bag:	 0.818649
+eval mIoU of Cap:	 0.859134
+eval mIoU of Car:	 0.745680
+eval mIoU of Chair:	 0.886179
+eval mIoU of Earphone:	 0.729772
+eval mIoU of Guitar:	 0.906339
+eval mIoU of Knife:	 0.833162
+eval mIoU of Lamp:	 0.800573
+eval mIoU of Laptop:	 0.838171
+eval mIoU of Motorbike:	 0.675964
+eval mIoU of Mug:	 0.916397
+eval mIoU of Pistol:	 0.754811
+eval mIoU of Rocket:	 0.513245
+eval mIoU of Skateboard:	 0.740711
+eval mIoU of Table:	 0.794303
+eval mean mIoU: 0.789574
+eval mean mIoU (all shapes): 0.823717
+**** EPOCH 180 ****
+accuracy: 0.957035
+---- EPOCH 180 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271395
+eval accuracy: 0.923259
+eval avg class acc: 0.842150
+eval mIoU of Airplane:	 0.817558
+eval mIoU of Bag:	 0.837000
+eval mIoU of Cap:	 0.857259
+eval mIoU of Car:	 0.754692
+eval mIoU of Chair:	 0.885593
+eval mIoU of Earphone:	 0.707185
+eval mIoU of Guitar:	 0.907742
+eval mIoU of Knife:	 0.834767
+eval mIoU of Lamp:	 0.800600
+eval mIoU of Laptop:	 0.837543
+eval mIoU of Motorbike:	 0.690348
+eval mIoU of Mug:	 0.924978
+eval mIoU of Pistol:	 0.759398
+eval mIoU of Rocket:	 0.535487
+eval mIoU of Skateboard:	 0.734823
+eval mIoU of Table:	 0.795517
+eval mean mIoU: 0.792531
+eval mean mIoU (all shapes): 0.824681
+Model saved in file: log_seg/log_so_pointnet2_msg_v66_tetrahedron_angle_new_robust_regionatten_1_10/model.ckpt
+Best accuracy is 0.9232590306511324
+**** EPOCH 181 ****
+accuracy: 0.956555
+---- EPOCH 181 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277413
+eval accuracy: 0.921622
+eval avg class acc: 0.839950
+eval mIoU of Airplane:	 0.817003
+eval mIoU of Bag:	 0.823048
+eval mIoU of Cap:	 0.855373
+eval mIoU of Car:	 0.749945
+eval mIoU of Chair:	 0.883163
+eval mIoU of Earphone:	 0.715857
+eval mIoU of Guitar:	 0.906675
+eval mIoU of Knife:	 0.830859
+eval mIoU of Lamp:	 0.805840
+eval mIoU of Laptop:	 0.803911
+eval mIoU of Motorbike:	 0.689632
+eval mIoU of Mug:	 0.921892
+eval mIoU of Pistol:	 0.750352
+eval mIoU of Rocket:	 0.544566
+eval mIoU of Skateboard:	 0.725598
+eval mIoU of Table:	 0.792958
+eval mean mIoU: 0.788542
+eval mean mIoU (all shapes): 0.822088
+**** EPOCH 182 ****
+accuracy: 0.957004
+---- EPOCH 182 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276750
+eval accuracy: 0.922865
+eval avg class acc: 0.842304
+eval mIoU of Airplane:	 0.819722
+eval mIoU of Bag:	 0.836440
+eval mIoU of Cap:	 0.862891
+eval mIoU of Car:	 0.752611
+eval mIoU of Chair:	 0.883346
+eval mIoU of Earphone:	 0.713314
+eval mIoU of Guitar:	 0.906202
+eval mIoU of Knife:	 0.831101
+eval mIoU of Lamp:	 0.804163
+eval mIoU of Laptop:	 0.823563
+eval mIoU of Motorbike:	 0.690087
+eval mIoU of Mug:	 0.921693
+eval mIoU of Pistol:	 0.758302
+eval mIoU of Rocket:	 0.543057
+eval mIoU of Skateboard:	 0.738328
+eval mIoU of Table:	 0.797363
+eval mean mIoU: 0.792636
+eval mean mIoU (all shapes): 0.824628
+**** EPOCH 183 ****
+accuracy: 0.956868
+---- EPOCH 183 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278592
+eval accuracy: 0.922572
+eval avg class acc: 0.842899
+eval mIoU of Airplane:	 0.817620
+eval mIoU of Bag:	 0.835035
+eval mIoU of Cap:	 0.862459
+eval mIoU of Car:	 0.754164
+eval mIoU of Chair:	 0.883991
+eval mIoU of Earphone:	 0.713956
+eval mIoU of Guitar:	 0.909477
+eval mIoU of Knife:	 0.834744
+eval mIoU of Lamp:	 0.805518
+eval mIoU of Laptop:	 0.821134
+eval mIoU of Motorbike:	 0.696511
+eval mIoU of Mug:	 0.928037
+eval mIoU of Pistol:	 0.756949
+eval mIoU of Rocket:	 0.525662
+eval mIoU of Skateboard:	 0.744370
+eval mIoU of Table:	 0.794264
+eval mean mIoU: 0.792743
+eval mean mIoU (all shapes): 0.824222
+**** EPOCH 184 ****
+accuracy: 0.956891
+---- EPOCH 184 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278477
+eval accuracy: 0.921547
+eval avg class acc: 0.842004
+eval mIoU of Airplane:	 0.816980
+eval mIoU of Bag:	 0.851534
+eval mIoU of Cap:	 0.864420
+eval mIoU of Car:	 0.754786
+eval mIoU of Chair:	 0.883567
+eval mIoU of Earphone:	 0.718202
+eval mIoU of Guitar:	 0.906435
+eval mIoU of Knife:	 0.837056
+eval mIoU of Lamp:	 0.807368
+eval mIoU of Laptop:	 0.803848
+eval mIoU of Motorbike:	 0.686392
+eval mIoU of Mug:	 0.920540
+eval mIoU of Pistol:	 0.751236
+eval mIoU of Rocket:	 0.532680
+eval mIoU of Skateboard:	 0.729777
+eval mIoU of Table:	 0.792747
+eval mean mIoU: 0.791098
+eval mean mIoU (all shapes): 0.822820
+**** EPOCH 185 ****
+accuracy: 0.956980
+---- EPOCH 185 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271589
+eval accuracy: 0.922450
+eval avg class acc: 0.842311
+eval mIoU of Airplane:	 0.820082
+eval mIoU of Bag:	 0.825671
+eval mIoU of Cap:	 0.861277
+eval mIoU of Car:	 0.752789
+eval mIoU of Chair:	 0.883618
+eval mIoU of Earphone:	 0.725779
+eval mIoU of Guitar:	 0.910289
+eval mIoU of Knife:	 0.834908
+eval mIoU of Lamp:	 0.805897
+eval mIoU of Laptop:	 0.813695
+eval mIoU of Motorbike:	 0.694249
+eval mIoU of Mug:	 0.919688
+eval mIoU of Pistol:	 0.764604
+eval mIoU of Rocket:	 0.542835
+eval mIoU of Skateboard:	 0.745183
+eval mIoU of Table:	 0.794141
+eval mean mIoU: 0.793419
+eval mean mIoU (all shapes): 0.824227
+**** EPOCH 186 ****
+accuracy: 0.956774
+---- EPOCH 186 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276698
+eval accuracy: 0.922823
+eval avg class acc: 0.841879
+eval mIoU of Airplane:	 0.817986
+eval mIoU of Bag:	 0.826053
+eval mIoU of Cap:	 0.862752
+eval mIoU of Car:	 0.752663
+eval mIoU of Chair:	 0.885942
+eval mIoU of Earphone:	 0.723789
+eval mIoU of Guitar:	 0.907599
+eval mIoU of Knife:	 0.837400
+eval mIoU of Lamp:	 0.803528
+eval mIoU of Laptop:	 0.814737
+eval mIoU of Motorbike:	 0.690839
+eval mIoU of Mug:	 0.919838
+eval mIoU of Pistol:	 0.759884
+eval mIoU of Rocket:	 0.532325
+eval mIoU of Skateboard:	 0.745687
+eval mIoU of Table:	 0.792118
+eval mean mIoU: 0.792071
+eval mean mIoU (all shapes): 0.823491
+**** EPOCH 187 ****
+accuracy: 0.956743
+---- EPOCH 187 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277765
+eval accuracy: 0.922490
+eval avg class acc: 0.840035
+eval mIoU of Airplane:	 0.810612
+eval mIoU of Bag:	 0.809668
+eval mIoU of Cap:	 0.859883
+eval mIoU of Car:	 0.753466
+eval mIoU of Chair:	 0.884676
+eval mIoU of Earphone:	 0.739396
+eval mIoU of Guitar:	 0.906677
+eval mIoU of Knife:	 0.829318
+eval mIoU of Lamp:	 0.811027
+eval mIoU of Laptop:	 0.810767
+eval mIoU of Motorbike:	 0.681726
+eval mIoU of Mug:	 0.923193
+eval mIoU of Pistol:	 0.760702
+eval mIoU of Rocket:	 0.546233
+eval mIoU of Skateboard:	 0.731295
+eval mIoU of Table:	 0.794422
+eval mean mIoU: 0.790816
+eval mean mIoU (all shapes): 0.823152
+**** EPOCH 188 ****
+accuracy: 0.956787
+---- EPOCH 188 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273843
+eval accuracy: 0.922955
+eval avg class acc: 0.842433
+eval mIoU of Airplane:	 0.816781
+eval mIoU of Bag:	 0.828050
+eval mIoU of Cap:	 0.856800
+eval mIoU of Car:	 0.751303
+eval mIoU of Chair:	 0.885120
+eval mIoU of Earphone:	 0.733846
+eval mIoU of Guitar:	 0.907450
+eval mIoU of Knife:	 0.838655
+eval mIoU of Lamp:	 0.806220
+eval mIoU of Laptop:	 0.825466
+eval mIoU of Motorbike:	 0.685500
+eval mIoU of Mug:	 0.929451
+eval mIoU of Pistol:	 0.742098
+eval mIoU of Rocket:	 0.539496
+eval mIoU of Skateboard:	 0.740631
+eval mIoU of Table:	 0.796168
+eval mean mIoU: 0.792690
+eval mean mIoU (all shapes): 0.824632
+**** EPOCH 189 ****
+accuracy: 0.956870
+---- EPOCH 189 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278846
+eval accuracy: 0.922125
+eval avg class acc: 0.842729
+eval mIoU of Airplane:	 0.816687
+eval mIoU of Bag:	 0.832981
+eval mIoU of Cap:	 0.858407
+eval mIoU of Car:	 0.752827
+eval mIoU of Chair:	 0.882830
+eval mIoU of Earphone:	 0.725963
+eval mIoU of Guitar:	 0.907594
+eval mIoU of Knife:	 0.831512
+eval mIoU of Lamp:	 0.807959
+eval mIoU of Laptop:	 0.822382
+eval mIoU of Motorbike:	 0.696522
+eval mIoU of Mug:	 0.928541
+eval mIoU of Pistol:	 0.752374
+eval mIoU of Rocket:	 0.548342
+eval mIoU of Skateboard:	 0.744266
+eval mIoU of Table:	 0.790167
+eval mean mIoU: 0.793710
+eval mean mIoU (all shapes): 0.822674
+**** EPOCH 190 ****
+accuracy: 0.956918
+---- EPOCH 190 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273174
+eval accuracy: 0.923041
+eval avg class acc: 0.838877
+eval mIoU of Airplane:	 0.820709
+eval mIoU of Bag:	 0.820915
+eval mIoU of Cap:	 0.862984
+eval mIoU of Car:	 0.749985
+eval mIoU of Chair:	 0.883987
+eval mIoU of Earphone:	 0.706940
+eval mIoU of Guitar:	 0.907246
+eval mIoU of Knife:	 0.827987
+eval mIoU of Lamp:	 0.805956
+eval mIoU of Laptop:	 0.826246
+eval mIoU of Motorbike:	 0.677643
+eval mIoU of Mug:	 0.914301
+eval mIoU of Pistol:	 0.757091
+eval mIoU of Rocket:	 0.523525
+eval mIoU of Skateboard:	 0.759049
+eval mIoU of Table:	 0.794117
+eval mean mIoU: 0.789918
+eval mean mIoU (all shapes): 0.823739
+**** EPOCH 191 ****
+accuracy: 0.956971
+---- EPOCH 191 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.274547
+eval accuracy: 0.922967
+eval avg class acc: 0.842283
+eval mIoU of Airplane:	 0.816861
+eval mIoU of Bag:	 0.831326
+eval mIoU of Cap:	 0.859948
+eval mIoU of Car:	 0.750114
+eval mIoU of Chair:	 0.884396
+eval mIoU of Earphone:	 0.723392
+eval mIoU of Guitar:	 0.906203
+eval mIoU of Knife:	 0.836231
+eval mIoU of Lamp:	 0.805439
+eval mIoU of Laptop:	 0.827424
+eval mIoU of Motorbike:	 0.692764
+eval mIoU of Mug:	 0.923333
+eval mIoU of Pistol:	 0.768855
+eval mIoU of Rocket:	 0.528952
+eval mIoU of Skateboard:	 0.739455
+eval mIoU of Table:	 0.793137
+eval mean mIoU: 0.792989
+eval mean mIoU (all shapes): 0.823736
+**** EPOCH 192 ****
+accuracy: 0.957183
+---- EPOCH 192 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.275113
+eval accuracy: 0.922517
+eval avg class acc: 0.840684
+eval mIoU of Airplane:	 0.817620
+eval mIoU of Bag:	 0.820843
+eval mIoU of Cap:	 0.851795
+eval mIoU of Car:	 0.759208
+eval mIoU of Chair:	 0.883624
+eval mIoU of Earphone:	 0.715405
+eval mIoU of Guitar:	 0.909492
+eval mIoU of Knife:	 0.828366
+eval mIoU of Lamp:	 0.801061
+eval mIoU of Laptop:	 0.827473
+eval mIoU of Motorbike:	 0.681325
+eval mIoU of Mug:	 0.921814
+eval mIoU of Pistol:	 0.760016
+eval mIoU of Rocket:	 0.536403
+eval mIoU of Skateboard:	 0.728127
+eval mIoU of Table:	 0.796418
+eval mean mIoU: 0.789937
+eval mean mIoU (all shapes): 0.824067
+**** EPOCH 193 ****
+accuracy: 0.956741
+---- EPOCH 193 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277890
+eval accuracy: 0.922071
+eval avg class acc: 0.839536
+eval mIoU of Airplane:	 0.816442
+eval mIoU of Bag:	 0.826676
+eval mIoU of Cap:	 0.858513
+eval mIoU of Car:	 0.751792
+eval mIoU of Chair:	 0.884293
+eval mIoU of Earphone:	 0.716475
+eval mIoU of Guitar:	 0.905981
+eval mIoU of Knife:	 0.830028
+eval mIoU of Lamp:	 0.804317
+eval mIoU of Laptop:	 0.813046
+eval mIoU of Motorbike:	 0.677105
+eval mIoU of Mug:	 0.918856
+eval mIoU of Pistol:	 0.760687
+eval mIoU of Rocket:	 0.546969
+eval mIoU of Skateboard:	 0.734453
+eval mIoU of Table:	 0.792216
+eval mean mIoU: 0.789866
+eval mean mIoU (all shapes): 0.822266
+**** EPOCH 194 ****
+accuracy: 0.957125
+---- EPOCH 194 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.277340
+eval accuracy: 0.922140
+eval avg class acc: 0.837524
+eval mIoU of Airplane:	 0.817817
+eval mIoU of Bag:	 0.813672
+eval mIoU of Cap:	 0.858595
+eval mIoU of Car:	 0.751233
+eval mIoU of Chair:	 0.883077
+eval mIoU of Earphone:	 0.720042
+eval mIoU of Guitar:	 0.906723
+eval mIoU of Knife:	 0.828868
+eval mIoU of Lamp:	 0.803217
+eval mIoU of Laptop:	 0.808287
+eval mIoU of Motorbike:	 0.679575
+eval mIoU of Mug:	 0.918136
+eval mIoU of Pistol:	 0.761194
+eval mIoU of Rocket:	 0.516463
+eval mIoU of Skateboard:	 0.758973
+eval mIoU of Table:	 0.791675
+eval mean mIoU: 0.788597
+eval mean mIoU (all shapes): 0.821844
+**** EPOCH 195 ****
+accuracy: 0.956898
+---- EPOCH 195 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.280679
+eval accuracy: 0.921657
+eval avg class acc: 0.841495
+eval mIoU of Airplane:	 0.816574
+eval mIoU of Bag:	 0.823585
+eval mIoU of Cap:	 0.866232
+eval mIoU of Car:	 0.754190
+eval mIoU of Chair:	 0.883735
+eval mIoU of Earphone:	 0.719581
+eval mIoU of Guitar:	 0.906117
+eval mIoU of Knife:	 0.831278
+eval mIoU of Lamp:	 0.808879
+eval mIoU of Laptop:	 0.800815
+eval mIoU of Motorbike:	 0.682066
+eval mIoU of Mug:	 0.924275
+eval mIoU of Pistol:	 0.756889
+eval mIoU of Rocket:	 0.541050
+eval mIoU of Skateboard:	 0.744953
+eval mIoU of Table:	 0.794570
+eval mean mIoU: 0.790924
+eval mean mIoU (all shapes): 0.823333
+**** EPOCH 196 ****
+accuracy: 0.956953
+---- EPOCH 196 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.271745
+eval accuracy: 0.922767
+eval avg class acc: 0.841949
+eval mIoU of Airplane:	 0.818596
+eval mIoU of Bag:	 0.821013
+eval mIoU of Cap:	 0.857911
+eval mIoU of Car:	 0.750676
+eval mIoU of Chair:	 0.883618
+eval mIoU of Earphone:	 0.714599
+eval mIoU of Guitar:	 0.908204
+eval mIoU of Knife:	 0.836073
+eval mIoU of Lamp:	 0.812275
+eval mIoU of Laptop:	 0.823063
+eval mIoU of Motorbike:	 0.679354
+eval mIoU of Mug:	 0.930708
+eval mIoU of Pistol:	 0.755967
+eval mIoU of Rocket:	 0.523261
+eval mIoU of Skateboard:	 0.745837
+eval mIoU of Table:	 0.792686
+eval mean mIoU: 0.790865
+eval mean mIoU (all shapes): 0.823922
+**** EPOCH 197 ****
+accuracy: 0.957032
+---- EPOCH 197 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.278088
+eval accuracy: 0.922139
+eval avg class acc: 0.842012
+eval mIoU of Airplane:	 0.817849
+eval mIoU of Bag:	 0.825267
+eval mIoU of Cap:	 0.853591
+eval mIoU of Car:	 0.757004
+eval mIoU of Chair:	 0.884862
+eval mIoU of Earphone:	 0.728176
+eval mIoU of Guitar:	 0.905584
+eval mIoU of Knife:	 0.835666
+eval mIoU of Lamp:	 0.810998
+eval mIoU of Laptop:	 0.815338
+eval mIoU of Motorbike:	 0.674595
+eval mIoU of Mug:	 0.926824
+eval mIoU of Pistol:	 0.767132
+eval mIoU of Rocket:	 0.540598
+eval mIoU of Skateboard:	 0.741274
+eval mIoU of Table:	 0.793746
+eval mean mIoU: 0.792407
+eval mean mIoU (all shapes): 0.824408
+**** EPOCH 198 ****
+accuracy: 0.957010
+---- EPOCH 198 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.273676
+eval accuracy: 0.922329
+eval avg class acc: 0.841080
+eval mIoU of Airplane:	 0.818563
+eval mIoU of Bag:	 0.832660
+eval mIoU of Cap:	 0.860085
+eval mIoU of Car:	 0.754932
+eval mIoU of Chair:	 0.884982
+eval mIoU of Earphone:	 0.692588
+eval mIoU of Guitar:	 0.905824
+eval mIoU of Knife:	 0.832082
+eval mIoU of Lamp:	 0.806335
+eval mIoU of Laptop:	 0.813908
+eval mIoU of Motorbike:	 0.681503
+eval mIoU of Mug:	 0.918400
+eval mIoU of Pistol:	 0.762094
+eval mIoU of Rocket:	 0.556813
+eval mIoU of Skateboard:	 0.737606
+eval mIoU of Table:	 0.795698
+eval mean mIoU: 0.790879
+eval mean mIoU (all shapes): 0.824264
+**** EPOCH 199 ****
+accuracy: 0.956830
+---- EPOCH 199 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.282654
+eval accuracy: 0.921395
+eval avg class acc: 0.841790
+eval mIoU of Airplane:	 0.818528
+eval mIoU of Bag:	 0.828172
+eval mIoU of Cap:	 0.854788
+eval mIoU of Car:	 0.753909
+eval mIoU of Chair:	 0.883906
+eval mIoU of Earphone:	 0.722206
+eval mIoU of Guitar:	 0.904022
+eval mIoU of Knife:	 0.832243
+eval mIoU of Lamp:	 0.796490
+eval mIoU of Laptop:	 0.820322
+eval mIoU of Motorbike:	 0.689673
+eval mIoU of Mug:	 0.923937
+eval mIoU of Pistol:	 0.763303
+eval mIoU of Rocket:	 0.533601
+eval mIoU of Skateboard:	 0.729116
+eval mIoU of Table:	 0.792428
+eval mean mIoU: 0.790415
+eval mean mIoU (all shapes): 0.822218
+**** EPOCH 200 ****
+accuracy: 0.956731
+---- EPOCH 200 EVALUATION ----
+000/359
+020/359
+040/359
+060/359
+080/359
+100/359
+120/359
+140/359
+160/359
+180/359
+200/359
+220/359
+240/359
+260/359
+280/359
+300/359
+320/359
+340/359
+eval mean loss: 0.276640
+eval accuracy: 0.922390
+eval avg class acc: 0.841577
+eval mIoU of Airplane:	 0.816226
+eval mIoU of Bag:	 0.851301
+eval mIoU of Cap:	 0.855281
+eval mIoU of Car:	 0.753751
+eval mIoU of Chair:	 0.883230
+eval mIoU of Earphone:	 0.730029
+eval mIoU of Guitar:	 0.904689
+eval mIoU of Knife:	 0.828783
+eval mIoU of Lamp:	 0.804150
+eval mIoU of Laptop:	 0.817475
+eval mIoU of Motorbike:	 0.674000
+eval mIoU of Mug:	 0.927193
+eval mIoU of Pistol:	 0.756543
+eval mIoU of Rocket:	 0.543021
+eval mIoU of Skateboard:	 0.735430
+eval mIoU of Table:	 0.794985
+eval mean mIoU: 0.792255
+eval mean mIoU (all shapes): 0.823059
