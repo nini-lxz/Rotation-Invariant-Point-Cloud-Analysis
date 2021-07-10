@@ -9,10 +9,14 @@ The code is tested under TF1.9.0, Python 2.7, and CUDA10.0 on Ubuntu 16.04.
 
 For TF operators included under `3d_interpolation`, `grouping`, `nn_distance`, and `sampling` folders, you may need to compile them first. For details, please refer to the [PointNet++](https://github.com/charlesq34/pointnet2) GitHub page.
 
-(1) You can directly test our previously-trained classification network (with z rotation augmentation) using our provided testing code (test_rotinv.py). Here, we provide the [ModelNet40 data](https://gocuhk-my.sharepoint.com/:u:/g/personal/xianzhili_cuhk_edu_hk/ERIlBDvVyaZOufpRHGPEyJYB6IfiNns6t5TCEF0A16IxCA?e=ZFsW40) for testing.
+(1) You can directly test our previously-trained classification network (with z rotation augmentation) using our provided testing code (test_rotinv_cls.py). Here, we provide the [ModelNet40 data](https://gocuhk-my.sharepoint.com/:u:/g/personal/xianzhili_cuhk_edu_hk/ERIlBDvVyaZOufpRHGPEyJYB6IfiNns6t5TCEF0A16IxCA?e=ZFsW40) for testing.
 
-(2) You can also re-train our network either using your own training data or our provided [training dataset](https://gocuhk-my.sharepoint.com/:u:/g/personal/xianzhili_cuhk_edu_hk/ERIlBDvVyaZOufpRHGPEyJYB6IfiNns6t5TCEF0A16IxCA?e=ZFsW40) using our provided training code (train_rotinv.py). 
+(2) You can also re-train our network either using your own training data or our provided [training dataset](https://gocuhk-my.sharepoint.com/:u:/g/personal/xianzhili_cuhk_edu_hk/ERIlBDvVyaZOufpRHGPEyJYB6IfiNns6t5TCEF0A16IxCA?e=ZFsW40) using our provided training code (train_rotinv_cls.py). 
+
+(3) You can directly test our previously-trained segmentation network using our provided testing code (test_rotinv_seg.py). In `log_so_seg` folder, the network is trained under arbitrary rotations. In `log_z_seg` folder, the network is trained under z rotations. For the object part segmentation dataset, please refer to the [PointNet++](https://github.com/charlesq34/pointnet2) GitHub page.
+
+(4) You can also re-train our segmentation network using our provided training code (train_rotinv_seg.py).
 
 ### Questions
-Please contact 'lixianzhi123@gmail.com'
+Please contact 'lixianzhi123@gmail.com'.
 
